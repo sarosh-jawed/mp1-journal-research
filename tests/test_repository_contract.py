@@ -2,7 +2,6 @@ from pathlib import Path
 
 from mp1.config import load_config
 
-
 TEXT_SUFFIXES = {".py", ".md", ".yml", ".yaml", ".toml"}
 
 

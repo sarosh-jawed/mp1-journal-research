@@ -1,6 +1,6 @@
 # MP1 Journal Research
 
-This private repository contains the independently implemented analysis pipeline for the MP1 journal project.
+This repository contains the independently implemented analysis pipeline for the MP1 journal project.
 
 ## Canonical project control
 
