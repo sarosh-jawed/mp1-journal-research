@@ -25,8 +25,8 @@ Colab is the execution environment. Code is reviewed locally before the user com
 ## Setup in Colab
 
 1. Mount Google Drive.
-2. Clone this private repository.
-3. Set `MP1_DRIVE_ROOT` to `/content/drive/MyDrive/MP1 Journal Research`.
+2. Clone this repository.
+3. Set `MP1_DRIVE_ROOT` to the mounted `MP1 Journal Research` folder.
 4. Install dependencies with `pip install -r requirements.txt`.
 5. Run `pytest -q`.
 6. Run `ruff check .`.
@@ -44,12 +44,24 @@ All transformations must be reproducible from immutable raw inputs.
 
 ## Active analysis
 
-The active work is data provenance and response quality. Begin with:
+The active work is data provenance and response quality:
 
 - `scripts/provenance_audit.py`
 - `scripts/response_quality.py`
 
-These files should be added only after their design is reviewed against the Research Control document.
+See `docs/data_integrity.md` for the input contract, output definitions, and review requirements.
+
+Run from the repository root after setting the configured Drive environment variable:
+
+```bash
+PYTHONPATH=src python scripts/provenance_audit.py --config config/analysis.yaml
+PYTHONPATH=src python scripts/response_quality.py --config config/analysis.yaml
+```
+
+Both entry points retain every source record. The response-quality sensitivity indicator is written
+to `data/processed/response_quality_flags.csv`, which is excluded from Git. Aggregate outputs still
+require review before they are committed. An audit report does not resolve a source discrepancy
+merely by recording it.
 
 ## Quality standard
 

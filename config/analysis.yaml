@@ -1,20 +1,155 @@
 project:
   random_seed: 42
   drive_root_env: MP1_DRIVE_ROOT
-
 data:
-  d5_raw: "Source Data/D5 Bangladesh/D5_cognitive_dependence_raw.csv"
-  d3_raw: "Source Data/D3 Bangladesh/D3_dependency_vulnerability_raw.csv"
-  us_indonesia_root: "Source Data/US Indonesia"
-
+  d5_raw: Source Data/D5 Bangladesh/D5_cognitive_dependence_raw.csv
+  d3_raw: Source Data/D3 Bangladesh/D3_dependency_vulnerability_raw.csv
+  us_indonesia_root: Source Data/US Indonesia
+  data_dictionary: Reference Materials/Data Dictionaries/DATA_DICTIONARY.md
 clustering:
-  k_values: [2, 3, 4, 5, 6]
+  k_values:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
   n_init: 50
-
 modeling:
-  test_size: 0.20
+  test_size: 0.2
   cv_folds: 5
-  primary_metric: "macro_f1"
-
+  primary_metric: macro_f1
 outputs:
-  root: "outputs"
+  root: outputs
+integrity:
+  csv_encoding: utf-8-sig
+  missing_tokens: []
+  datasets:
+    D5:
+      source_key: d5_raw
+      metadata_columns:
+      - Gender
+      - Age
+      - University Type
+      - Academic Level
+      - Department/Discipline
+      identifier_columns: []
+      categorical_columns:
+      - Gender
+      - University Type
+      - Academic Level
+      - Department/Discipline
+      survey_items:
+      - AI Usage [I use generative AI tools regularly for academic purposes.]
+      - AI Usage [I use AI tools for assignment writing.]
+      - AI Usage [I use AI tools for study planning.]
+      - AI Usage [I use AI tools for research-related tasks.]
+      - AI Usage [I depend on AI tools to complete academic work faster.]
+      - Cognitive Dependence [I feel uncomfortable completing academic tasks without AI tools.]
+      - Cognitive Dependence [I rely on AI before thinking independently.]
+      - Cognitive Dependence [AI tools have become essential to my academic workflow.]
+      - Cognitive Dependence [I use AI tools even for simple academic decisions.]
+      - Cognitive Dependence [I feel less confident working without AI assistance.]
+      - Trust in AI [I trust AI-generated academic responses.]
+      - Trust in AI [AI tools usually provide reliable information.]
+      - Trust in AI [I rarely verify AI-generated answers before using them.]
+      - Trust in AI [I believe AI tools make better academic suggestions than I can myself.]
+      - Trust in AI [I trust AI recommendations for academic decision-making.]
+      - Critical Thinking [Using AI tools reduces my need to think deeply.]
+      - Critical Thinking [I analyze less when using AI-generated responses.]
+      - Critical Thinking [I prefer AI explanations over conducting my own research.]
+      - Critical Thinking [AI tools reduce my independent problem-solving efforts.]
+      - Critical Thinking [I rely more on AI-generated ideas than my own thinking.]
+      - Academic Decision-Making [AI tools influence my academic decisions.]
+      - Academic Decision-Making [I use AI suggestions for study-related decisions.]
+      - Academic Decision-Making [AI tools help me choose research topics or project ideas.]
+      - Academic Decision-Making [I use AI recommendations to improve academic performance.]
+      - Academic Decision-Making [AI tools positively affect my academic decision-making process.]
+      allowed_responses:
+      - Strongly Disagree
+      - Disagree
+      - Neutral
+      - Agree
+      - Strongly Agree
+      source_metadata:
+        url: https://data.mendeley.com/datasets/7m94b7yr8w/2
+        doi: 10.17632/7m94b7yr8w.2
+        version: 2
+        metadata_checked_on: '2026-09-26'
+        reported_respondents: 2614
+        reported_duplicate_removal: true
+        published_file_sha256: null
+        verification_note: Metadata page inspected. Original published file bytes were not obtained for comparison.
+      reference_claims:
+      - metric: raw_rows
+        value: 2614
+        source: https://data.mendeley.com/datasets/7m94b7yr8w/2
+        interpretation: Compare the exact published file and acquisition history. A count difference alone does not establish a missing respondent.
+      - metric: raw_rows
+        value: 2613
+        source: https://docs.google.com/document/d/19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o/edit
+        interpretation: Previously reported local record count; independently recomputed.
+      - metric: survey_item_count
+        value: 25
+        source: https://docs.google.com/document/d/19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o/edit
+        interpretation: Five named groups of five raw survey questions; no construct validation is inferred.
+      prior_straight_line_count: 101
+      prior_straight_line_source: https://docs.google.com/document/d/19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o/edit
+    D3:
+      source_key: d3_raw
+      metadata_columns:
+      - Gender
+      - Age
+      - Name of University
+      - Academic Level
+      - Current CGPA
+      - Daily AI Usage Time
+      identifier_columns: []
+      categorical_columns:
+      - Gender
+      - Age
+      - Name of University
+      - Academic Level
+      - Current CGPA
+      - Daily AI Usage Time
+      survey_items:
+      - I verify AI-generated information before using it in academic work.
+      - I can study and complete tasks effectively without any AI support.
+      - My first instinct for any academic doubt is to ask an AI rather than checking books or notes.
+      - I find it harder to recall information that I have previously generated using AI.
+      - When using AI, I prioritize completing assignments quickly rather than fully understanding the subject matter.
+      - I often use AI-generated responses without making any major modifications.
+      - I feel less confident in my writing and analytical skills when I am not using AI.
+      - My critical thinking ability has weakened due to reliance on AI tools.
+      - I often submit academic work without fully understanding the content generated by AI.
+      allowed_responses:
+      - Strongly Disagree
+      - Disagree
+      - Neutral
+      - Agree
+      - Strongly Agree
+      source_metadata:
+        url: https://data.mendeley.com/datasets/6s6nvmpgbb/1
+        doi: 10.17632/6s6nvmpgbb.1
+        version: 1
+        metadata_checked_on: '2026-09-26'
+        reported_respondents: 1104
+        reported_duplicate_removal: false
+        published_file_sha256: null
+        verification_note: Metadata page inspected. Original published file bytes were not obtained for comparison.
+        reported_institutions: 22
+      reference_claims:
+      - metric: raw_rows
+        value: 1104
+        source: https://data.mendeley.com/datasets/6s6nvmpgbb/1
+        interpretation: Compare the exact published file and acquisition history. A count difference alone does not establish a missing respondent.
+      - metric: raw_institution_strings
+        value: 22
+        source: https://data.mendeley.com/datasets/6s6nvmpgbb/1
+        interpretation: Public metadata counts institutions; the audit counts exact labels. Review entity identities and affiliations before equating these units or applying aliases.
+      - metric: raw_institution_strings
+        value: 30
+        source: https://docs.google.com/document/d/19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o/edit
+        interpretation: Previously reported local label count; independently recomputed without aliasing.
+      institution_column: Name of University
+response_quality:
+  private_flags: data/processed/response_quality_flags.csv

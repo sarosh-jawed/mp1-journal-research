@@ -3,6 +3,7 @@ data/raw/*
 data/interim/*
 data/processed/*
 !data/README.md
+response_quality_flags.csv
 
 # Local configuration
 .env
