@@ -1,0 +1,32 @@
+# Research data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/README.md
+
+# Local configuration
+.env
+.env.*
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebook state
+.ipynb_checkpoints/
+
+# Runtime logs
+outputs/logs/*
+*.log
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,20 @@
+project:
+  random_seed: 42
+  drive_root_env: MP1_DRIVE_ROOT
+
+data:
+  d5_raw: "Source Data/D5 Bangladesh/D5_cognitive_dependence_raw.csv"
+  d3_raw: "Source Data/D3 Bangladesh/D3_dependency_vulnerability_raw.csv"
+  us_indonesia_root: "Source Data/US Indonesia"
+
+clustering:
+  k_values: [2, 3, 4, 5, 6]
+  n_init: 50
+
+modeling:
+  test_size: 0.20
+  cv_folds: 5
+  primary_metric: "macro_f1"
+
+outputs:
+  root: "outputs"
