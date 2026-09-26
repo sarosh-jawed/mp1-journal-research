@@ -1,0 +1,237 @@
+{
+  "reviewed_on": "2026-09-26",
+  "repository_base_commit": "dab1d4a2ca5eb76681ad58651299f2fc1b62c645",
+  "source_attribution": "The user identifies the PUBLIC files as official Mendeley downloads. D5 CSV bytes were recovered from the already available public-release ZIP because the new attachment set contained two questionnaire PDFs and no separately named D5 CSV.",
+  "d5_archive": {
+    "file_name": "Dataset on Cognitive Dependence on Generative AI T.zip",
+    "sha256": "a3494d8971868be89219606ccaa64b7c2b7bdfdbb38badf03f4ec7827d7faf29",
+    "csv_member": "Dataset on Cognitive Dependence on Generative AI T/_(AI_Cognitive_Dependence_Survey_Data_BD_StudentsResponses) - Sheet1.csv",
+    "comparison_label": "PUBLIC_D5_Mendeley_v2.csv",
+    "comparison_label_note": "Local comparison label assigned on byte-preserving extraction, not a claim that this named CSV was in the new attachments."
+  },
+  "source_metadata_claims": {
+    "D5": {
+      "url": "https://data.mendeley.com/datasets/7m94b7yr8w/2",
+      "reported_records": 2614,
+      "claims_duplicate_removal": true
+    },
+    "D3": {
+      "url": "https://data.mendeley.com/datasets/6s6nvmpgbb/1",
+      "reported_records": 1104,
+      "reported_universities": 22,
+      "duplicate_removal_definition": "not_documented"
+    }
+  },
+  "file_comparisons": [
+    {
+      "dataset": "D5",
+      "active_file": "D5_cognitive_dependence_raw.csv",
+      "public_file": "PUBLIC_D5_Mendeley_v2.csv",
+      "active_sha256": "3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2",
+      "public_sha256": "3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2",
+      "active_bytes": 803900,
+      "public_bytes": 803900,
+      "byte_identity": true,
+      "exact_headers_equal": true,
+      "active_rows": 2613,
+      "public_rows": 2613,
+      "active_columns": 30,
+      "public_columns": 30,
+      "row_multisets_equal": true,
+      "values_and_order_equal": true,
+      "repeated_full_row_groups_equal": true,
+      "active_repeated_groups": 42,
+      "public_repeated_groups": 42,
+      "active_excess_repeated_records": 451,
+      "public_excess_repeated_records": 451,
+      "repeated_group_member_records": 493,
+      "largest_repeated_group": 200,
+      "different_data_record_positions": 0,
+      "repeated_group_size_counts": {
+        "2": 32,
+        "3": 5,
+        "37": 2,
+        "40": 1,
+        "100": 1,
+        "200": 1
+      }
+    },
+    {
+      "dataset": "D3",
+      "active_file": "D3_dependency_vulnerability_raw.csv",
+      "public_file": "PUBLIC_D3_Mendeley_v1.csv",
+      "active_sha256": "ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d",
+      "public_sha256": "ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d",
+      "active_bytes": 181067,
+      "public_bytes": 181067,
+      "byte_identity": true,
+      "exact_headers_equal": true,
+      "active_rows": 1104,
+      "public_rows": 1104,
+      "active_columns": 15,
+      "public_columns": 15,
+      "row_multisets_equal": true,
+      "values_and_order_equal": true,
+      "repeated_full_row_groups_equal": true,
+      "active_repeated_groups": 45,
+      "public_repeated_groups": 45,
+      "active_excess_repeated_records": 162,
+      "public_excess_repeated_records": 162,
+      "repeated_group_member_records": 207,
+      "largest_repeated_group": 63,
+      "different_data_record_positions": 0,
+      "active_university_labels": 30,
+      "public_university_labels": 30,
+      "university_label_frequencies_equal": true,
+      "repeated_group_size_counts": {
+        "2": 38,
+        "3": 1,
+        "5": 1,
+        "6": 1,
+        "11": 1,
+        "12": 1,
+        "31": 1,
+        "63": 1
+      }
+    }
+  ],
+  "d5_questionnaire": {
+    "file": "PUBLIC_D5_Questionnaire_Structure.pdf",
+    "sha256": "4fce5c71cb20a7219f9ac4f263138a67ce136a7ac0b27fbd23412aea749f2f1e",
+    "duplicate_attachment_byte_identical": true,
+    "archive_pdf_sha256": "0454257bcf9120d3aed9a09c235652d7461c16ff606119771801f23e8bb37127",
+    "archive_pdf_byte_identical_to_attachment": false,
+    "archive_pdf_extracted_text_identical_to_attachment": true,
+    "all_three_pages_visually_checked_in_both_versions": true,
+    "pdf_byte_difference_explanation": "not_established",
+    "coverage_status": "partially resolved",
+    "section_names": [
+      "AI Usage",
+      "Cognitive Dependence",
+      "Trust in AI",
+      "Critical Thinking",
+      "Academic Decision-Making"
+    ],
+    "variables_per_section": 5,
+    "exact_full_question_wording": "Not supplied consistently; the PDF lists variable descriptions. Exact question sentences are present in the CSV headers.",
+    "item_membership": "The PDF explicitly groups descriptions by section. Correspondence to CSV questions uses header prefixes and listed order; there are no explicit item IDs in the PDF.",
+    "likert_coding": {
+      "1": "Strongly Disagree",
+      "2": "Disagree",
+      "3": "Neutral",
+      "4": "Agree",
+      "5": "Strongly Agree"
+    },
+    "composite_scoring": "not_documented",
+    "reverse_coded_items": "not_documented",
+    "inclusion_exclusion_rules": "not_documented",
+    "cleaning_rules": "not_documented",
+    "numeric_recoding_applied": false
+  },
+  "d3_institution_review": {
+    "raw_labels": 30,
+    "distinct_proposed_institutions": 30,
+    "university_name_labels": 29,
+    "constituent_college_labels": 1,
+    "status_definition": "Confirmed means the proposed name is supported by public institutional evidence in the Bangladesh survey context. It does not validate a respondent affiliation, authorize a merge, or confirm the count of 22.",
+    "status_counts": {
+      "confirmed": 30,
+      "possible": 0,
+      "unresolved": 0
+    },
+    "proposed_cross_label_alias_merges": [],
+    "possible_parent_aggregation": {
+      "raw_label": "Govt College of Applied Human Science",
+      "proposed_canonical_institution": "University of Dhaka",
+      "evidence": "https://web5.du.ac.bd/constituentColleges lists the college as a constituent college. University-level aggregation is a unit-of-analysis choice, not an institutional alias. The author must specify the counting rule.",
+      "status": "possible",
+      "conditional_distinct_groups": 29,
+      "applied": false
+    },
+    "additional_identity_sources": [
+      "https://me.buet.ac.bd/",
+      "https://collegeadmission.eis.du.ac.bd/en/b45de047fde97gsg488cadae3cfe8e88dc01"
+    ],
+    "aliases_applied": false,
+    "respondent_affiliations_verified": false
+  },
+  "accepted_report_checks": {
+    "base_config_sha256": "39171353cd6bfd389aa8207ef251d5cfb0d06d45b5ed9d4b1d1d43f27f6893d0",
+    "provided_csv_reports_match_manifest": true,
+    "provided_report_sha256": {
+      "dataset_summary.csv": "5a9d2bba6b7a2c2df3105627d17fae339726be53500887dbd05b8dc4c7d6d63f",
+      "duplicate_summary.csv": "7d431f0065403ac0b660c4f6fb2fa294cf33b3423e200d5cfb9ccc0243f227a4",
+      "d3_institution_review.csv": "929646ccd054046965f270d23a996157d19c1df2017be2a8815c517b0bcf62c8",
+      "discrepancies.csv": "ff7c5f50aaff77f4869ec229159646dc9b1b981c677e0b8ffc02343051864614"
+    },
+    "accepted_report_files_modified": false
+  },
+  "policies": {
+    "raw_files_modified": false,
+    "rows_removed": 0,
+    "aliases_applied": false,
+    "scoring_or_reverse_coding_performed": false,
+    "later_analyses_performed": false
+  },
+  "closure_matrix": [
+    {
+      "question": "D5 public 2,614 versus active 2,613",
+      "status": "partially resolved",
+      "evidence": "Mendeley v2 metadata states 2614. The supplied release CSV and active file each contain 2613 data records and are byte-identical. No local record loss is observed; the reason for the metadata count remains unknown.",
+      "prevents_closure": true,
+      "closure_requirement": "Author correction or explanation of the published count."
+    },
+    {
+      "question": "D5 published-file identity",
+      "status": "resolved",
+      "evidence": "Both CSVs are 803900 bytes with SHA-256 3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2. Headers, every value, order, and exact repeated-row groups agree. The public comparator was recovered from the available release ZIP.",
+      "prevents_closure": false,
+      "closure_requirement": "None for the compared supplied release."
+    },
+    {
+      "question": "D5 repeated-record provenance and the public duplicate-removal statement",
+      "status": "partially resolved",
+      "evidence": "Both files contain the same 42 repeated full-row groups, 493 member records, and 451 excess repetitions; the largest group has 200 records. Repetitions are present in the supplied public release. The source does not define duplicated responses or provide the cleaning log.",
+      "prevents_closure": true,
+      "closure_requirement": "Clarify the duplicate-removal definition and whether a corrected release exists. Retain all records meanwhile."
+    },
+    {
+      "question": "D5 questionnaire/codebook coverage",
+      "status": "partially resolved",
+      "evidence": "The complete three-page supplement gives five section names, five variable descriptions per section, and the 1-5 label coding. It does not give verbatim wording for all CSV items, explicit item IDs, composite scoring, reverse keys, or inclusion/exclusion and cleaning rules. The supplied DATA_DICTIONARY.md still has no D5 section.",
+      "prevents_closure": false,
+      "closure_requirement": "Sufficient for the present raw-response invariance check. Preserve the limitation; do not infer scoring or reverse keys for later work."
+    },
+    {
+      "question": "D3 published-file identity",
+      "status": "resolved",
+      "evidence": "Both CSVs are 181067 bytes with SHA-256 ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d. Headers, all 1104 records, every value, ordering, and repeated groups agree.",
+      "prevents_closure": false,
+      "closure_requirement": "None for the compared supplied release."
+    },
+    {
+      "question": "D3 22 universities versus 30 labels",
+      "status": "unresolved",
+      "evidence": "The public and active CSVs contain the same 30 labels with identical frequencies. The public evidence review identifies 29 university names and one constituent college of Dhaka University. No supported cross-label alias set explains 22. A possible parent-university grouping of that college alone would yield 29 groups.",
+      "prevents_closure": true,
+      "closure_requirement": "Obtain the source authors' 22-institution roster, raw-label mapping, and counting rule. No merges are applied."
+    },
+    {
+      "question": "D3 repeated-record provenance",
+      "status": "resolved",
+      "evidence": "Both files contain the same 45 repeated full-row groups, 207 member records, and 162 excess repetitions; the largest group has 63 records. Their presence in the public release is established. Unique people and the cause of repetitions cannot be identified from anonymous rows.",
+      "prevents_closure": false,
+      "closure_requirement": "None for release provenance. Retain all records; this result does not establish duplicate people or authorize deletion."
+    }
+  ],
+  "author_questions": [
+    "D5 v2 contains 2613 data records and 451 excess identical full records. Why does its metadata report 2614, what did duplicate removal mean, and is there a corrected release?",
+    "D3 v1 contains 30 institution labels. Please provide the stated 22-university roster, the raw-label mapping, and the counting rule, including affiliated colleges."
+  ],
+  "codebook_follow_up": "Is there a D5 item-level codebook giving exact wording and any scoring or reverse-keying rules?",
+  "closure_decision": "WORK PACKAGE A MUST REMAIN OPEN",
+  "evidence_table_sha256": {
+    "d3_institution_reconciliation.csv": "dcbc5469c550f5ca28a271880738d6b38fe23b15b2059a22df81806d2de8f8bb",
+    "d5_questionnaire_coverage.csv": "911d421a3aec4029147c12d20fc4cae8ac75a67de325d9d89adcdf322923c3c6"
+  }
+}

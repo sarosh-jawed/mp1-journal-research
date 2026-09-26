@@ -170,6 +170,49 @@ def test_absent_identifier_is_not_reported_as_zero_duplicates(synthetic_project:
     assert pd.isna(row.duplicate_excess_rows)
 
 
+def test_matching_release_fingerprint_resolves_only_file_identity(synthetic_project: Path) -> None:
+    config, raw, _ = load_inputs(synthetic_project)
+    original = {name: item.path.read_bytes() for name, item in raw.items()}
+    for name, item in raw.items():
+        metadata = config["integrity"]["datasets"][name]["source_metadata"]
+        metadata["published_file_sha256"] = item.sha256
+    config["integrity"]["datasets"]["D5"]["source_metadata"]["reported_duplicate_removal"] = True
+    synthetic_project.write_text(yaml.safe_dump(config), encoding="utf-8")
+
+    destination = run_provenance(synthetic_project)
+    report = json.loads((destination / "provenance_summary.json").read_text())
+    issues = {item["issue"] for item in report["discrepancies"]}
+    assert "public_download_identity_unverified" not in issues
+    assert "public_file_fingerprint_mismatch" not in issues
+    assert "reference_mismatch_raw_rows" in issues
+    assert "identical_records_require_review" in issues
+    assert "dictionary_dataset_section_absent" in issues
+    assert "source_cleaning_statement_requires_clarification" in issues
+    assert all(item["rows_removed"] == 0 for item in report["datasets"])
+    assert all(raw[name].path.read_bytes() == content for name, content in original.items())
+
+
+def test_release_fingerprint_mismatch_remains_visible(synthetic_project: Path) -> None:
+    config, raw, _ = load_inputs(synthetic_project)
+    original = raw["D5"].path.read_bytes()
+    config["integrity"]["datasets"]["D5"]["source_metadata"]["published_file_sha256"] = "0" * 64
+    synthetic_project.write_text(yaml.safe_dump(config), encoding="utf-8")
+
+    destination = run_provenance(synthetic_project)
+    report = json.loads((destination / "provenance_summary.json").read_text())
+    mismatch = [
+        item
+        for item in report["discrepancies"]
+        if item["dataset"] == "D5" and item["issue"] == "public_file_fingerprint_mismatch"
+    ]
+    assert len(mismatch) == 1
+    assert mismatch[0]["status"] == "unresolved"
+    assert raw["D5"].sha256 in mismatch[0]["evidence"]
+    assert "0" * 64 in mismatch[0]["evidence"]
+    assert raw["D5"].path.read_bytes() == original
+    assert next(item for item in report["datasets"] if item["dataset"] == "D5")["raw_rows"] == 6
+
+
 def test_required_columns_fail_without_repair(synthetic_project: Path) -> None:
     config = yaml.safe_load(synthetic_project.read_text())
     config["integrity"]["datasets"]["D5"]["survey_items"].append("absent_question")

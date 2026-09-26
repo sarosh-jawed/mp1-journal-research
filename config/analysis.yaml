@@ -77,13 +77,18 @@ integrity:
         metadata_checked_on: '2026-09-26'
         reported_respondents: 2614
         reported_duplicate_removal: true
-        published_file_sha256: null
-        verification_note: Metadata page inspected. Original published file bytes were not obtained for comparison.
+        published_file_sha256: 3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2
+        verification_note: The CSV recovered from the supplied Mendeley release ZIP is byte-identical to the active file. Both contain 2613 data records. The metadata count and duplicate-removal definition still require author clarification.
+        file_comparison_checked_on: '2026-09-26'
+        file_comparison_evidence: outputs/provenance/source_reconciliation.json
+        questionnaire_file: PUBLIC_D5_Questionnaire_Structure.pdf
+        questionnaire_sha256: 4fce5c71cb20a7219f9ac4f263138a67ce136a7ac0b27fbd23412aea749f2f1e
+        questionnaire_coverage: partial
       reference_claims:
       - metric: raw_rows
         value: 2614
         source: https://data.mendeley.com/datasets/7m94b7yr8w/2
-        interpretation: Compare the exact published file and acquisition history. A count difference alone does not establish a missing respondent.
+        interpretation: The public release CSV and active file are byte-identical and each contains 2613 records. Metadata reports 2614. Ask the authors to correct or explain the metadata; no local record loss was observed.
       - metric: raw_rows
         value: 2613
         source: https://docs.google.com/document/d/19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o/edit
@@ -134,8 +139,10 @@ integrity:
         metadata_checked_on: '2026-09-26'
         reported_respondents: 1104
         reported_duplicate_removal: false
-        published_file_sha256: null
-        verification_note: Metadata page inspected. Original published file bytes were not obtained for comparison.
+        published_file_sha256: ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d
+        verification_note: The supplied official Mendeley v1 CSV is byte-identical to the active file, including 1104 records, 30 institution labels, and 162 excess repeated full records. The published count of 22 universities remains unexplained.
+        file_comparison_checked_on: '2026-09-26'
+        file_comparison_evidence: outputs/provenance/source_reconciliation.json
         reported_institutions: 22
       reference_claims:
       - metric: raw_rows
@@ -145,7 +152,7 @@ integrity:
       - metric: raw_institution_strings
         value: 22
         source: https://data.mendeley.com/datasets/6s6nvmpgbb/1
-        interpretation: Public metadata counts institutions; the audit counts exact labels. Review entity identities and affiliations before equating these units or applying aliases.
+        interpretation: Both public and active files contain the same 30 labels. Public institutional evidence supports separate named institutions and one constituent college of Dhaka University. A possible parent-university grouping would yield 29, not 22. No aliases are applied; request the authors' institution roster and counting rule.
       - metric: raw_institution_strings
         value: 30
         source: https://docs.google.com/document/d/19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o/edit

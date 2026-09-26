@@ -10,7 +10,8 @@ perform construct scoring or any later analysis.
 The canonical Research Control document, ASTRA_HANDOFF.md, all existing repository
 files, both raw CSVs, the entire attached data dictionary, all six worksheets across
 the two advisor workbooks, the one-page advisor plan, and Manuscript V3 were read.
-The repository baseline is `19fc64dab01d86e8f309aa8c2f84cdd9df48afa0`.
+The implementation was accepted at `dab1d4a2ca5eb76681ad58651299f2fc1b62c645`.
+The subsequent source review is recorded in `docs/source_provenance_reconciliation.md`.
 
 The public records inspected on 2026-09-26 are:
 
@@ -18,15 +19,20 @@ The public records inspected on 2026-09-26 are:
 - D3 version 1: https://data.mendeley.com/datasets/6s6nvmpgbb/1
 
 Their descriptions are reference claims stored in configuration. Execution does
-not silently fetch newer metadata. The published download bytes could not be
-obtained for a direct comparison. The cause of the D5 count difference remains
-unknown. A fingerprint of an attached file is not proof of identity with the
-published file.
+not silently fetch newer metadata. Supplied public release CSVs have now been
+compared with the active files: both pairs are byte-identical. D5's public CSV
+contains 2613 data records, despite the metadata claim of 2614. The reason for
+that source-level discrepancy remains unknown. The configured release fingerprints
+record this comparison; they do not retrieve or certify future releases.
 
 The supplied DATA_DICTIONARY.md documents D1, engineered D1, and D2 only. It does
-not provide D5/D3 definitions. For this work, item eligibility is grounded in the
-explicit full question headers and shared response labels. No latent-construct
-meaning, reverse scoring, numeric encoding, or codebook validation is inferred.
+not provide D5/D3 definitions. The public D5 questionnaire supplement now documents
+five named sections, five variable descriptions per section, and response labels
+coded 1 through 5. It does not provide every exact item sentence, composite
+scoring, reverse-keying, or cleaning rules. D5 codebook coverage is partially
+resolved; D3 still lacks a dedicated codebook. Item eligibility remains grounded
+in explicit raw question headers and labels. No scoring or numeric recoding is
+implemented.
 
 Research Control and the current user instruction govern the narrower scope.
 The older extension workbook and PDF discuss later analyses; those instructions
@@ -108,10 +114,12 @@ D5 has 100 all-Strongly-Agree vectors and one all-Agree vector. D3 has three
 all-Agree vectors and two all-Neutral vectors. Invariance alone does not establish
 carelessness or justify permanent exclusion.
 
-D3 has 30 exact institution labels and 30 diagnostic comparison keys. One label
-contains College. The public statement of 22 universities cannot be reconciled
-by case or whitespace normalization. Entity identities and affiliations still
-require a documented review. Do not rename the count to 30 verified universities.
+D3 has 30 exact institution labels and 30 diagnostic comparison keys in both the
+public and active files. The evidence review identifies 29 university names and
+one constituent college of Dhaka University. Affiliation does not make the college
+an alias of the university. Even a possible parent-university grouping would
+produce 29 groups, not 22. No labels are merged. The authors' roster and counting
+rule are still required; the observed labels do not prove respondent affiliations.
 
 Source SHA-256 fingerprints:
 
@@ -236,9 +244,11 @@ Check these identities and definitions:
 - Review the 200-record and 63-record identical groups through the private source
   files. Seek source clarification; their existence is not a duplicate-person
   finding and does not authorize deleting them.
-- Keep the D5 public/local count discrepancy, D3 institution discrepancy,
-  absent D5/D3 dictionary sections, and unverified download identity explicitly
-  open until evidence resolves them.
+- Use source_reconciliation.json and the cited institution review for the current
+  issue status. File identity is resolved for the supplied releases. The D5
+  metadata count and duplicate-removal definition, D3 institution count, and
+  incomplete codebook coverage remain explicitly documented. A matching source
+  fingerprint does not resolve those separate questions.
 
 Later code can consume verified flags without duplicating detection logic:
 
@@ -275,15 +285,11 @@ unresolved. Work Package A must remain active until the material source issues
 are reconciled or their limitations and handling are explicitly accepted. Do not
 begin the next work package automatically.
 
-## Conditional Research Control update
+## Research Control status
 
-Do not append this merely because code was written. Use it only after the user
-has run the code in Colab, checked the outputs and tests, and explicitly accepted
-the implementation and reported findings. If source issues remain unresolved,
-the wording must preserve that status.
-
-```text
-2026-09-26 | Verified the Data Integrity and Response Quality implementation on D5 (2613 records) and D3 (1104 records). All source records retained; checksum-bound quality and sensitivity indicators saved separately. | outputs/provenance/provenance_summary.json; outputs/response_quality/response_quality_summary.json | 39 synthetic tests passed; Ruff lint and formatting passed; source checksums unchanged. | Open: D5 public/local count, D3 institution reconciliation, repeated-record provenance, missing D5/D3 codebook coverage, and published-file identity. | Keep Work Package A active and resolve source questions before any later analysis.
-```
-
-No Research Control changes are made by this code.
+The user has confirmed acceptance of the original implementation, its Colab
+results, 39 passing tests, Ruff checks, and successful GitHub CI. Source
+reconciliation is a separate acceptance question. See the seven-question closure
+matrix in `docs/source_provenance_reconciliation.md` before proposing any closure
+update. No Research Control changes are made by this code or the reconciliation
+delivery, and no later work package is authorized.
