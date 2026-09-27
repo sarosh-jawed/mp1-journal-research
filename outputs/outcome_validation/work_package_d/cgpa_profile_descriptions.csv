@@ -1,0 +1,7 @@
+variant,profile,n,q1_band,median_band,q3_band,quantile_rule
+full,D3_P1,769,3.01-3.50,3.01-3.50,3.01-3.50,inverse_empirical_cdf
+full,D3_P2,335,3.01-3.50,3.01-3.50,3.01-3.50,inverse_empirical_cdf
+quality_fixed_profiles,D3_P1,764,3.01-3.50,3.01-3.50,3.01-3.50,inverse_empirical_cdf
+quality_fixed_profiles,D3_P2,335,3.01-3.50,3.01-3.50,3.01-3.50,inverse_empirical_cdf
+quality_refit_profiles,D3_P1,763,3.01-3.50,3.01-3.50,3.01-3.50,inverse_empirical_cdf
+quality_refit_profiles,D3_P2,336,3.01-3.50,3.01-3.50,3.01-3.50,inverse_empirical_cdf

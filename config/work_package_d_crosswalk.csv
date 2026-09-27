@@ -1,0 +1,30 @@
+external_item,content_summary,D5_related_items,D3_related_items,compatibility_limitation,exact_common_anchor,permitted_use
+GAID1,AI influence on decisions,AD1,,General decisions versus academic decisions,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID2,Urge for unnecessary use,CD4,,Urge differs from reported simple-decision behavior,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID3,Anticipation unrelated to current work,,,No Bangladesh counterpart,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID4,Concerns about personal AI use,,,No Bangladesh counterpart,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID5,Difficulty working without AI,CD1,D3_2,Difficulty differs from discomfort and unaided study ability,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID6,Confidence without AI,CD5,D3_7,Closest theme; abilities versus work and writing/analysis,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID7,Perceived skill or efficiency harm,CT4,D3_8,Harm differs from reduced effort and thinking ability,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID8,Restlessness without access,CD1,,Restlessness is narrower than academic discomfort,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID9,Distraction without access,CD1,,Distraction is not the same symptom as discomfort,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID10,Disconnection without access,,,No Bangladesh counterpart,False,Country-specific observed-item description; thematic Bangladesh discussion only
+GAID11,Irritability without access,,,No Bangladesh counterpart,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT1,Attention to wider context,,,Disposition is not AI-related thinking reduction,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT2,Adaptation to new ideas,,,No common item,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT3,Use of multiple information sources,T3,D3_1,General sourcing differs from AI response verification,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT4,Seeking new ideas,,,No common item,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT5,Reconsideration of established beliefs,,,No common item,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT6,Attention to other viewpoints,,,No common item,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT7,Justification of choices,,,No common item,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT8,Reflection on prior experience,,,No common item,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT9,Checking information-source credibility,T3,D3_1,General source credibility versus verification of AI outputs,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT10,Considering decision implications,,,No common item,False,Country-specific observed-item description; thematic Bangladesh discussion only
+CT11,Reflecting on improvement,,,No common item,False,Country-specific observed-item description; thematic Bangladesh discussion only
+TP1,Timely work planning,,,Self-rated performance is not CGPA or AI study planning,False,Country-specific observed-item description; thematic Bangladesh discussion only
+TP2,Quality of work planning,,,No academic-grade counterpart,False,Country-specific observed-item description; thematic Bangladesh discussion only
+TP3,Attention to intended results,,,No academic-grade counterpart,False,Country-specific observed-item description; thematic Bangladesh discussion only
+TP4,Distinguishing main work issues,,,Performance behavior is not thinking reduction,False,Country-specific observed-item description; thematic Bangladesh discussion only
+TP5,Setting work priorities,,,No academic-grade counterpart,False,Country-specific observed-item description; thematic Bangladesh discussion only
+TP6,Efficient work completion,U5,,Efficiency differs from dependence for academic speed,False,Country-specific observed-item description; thematic Bangladesh discussion only
+TP7,Productive collaboration,,,No Bangladesh counterpart,False,Country-specific observed-item description; thematic Bangladesh discussion only

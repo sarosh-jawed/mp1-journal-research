@@ -1,0 +1,44 @@
+{
+  "package": "D",
+  "baseline_commit": "dad222a9a0143887e7e25a72e656ec21d0ebc253",
+  "source_sha256": "ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d",
+  "quality_flags_sha256": "322854f24cf209f46fb33a5cf71f54fe2ca72be0a60b32d6188ee4d1ed9c76e1",
+  "settings_sha256": "735a17ff69471de8e31ff8c818f4e4661a02984c175c8a41b74217a6bf7e15ed",
+  "code_sha256": "16ae21ae2ace3dd053e7254f21099fba9b9b00cd715b93e843bb3e81314ebe84",
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1"
+  },
+  "outcome": "Four ordered self-reported CGPA bands; exact grades and midpoints unavailable.",
+  "source_band_boundary_caution": "Below 2.50 and 2.51-3.00 do not document assignment of exactly 2.50; retain recorded bands.",
+  "quality_sensitivity": {
+    "flagged_records": 5,
+    "retained_records": 1099,
+    "full_refit_ari": 0.9962755251009426,
+    "changed_retained_assignments": 1
+  },
+  "method": "Tie-corrected Kruskal-Wallis; H/(N-1) rank epsilon squared; Cliff delta P2 minus P1.",
+  "uncertainty": "Percentile intervals condition on independent units named in each row and fixed profiles. Pattern and literal-institution resampling preserve multiplicities. They do not prove independence, recover unique people, or establish population coverage.",
+  "posthoc": "Two accepted profiles give one comparison; no separate post-hoc family is justified.",
+  "scientific_limits": [
+    "Nominal p-values assume independent records; source independence is unresolved.",
+    "No grade-point magnitude, causal effect, equivalence, or validated types.",
+    "No permanent exclusion, institution mapping, pooling, or predictive fitting."
+  ],
+  "source_values_and_order_unchanged": true,
+  "frozen_files_unchanged": true,
+  "raw_records_removed": 0,
+  "acceptance_status": "requires_manual_scientific_review",
+  "artifact_sha256": {
+    "cgpa_eligibility.csv": "63fe6a16f4fc49004895a7af5a20d21bc6a8f9479dd89c22cc946b7f19fef013",
+    "profile_reconstruction.csv": "866d17b315edd01e4970e5cef5652bc830da0cbfa2ee1818cd6e682e10442425",
+    "sample_accounting.csv": "9b72b499c27b4bb5d9555f369b8df37809bd97130107cf54cd3250de02f80f0e",
+    "cgpa_distributions.csv": "39827f1a1848c283e0db9756b01e7343e1f844c4f24ca70414d4fe54f881051b",
+    "cgpa_profile_descriptions.csv": "3a1e3a50cd6788f500ccb0004e07f112fbedd8ee5e9d7293a15e1acfed43f06d",
+    "cgpa_comparisons.csv": "1cf243fe6307225e5f90c801fbfbe6e88be66172c3fa6bebc32724113aa1d08a",
+    "conditional_uncertainty.csv": "d6a743bb84e5bd95c38f5f8c35f654d25375f09c438449880c6295ce359d216c",
+    "record_concentration.csv": "a5f91c63f0eddf03f73e1f69da00adeb955b01716efe657beae844bca8efbe74"
+  }
+}

@@ -1,0 +1,7 @@
+cluster,records,duplicate_groups,duplicate_member_rows,duplicate_excess_rows,unique_records,largest_group_size,largest_exact_record_share,variant
+1,769,29,88,59,710,31,0.04031209362808843,full
+2,335,16,119,103,232,63,0.1880597014925373,full
+1,764,29,88,59,705,31,0.04057591623036649,quality_fixed_profiles
+2,335,16,119,103,232,63,0.1880597014925373,quality_fixed_profiles
+1,763,29,88,59,704,31,0.04062909567496723,quality_refit_profiles
+2,336,16,119,103,233,63,0.1875,quality_refit_profiles

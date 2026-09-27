@@ -32,6 +32,8 @@ Colab is the execution environment. Code is reviewed locally before the user com
 6. Run `ruff check .`.
 7. Run `ruff format --check .`.
 
+Work Package D also requires R with lavaan, semTools and jsonlite for its ordinal measurement
+checks. Follow `docs/work_package_d_colab.md` for the full installation and application guide.
 Do not begin real-data analysis until the repository checks pass.
 
 ## Data policy
@@ -70,8 +72,28 @@ For reproducibility, the accepted C entry point remains:
 
 ```bash
 PYTHONPATH=src python scripts/predictive_audit.py --config config/analysis.yaml --audit-config config/work_package_c.yaml
+```
+
 C aggregates are under outputs/modeling/work_package_c/; record-level target and diagnostic split files remain ignored under data/interim/work_package_c/. A successful audit can report a scientific blocker. It does not authorize classifier fitting.
-The active work is D: outcome and cross-cultural validation. D should analyze D3 CGPA profile differences with an appropriate nonparametric omnibus test, effect size, corrected pairwise comparisons, and profile-level distributions. It must also audit the U.S.-Indonesia codebook and construct compatibility before any cross-country analysis. Do not force raw-score harmonization, pooling, or profile equivalence. If direct comparability is not defensible, retain country-specific or appropriately standardized analyses. D implementation has not yet been added; read the canonical Research Control before writing it.
+
+Work Package D is implemented and awaiting scientific review. Read
+`docs/outcome_cross_cultural_validation.md` for the CGPA eligibility audit, ordinal outcome
+comparisons, quality and repeated-record sensitivity, complete compatibility audit and external
+measurement-testing boundary. The methods preserve A/B/C and do not resume predictive modeling.
+
+D entry points are:
+
+- `scripts/outcome_validation.py`
+- `scripts/external_validation.py`
+- `scripts/verify_work_package_d.py`
+
+Use `docs/work_package_d_colab.md` for exact execution instructions,
+`docs/work_package_d_outputs.md` for the output inventory and
+`docs/work_package_d_review.md` for scientific review and proposed project updates.
+Only D aggregate outputs are added under the existing outcome and external validation folders.
+Private D artifacts stay under ignored `data/interim/work_package_d/`. No commit, push,
+Research Control edit or publication-lock action is part of the delivery.
+
 ## Quality standard
 
 - No hard-coded local or Colab paths.

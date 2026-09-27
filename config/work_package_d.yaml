@@ -1,0 +1,139 @@
+package: D
+baseline_commit: dad222a9a0143887e7e25a72e656ec21d0ebc253
+review_date: '2026-09-27'
+research_control:
+  document_id: 19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o
+  read_completely: true
+  revision_id: ANLCKQk58fDZRfxzl6Pjl0mkSm8kQJxGNFOjq__6mKuXxS3YxnSXKQlnTedlb7HAsAuHONDuw_HXtQ-66aQAZcb5m7bp0lspM60agRSKpMc
+  extracted_paragraph_text_sha256: ca64e7e22b2b02d093e42a4b4aeb951f7373900373c1083e8253b7dc816596cf
+  paragraphs: 246
+frozen_files:
+  .gitignore: 46173ba45ace8bc357226aaca19825d867753dc3d32805bce2b8d666d3e2b066
+  config/analysis.yaml: 2ea62d0f97d41a14014b2ff1878ad802db320fa59fd9cb479dcde6f971d4b14f
+  config/work_package_c.yaml: 815775ffa8455fee236481da09c70b696f75f6db065e9f809b8430edea66b6b2
+  data/README.md: ad1de6f4a835208ab65b95577d149ad966d230508db0edeeff566ac695d3e10a
+  docs/data_integrity.md: 274174b82062954fe025b912bd5afdef5d1538ff0830c1fb1a8c5d8115166b0a
+  docs/measurement_cluster_structure.md: 6813dfc25b58b7ff58d39abae43ecddb44e55a8ffd7ff317ffc27ad742ef8227
+  docs/predictive_feasibility.md: 33eb7ebe4cd1bdfcf8bd6768e205143100cce8c7d694a9f7b17d470fd69442df
+  docs/source_provenance_reconciliation.md: 7c274e86a710b1cacb5eb270138fb1ce0d52a04c28a9b4f9706f5cfd82abbcb8
+  notebooks/README.md: 24e695fe60829e90b5db33f3bc9c240bcba21158caf7a06c59fcbbf90eb7f5bb
+  outputs/clustering/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  outputs/clustering/cluster_centroids.csv: 76356ba58afb95909cac03f3d2c845c0fa46bb39c4f44ef5e1cfe5f311aefa93
+  outputs/clustering/cluster_metrics.csv: b1cc278d4988ae5115409960d1a9d28d00692dba6ac8544ac2a8304d59660dcc
+  outputs/clustering/cluster_record_concentration.csv: 42612634d04028ea2042351f6ac72f3add037ab4f61a1a8d01115d8635d27336
+  outputs/clustering/cluster_selection.csv: fc8b95c3bea7126fdf49dc045f96d5ebb00f887b243ee3fb002b6de5dfb00e52
+  outputs/clustering/cluster_sizes.csv: a377f661ab4c72a2018007df4a23ef4bed8dea082ab6e48242429b5429315624
+  outputs/clustering/cluster_stability.csv: 45d200e30a52c1745c89f06b47171db01b88798ebebacd2489f2214e479283cf
+  outputs/clustering/clustering_summary.json: 4efeeb180a1dfb31c11033cd66a57830507471dbb8831bfb9ec5a718b38e99bc
+  outputs/clustering/quality_sensitivity.csv: 6c7bd3715282c20c48ab69e6715361783380bc321aadc393c48d5e2f376e1ca6
+  outputs/clustering/selected_profiles.csv: 4bf819d2d615d8a65656ddc8fb2ed80a2d5136a55f1e0c7146dcd0cc9505c7b2
+  outputs/explainability/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  outputs/external_validation/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  outputs/figures/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  outputs/modeling/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  outputs/modeling/work_package_c/derived_information_policy.csv: 5a7d64c5553d1252adbc7d1f6448d717d73667db82a3dbeeb4143747c2cf7b8c
+  outputs/modeling/work_package_c/evaluation_overlap.csv: 489f27a7da66757fd53b843433b4a80eef7b0989d08f4b9f4fb15db15a7fdadc
+  outputs/modeling/work_package_c/feature_eligibility.csv: 0604a3a261f876eda1deb8c24162ca32a37de47c80edd2a22e0542b3186475a1
+  outputs/modeling/work_package_c/group_allocation_feasibility.csv: b5a34d1268e974c00964c1a55ba4d1c6782e169938d34cbdf986284e15ccd4f7
+  outputs/modeling/work_package_c/metadata_profile_descriptions.csv: de24322f72e12e6448d8933e071fcc6a63c20dd74c8a265157e84f22438a61c9
+  outputs/modeling/work_package_c/predictive_audit_summary.json: 22a85a51e4aaee3460dc0ac3d495c07b90cfa60ee27796a321cf422da263510c
+  outputs/modeling/work_package_c/quality_target_comparison.csv: e606b324fabc58b316243496e1901f9a6ca878744e38e87fd1c863a1148cdc2f
+  outputs/modeling/work_package_c/record_concentration.csv: aa5c83c2897c11a64b6335d03771ad08cb078de1b072a96f4817691567b42a41
+  outputs/modeling/work_package_c/summary.md: 02098f1060fb13777f139e79eb338b741014fa59130e3c1ffbfb7f5c653b6472
+  outputs/modeling/work_package_c/target_reconstruction.csv: 06d318a3372361955879d31e3d908f616c766ec9c4cf4e73b7b5691e3e1ab2f0
+  outputs/outcome_validation/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  outputs/provenance/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  outputs/provenance/d3_institution_reconciliation.csv: dcbc5469c550f5ca28a271880738d6b38fe23b15b2059a22df81806d2de8f8bb
+  outputs/provenance/d5_questionnaire_coverage.csv: 911d421a3aec4029147c12d20fc4cae8ac75a67de325d9d89adcdf322923c3c6
+  outputs/provenance/source_closure_matrix.csv: 663d4502c9173eba0e81dd250013477e0ce0e4256e0e29cacecb6539b7d56e22
+  outputs/provenance/source_reconciliation.json: e0858b9e5e652f05395cb787e1b2e1d96a534b210f2f2c14a2c35bec73e2a196
+  outputs/psychometrics/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  outputs/psychometrics/factor_correlations.csv: 6f171a70d29fe808e2fdd5eee275332a83fe61e69341f1c5d6abda495b306112
+  outputs/psychometrics/factor_loadings.csv: 4b33457b5a27159441f236757699e62963e69eec370a96e5dd55679a9882a7e1
+  outputs/psychometrics/factor_models.csv: 1641c647552af48be79fb5c9f6fffdcc80dc9870ccfbc3caf0db981721942d02
+  outputs/psychometrics/item_correlations.csv: 8f88dd7f1e0796d90642438543c7560831172a4b6080790780c81852d8cba22e
+  outputs/psychometrics/item_diagnostics.csv: f5fce65616daa2f5117f71618fa289c0303c725d4c647397aa94927e56a533de
+  outputs/psychometrics/item_distributions.csv: 15548e7f9d5ad7e9a301950951034a2b7e0b700dff1c345882498b3a39619c4c
+  outputs/psychometrics/item_inventory.csv: 4265ec2bb262fa585970c75deb0dca670093ee4344e113119d7447c34f92d5cd
+  outputs/psychometrics/measurement_assumptions.csv: 8c0218973c445a23e3265ff2f2e7add96c4c51ca4940354a6ff7bab5b7fbb50c
+  outputs/psychometrics/measurement_summary.json: 3e1ceb90db5124519845b986f31b73b41bcf5ae93c516fec8930b847fb6c9b29
+  outputs/psychometrics/parallel_analysis.csv: 4971420ad25b17c7a8eeb8902c33e46e4e663304b59a452f1743182ea0aa1ba4
+  outputs/psychometrics/reliability.csv: e7643df6294d0a8ad116a7df698ea7475a6f8a0e5db42d63615e56308aace80a
+  outputs/response_quality/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  pyproject.toml: 0f7eca88c2193c45c1b1b9ea76a5fe0efc65500e52b15a2cedc3180cc9211483
+  requirements.txt: 38ad17228bf6cf36bfdd65c12e0562f9f61c70e60cb3406fbb3857037bda06df
+  scripts/README.md: 1cb68af9bcb6283335433d4059552b6d87e2efcc901ab313619681a567b99c6e
+  scripts/clustering_analysis.py: 0ccd07e5b5a364f3dcd5d3c7d5f3b487cbd9e3cf06671c2525375823947cb0c6
+  scripts/predictive_audit.py: 852cd1d5e1f7fd0bd72a74dca9a805edafb71f2c83ee0da4cf8de724e8b53601
+  scripts/provenance_audit.py: 14236b302a29df0e45a7084104c6c36fecec7f1d6b4a5bcf0b6d45db6d3f4c43
+  scripts/psychometrics_analysis.py: 058a2b813a4c69d577de6c23c0b203124bd8060adc6b5bbdd57109cc98cc9e1d
+  scripts/response_quality.py: 576926ef83c10226dfcf612c794aacee7e64d71d59abc2292ae62877b2ad4ada
+  src/mp1/__init__.py: 6b3c784ccf74e745cb38277dd378a11547e16e7b73f5a4058c203f0fe9e20f80
+  src/mp1/audit.py: 0baf4ea51adf1432a975bb18dbc1db35576216db169c61b8741d9c0e40104b8d
+  src/mp1/clustering.py: 30e2390aea6a4cc2e0cf2acdc2eed78f341f1af5f2e4955301eb478b43bbdba4
+  src/mp1/config.py: 08ab02b36b273b2fd2a791efd1f2a65605d665a78dab3cfcc6678a651c8e8ae1
+  src/mp1/measurement.py: f3abd9a18d63d80705fea192bb830f9dcd569bbaca7edbbe5d09aa631170bf12
+  src/mp1/ordinal.py: cc0cd4c4c74cf4155a94795acf0100894c43d887c70e6c62ab91442384c14a7c
+  src/mp1/paths.py: f9d7377b40acf765c7fd3c3a8f264677906210018f097bff718f9dcbbff270bd
+  src/mp1/predictive_audit.py: 292208ce076b8cdfe73a4d1137e066d524fd1af089405970c0217a307b232071
+  src/mp1/psychometrics.py: d85948bb2bcaebbfde533a5e4ce13e62346f8ee2bd4f4d4261f1d4220bf36a95
+  src/mp1/response_quality.py: 73b1fec5e05fb38586ebed89ebf8e623188cf70c9ecf9f7621bed1077b9257cc
+  src/mp1/target_audit.py: dc00950aa0e7eaf9991b5aa459a52783b12263ca6add9fdfca4ee50362f321ee
+  tests/conftest.py: cc607c431a5df7f430a8c9259f42db037afd65411f5d75d87234457183d47260
+  tests/fixtures/.gitkeep: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  tests/test_audit.py: 6ce7d58f1d51403d01d952480a8fff7a759b6fc2e7caa803a63d16121ddab4aa
+  tests/test_audit_cli.py: 063e1be1ac96ebe882454534be567fdb2dd6452a9cb07cdcb18f73bfe2fae652
+  tests/test_clustering.py: 9af94d80d89181042f418a874a64f2cbc48bfdf85d25da329518e0fbd44f2438
+  tests/test_measurement_pipeline.py: 6e16e3744d30be9e03adc137cbcd1a8b89b32476803cfbe660cf201aacf022d2
+  tests/test_predictive_audit.py: 98b61e2c32aeb1231af2ef9f05c7f32e25d988aedba059ad866ef6fcdee3d4b1
+  tests/test_psychometrics.py: 516ca7c1c6750b379059bf61d4b0dfef12995d575d755aa728f59f000898fcf0
+  tests/test_repository_contract.py: 32efd761d07c3e218f4b1085b71c6d3412fcc95d7778c67477afae374268112e
+  tests/test_response_quality.py: db6f3175af0ecfa20de75cc193f8cf3e4d1be0771c563aae32af0ef55b68d0df
+d3:
+  categories:
+  - Below 2.50
+  - 2.51-3.00
+  - 3.01-3.50
+  - Above 3.50
+  outcome: Current CGPA
+  expected_sizes:
+    full:
+    - 769
+    - 335
+    sensitivity:
+    - 763
+    - 336
+  centroid_tolerance: 1.0e-12
+  minimum_assignment_margin: 1.0e-12
+  bootstrap_repetitions: 10000
+  bootstrap_seed: 42701
+  confidence_level: 0.95
+  alpha: 0.05
+  output_directory: outputs/outcome_validation/work_package_d
+  private_directory: data/interim/work_package_d
+external:
+  workbook_filename: When Culture Meets AI - Survey Dataset.xlsx
+  workbook_sha256: 985c39bd5ad4e0f9278a059e6eaa8aa0ddacac51913b1996421880ad8062ff4a
+  official_md5: 2dee3dc349339fdc312c63cefdd4cb62
+  source_url: https://zenodo.org/records/21013786
+  country_order:
+  - USA
+  - Indonesia
+  bootstrap_repetitions: 5000
+  permutation_repetitions: 9999
+  seed: 42702
+  output_directory: outputs/external_validation/work_package_d
+  ordinal_screen:
+    minimum_cfi: 0.9
+    maximum_rmsea: 0.08
+    maximum_srmr: 0.08
+    alpha: 0.05
+  observed_item_relationships:
+  - - GAID6
+    - CT9
+  - - GAID6
+    - TP6
+  relationship_family: Holm over four country-specific tests; no country-difference or latent-score
+    test
+  score_policy: No composites or cross-country z-scores; same-codebook single-item Spearman associations
+    only.

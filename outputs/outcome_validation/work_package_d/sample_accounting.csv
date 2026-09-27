@@ -1,0 +1,4 @@
+variant,source_records,quality_records_retained,outcome_eligible_records,missing_outcome_records,permanent_source_exclusions
+full,1104,1104,1104,0,0
+quality_fixed_profiles,1104,1099,1099,0,0
+quality_refit_profiles,1104,1099,1099,0,0

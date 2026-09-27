@@ -1,0 +1,42 @@
+field,construct,subdimension,source_nonmissing,source_distinct_values,country_identifier,used_in_item_analysis,codebook_row_inspected
+RespondentID,Demographic,not_applicable,239,239,False,False,True
+Country,Demographic,not_applicable,239,2,True,False,True
+Age_Range,Demographic,not_applicable,239,4,False,False,True
+Gender,Demographic,not_applicable,239,3,False,False,True
+Nationality,Demographic,not_applicable,239,2,False,False,True
+Field_of_Study,Demographic,not_applicable,239,7,False,False,True
+Level_of_Study,Demographic,not_applicable,239,1,False,False,True
+Year_of_Study,Demographic,not_applicable,239,4,False,False,True
+GenAI_Experience,Demographic,not_applicable,239,4,False,False,True
+GenAI_Tools_Used,Demographic,not_applicable,239,74,False,False,True
+GenAI_Frequency,Demographic,not_applicable,239,5,False,False,True
+GAID1,GenAI Dependency,Cognitive Preoccupation,227,5,False,True,True
+GAID2,GenAI Dependency,Cognitive Preoccupation,227,5,False,True,True
+GAID3,GenAI Dependency,Cognitive Preoccupation,227,5,False,True,True
+GAID4,GenAI Dependency,Negative Consequences,227,5,False,True,True
+GAID5,GenAI Dependency,Negative Consequences,227,5,False,True,True
+GAID6,GenAI Dependency,Negative Consequences,227,5,False,True,True
+GAID7,GenAI Dependency,Negative Consequences,227,5,False,True,True
+GAID8,GenAI Dependency,Withdrawal,227,5,False,True,True
+GAID9,GenAI Dependency,Withdrawal,227,5,False,True,True
+GAID10,GenAI Dependency,Withdrawal,227,5,False,True,True
+GAID11,GenAI Dependency,Withdrawal,227,5,False,True,True
+CT1,Critical Thinking,Critical Openness,227,5,False,True,True
+CT2,Critical Thinking,Critical Openness,227,5,False,True,True
+CT3,Critical Thinking,Critical Openness,227,4,False,True,True
+CT4,Critical Thinking,Critical Openness,227,5,False,True,True
+CT5,Critical Thinking,Critical Openness,227,5,False,True,True
+CT6,Critical Thinking,Critical Openness,227,4,False,True,True
+CT7,Critical Thinking,Critical Openness,227,5,False,True,True
+CT8,Critical Thinking,Reflective Skepticism,227,5,False,True,True
+CT9,Critical Thinking,Reflective Skepticism,227,5,False,True,True
+CT10,Critical Thinking,Reflective Skepticism,227,5,False,True,True
+CT11,Critical Thinking,Reflective Skepticism,227,4,False,True,True
+TP1,Task Performance,IWPQ Task Performance,227,5,False,True,True
+TP2,Task Performance,IWPQ Task Performance,227,5,False,True,True
+TP3,Task Performance,IWPQ Task Performance,227,5,False,True,True
+TP4,Task Performance,IWPQ Task Performance,227,5,False,True,True
+TP5,Task Performance,IWPQ Task Performance,227,5,False,True,True
+TP6,Task Performance,IWPQ Task Performance,227,5,False,True,True
+TP7,Task Performance,IWPQ Task Performance,227,5,False,True,True
+AnalyticSample,Derived,not_applicable,239,2,False,False,True

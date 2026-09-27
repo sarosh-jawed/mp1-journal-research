@@ -1,0 +1,3 @@
+country,released_records,analytic_records,whole_battery_missing_nonactive,partial_item_missing_records,duplicate_full_records_without_identifier,invariant_29_item_vectors,source_rows_deleted,eligibility
+USA,122,116,6,0,0,0,0,Source AnalyticSample=Yes; all items observed; use at least Sometimes
+Indonesia,117,111,6,0,0,0,0,Source AnalyticSample=Yes; all items observed; use at least Sometimes

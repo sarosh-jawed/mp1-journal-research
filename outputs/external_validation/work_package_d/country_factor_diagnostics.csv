@@ -1,0 +1,7 @@
+country,construct,n,estimator,proper,minimum_correlation_eigenvalue,boundary_polychorics,maximum_cell_probability_error,rmsr_off_diagonal,maximum_absolute_residual,maximum_factor_correlation
+USA,GAID,116,"Country-specific polychoric ULS diagnostic, not invariance",True,0.25212503091719046,0,0.06112402275303269,0.06361012122255451,0.18447851186631503,0.8376883833531478
+USA,CT,116,"Country-specific polychoric ULS diagnostic, not invariance",True,0.21841605735773528,0,0.06548396397704281,0.12029828837050682,0.4028139446185877,0.8710249823108339
+USA,TP,116,"Country-specific polychoric ULS diagnostic, not invariance",True,0.3362701115431203,0,0.06849502986785155,0.12752164881686998,0.22438507125428392,0.0
+Indonesia,GAID,111,"Country-specific polychoric ULS diagnostic, not invariance",True,0.14246462039064972,0,0.0706671361087291,0.08466698514755029,0.24099248437731502,0.929443381626689
+Indonesia,CT,111,"Country-specific polychoric ULS diagnostic, not invariance",True,0.08228471106630225,0,0.05895923342270808,0.0747775644317126,0.19599181884679356,0.9535404533652998
+Indonesia,TP,111,"Country-specific polychoric ULS diagnostic, not invariance",True,0.2453197064087612,0,0.10116796036989667,0.08149136336491651,0.16408637955419675,0.0

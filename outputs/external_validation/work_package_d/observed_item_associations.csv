@@ -1,0 +1,5 @@
+country,item_x,item_y,n,spearman_rho,permutation_p_value,permutation_mc_standard_error,conditional_95_lower,conditional_95_upper,permutations,bootstrap_repetitions,seed,invalid_bootstrap_replicates,inference_scope,holm_p_four_test_family
+USA,GAID6,CT9,116,0.09763037786486334,0.3035,0.004597692355954234,-0.08294597262436806,0.2726145804642099,9999,5000,42702,0,Exploratory observed-item association within this country sample,0.9105
+USA,GAID6,TP6,116,-0.03382755893719395,0.7279,0.0044504111046059554,-0.21612135469834776,0.1462995248844046,9999,5000,42703,0,Exploratory observed-item association within this country sample,1.0
+Indonesia,GAID6,CT9,111,-0.03427962125025592,0.7227,0.0044766584636311045,-0.21700406423835802,0.15659966629817046,9999,5000,42712,0,Exploratory observed-item association within this country sample,1.0
+Indonesia,GAID6,TP6,111,0.12146653873771777,0.2049,0.00403628529715133,-0.07564414104898055,0.30842665683608045,9999,5000,42713,0,Exploratory observed-item association within this country sample,0.8196

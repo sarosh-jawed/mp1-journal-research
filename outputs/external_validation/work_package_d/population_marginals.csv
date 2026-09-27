@@ -1,0 +1,104 @@
+country,sample,field,source_label,records,n,fraction,locally_recoded
+USA,released,Age_Range,20 - 22,54,122,0.4426229508196721,False
+USA,released,Age_Range,23 - 25,31,122,0.2540983606557377,False
+USA,released,Age_Range,17 - 19,30,122,0.2459016393442623,False
+USA,released,Age_Range,Above 25,7,122,0.05737704918032787,False
+USA,released,Gender,Female,66,122,0.5409836065573771,False
+USA,released,Gender,Male,51,122,0.4180327868852459,False
+USA,released,Gender,Prefer not to say,5,122,0.040983606557377046,False
+USA,released,Nationality,American,122,122,1.0,False
+USA,released,Field_of_Study,Business Related Majors,40,122,0.32786885245901637,False
+USA,released,Field_of_Study,Economics Related Majors,31,122,0.2540983606557377,False
+USA,released,Field_of_Study,Finance/Accounting Related Majors,27,122,0.22131147540983606,False
+USA,released,Field_of_Study,Management Related Majors,23,122,0.1885245901639344,False
+USA,released,Field_of_Study,Human Resources,1,122,0.00819672131147541,False
+USA,released,Level_of_Study,Undergraduate (Bachelor's Degree),122,122,1.0,False
+USA,released,Year_of_Study,Senior (final-year student),45,122,0.36885245901639346,False
+USA,released,Year_of_Study,Junior (3rd-year student),37,122,0.30327868852459017,False
+USA,released,Year_of_Study,Sophomore (2nd-year student),28,122,0.22950819672131148,False
+USA,released,Year_of_Study,Freshman (1st-year student),12,122,0.09836065573770492,False
+USA,released,GenAI_Experience,1 - 2 years,43,122,0.3524590163934426,False
+USA,released,GenAI_Experience,6 months - 1 year,36,122,0.29508196721311475,False
+USA,released,GenAI_Experience,More than 2 years,33,122,0.27049180327868855,False
+USA,released,GenAI_Experience,Less than 6 months,10,122,0.08196721311475409,False
+USA,released,GenAI_Frequency,Sometimes,51,122,0.4180327868852459,False
+USA,released,GenAI_Frequency,Often,41,122,0.3360655737704918,False
+USA,released,GenAI_Frequency,Always,24,122,0.19672131147540983,False
+USA,released,GenAI_Frequency,Rarely,6,122,0.04918032786885246,False
+USA,source_analytic,Age_Range,20 - 22,51,116,0.4396551724137931,False
+USA,source_analytic,Age_Range,23 - 25,29,116,0.25,False
+USA,source_analytic,Age_Range,17 - 19,29,116,0.25,False
+USA,source_analytic,Age_Range,Above 25,7,116,0.0603448275862069,False
+USA,source_analytic,Gender,Female,64,116,0.5517241379310345,False
+USA,source_analytic,Gender,Male,48,116,0.41379310344827586,False
+USA,source_analytic,Gender,Prefer not to say,4,116,0.034482758620689655,False
+USA,source_analytic,Nationality,American,116,116,1.0,False
+USA,source_analytic,Field_of_Study,Business Related Majors,38,116,0.3275862068965517,False
+USA,source_analytic,Field_of_Study,Economics Related Majors,29,116,0.25,False
+USA,source_analytic,Field_of_Study,Finance/Accounting Related Majors,27,116,0.23275862068965517,False
+USA,source_analytic,Field_of_Study,Management Related Majors,21,116,0.1810344827586207,False
+USA,source_analytic,Field_of_Study,Human Resources,1,116,0.008620689655172414,False
+USA,source_analytic,Level_of_Study,Undergraduate (Bachelor's Degree),116,116,1.0,False
+USA,source_analytic,Year_of_Study,Senior (final-year student),42,116,0.3620689655172414,False
+USA,source_analytic,Year_of_Study,Junior (3rd-year student),36,116,0.3103448275862069,False
+USA,source_analytic,Year_of_Study,Sophomore (2nd-year student),27,116,0.23275862068965517,False
+USA,source_analytic,Year_of_Study,Freshman (1st-year student),11,116,0.09482758620689655,False
+USA,source_analytic,GenAI_Experience,1 - 2 years,43,116,0.3706896551724138,False
+USA,source_analytic,GenAI_Experience,6 months - 1 year,33,116,0.28448275862068967,False
+USA,source_analytic,GenAI_Experience,More than 2 years,32,116,0.27586206896551724,False
+USA,source_analytic,GenAI_Experience,Less than 6 months,8,116,0.06896551724137931,False
+USA,source_analytic,GenAI_Frequency,Sometimes,51,116,0.4396551724137931,False
+USA,source_analytic,GenAI_Frequency,Often,41,116,0.35344827586206895,False
+USA,source_analytic,GenAI_Frequency,Always,24,116,0.20689655172413793,False
+Indonesia,released,Age_Range,20 - 22,47,117,0.4017094017094017,False
+Indonesia,released,Age_Range,23 - 25,41,117,0.3504273504273504,False
+Indonesia,released,Age_Range,Above 25,17,117,0.1452991452991453,False
+Indonesia,released,Age_Range,17 - 19,12,117,0.10256410256410256,False
+Indonesia,released,Gender,Female,77,117,0.6581196581196581,False
+Indonesia,released,Gender,Male,40,117,0.3418803418803419,False
+Indonesia,released,Nationality,Indonesia,117,117,1.0,False
+Indonesia,released,Field_of_Study,Business Related Majors,36,117,0.3076923076923077,False
+Indonesia,released,Field_of_Study,Management Related Majors,32,117,0.27350427350427353,False
+Indonesia,released,Field_of_Study,Finance/Accounting Related Majors,26,117,0.2222222222222222,False
+Indonesia,released,Field_of_Study,Economics Related Majors,21,117,0.1794871794871795,False
+Indonesia,released,Field_of_Study,Business Related Majors;Management Related Majors,1,117,0.008547008547008548,False
+Indonesia,released,Field_of_Study,International Business Management,1,117,0.008547008547008548,False
+Indonesia,released,Level_of_Study,Undergraduate (Bachelor's Degree),117,117,1.0,False
+Indonesia,released,Year_of_Study,Senior (final-year student),43,117,0.36752136752136755,False
+Indonesia,released,Year_of_Study,Junior (3rd-year student),30,117,0.2564102564102564,False
+Indonesia,released,Year_of_Study,Sophomore (2nd-year student),25,117,0.21367521367521367,False
+Indonesia,released,Year_of_Study,Freshman (1st-year student),19,117,0.1623931623931624,False
+Indonesia,released,GenAI_Experience,6 months - 1 year,37,117,0.3162393162393162,False
+Indonesia,released,GenAI_Experience,1 - 2 years,34,117,0.2905982905982906,False
+Indonesia,released,GenAI_Experience,More than 2 years,30,117,0.2564102564102564,False
+Indonesia,released,GenAI_Experience,Less than 6 months,16,117,0.13675213675213677,False
+Indonesia,released,GenAI_Frequency,Often,67,117,0.5726495726495726,False
+Indonesia,released,GenAI_Frequency,Sometimes,31,117,0.26495726495726496,False
+Indonesia,released,GenAI_Frequency,Always,13,117,0.1111111111111111,False
+Indonesia,released,GenAI_Frequency,Rarely,4,117,0.03418803418803419,False
+Indonesia,released,GenAI_Frequency,Never,2,117,0.017094017094017096,False
+Indonesia,source_analytic,Age_Range,20 - 22,45,111,0.40540540540540543,False
+Indonesia,source_analytic,Age_Range,23 - 25,39,111,0.35135135135135137,False
+Indonesia,source_analytic,Age_Range,Above 25,15,111,0.13513513513513514,False
+Indonesia,source_analytic,Age_Range,17 - 19,12,111,0.10810810810810811,False
+Indonesia,source_analytic,Gender,Female,73,111,0.6576576576576577,False
+Indonesia,source_analytic,Gender,Male,38,111,0.34234234234234234,False
+Indonesia,source_analytic,Nationality,Indonesia,111,111,1.0,False
+Indonesia,source_analytic,Field_of_Study,Business Related Majors,34,111,0.3063063063063063,False
+Indonesia,source_analytic,Field_of_Study,Management Related Majors,31,111,0.27927927927927926,False
+Indonesia,source_analytic,Field_of_Study,Finance/Accounting Related Majors,25,111,0.22522522522522523,False
+Indonesia,source_analytic,Field_of_Study,Economics Related Majors,19,111,0.17117117117117117,False
+Indonesia,source_analytic,Field_of_Study,Business Related Majors;Management Related Majors,1,111,0.009009009009009009,False
+Indonesia,source_analytic,Field_of_Study,International Business Management,1,111,0.009009009009009009,False
+Indonesia,source_analytic,Level_of_Study,Undergraduate (Bachelor's Degree),111,111,1.0,False
+Indonesia,source_analytic,Year_of_Study,Senior (final-year student),40,111,0.36036036036036034,False
+Indonesia,source_analytic,Year_of_Study,Junior (3rd-year student),30,111,0.2702702702702703,False
+Indonesia,source_analytic,Year_of_Study,Sophomore (2nd-year student),23,111,0.2072072072072072,False
+Indonesia,source_analytic,Year_of_Study,Freshman (1st-year student),18,111,0.16216216216216217,False
+Indonesia,source_analytic,GenAI_Experience,6 months - 1 year,36,111,0.32432432432432434,False
+Indonesia,source_analytic,GenAI_Experience,1 - 2 years,33,111,0.2972972972972973,False
+Indonesia,source_analytic,GenAI_Experience,More than 2 years,30,111,0.2702702702702703,False
+Indonesia,source_analytic,GenAI_Experience,Less than 6 months,12,111,0.10810810810810811,False
+Indonesia,source_analytic,GenAI_Frequency,Often,67,111,0.6036036036036037,False
+Indonesia,source_analytic,GenAI_Frequency,Sometimes,31,111,0.27927927927927926,False
+Indonesia,source_analytic,GenAI_Frequency,Always,13,111,0.11711711711711711,False

@@ -1,0 +1,10 @@
+variant,assumed_independent_units,cliff_delta,conditional_percentile_lower,conditional_percentile_upper,confidence_level,repetitions,seed,resampling_units,stratified_by_frozen_profile,invalid_replicates,population_interval_validity_established,profile_estimation_uncertainty_included
+full,independent_records_reference,-0.0559012479863362,-0.12106098247384663,0.007597383692719745,0.95,10000,42701,1104,True,0,False,False
+full,intact_full_record_patterns,-0.0559012479863362,-0.13092019268659044,0.018237741960858058,0.95,10000,42702,942,True,0,False,False
+full,literal_institution_labels,-0.0559012479863362,-0.1126954866080093,0.0765655748205707,0.95,10000,42703,30,False,0,False,False
+quality_fixed_profiles,independent_records_reference,-0.05747831523013206,-0.12118924357271234,0.007338829413143688,0.95,10000,42711,1099,True,0,False,False
+quality_fixed_profiles,intact_full_record_patterns,-0.05747831523013206,-0.130814947141833,0.016224722036609573,0.95,10000,42712,937,True,0,False,False
+quality_fixed_profiles,literal_institution_labels,-0.05747831523013206,-0.11385019825385675,0.07541716200892275,0.95,10000,42713,30,False,0,False,False
+quality_refit_profiles,independent_records_reference,-0.0540395057105411,-0.11675891686950009,0.01145648052799101,0.95,10000,42721,1099,True,0,False,False
+quality_refit_profiles,intact_full_record_patterns,-0.0540395057105411,-0.13076131192267904,0.020446583742915164,0.95,10000,42722,937,True,0,False,False
+quality_refit_profiles,literal_institution_labels,-0.0540395057105411,-0.11164397274594894,0.0747800826176111,0.95,10000,42723,30,False,0,False,False

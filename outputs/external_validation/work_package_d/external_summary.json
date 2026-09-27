@@ -1,0 +1,87 @@
+{
+  "package": "D",
+  "baseline_commit": "dad222a9a0143887e7e25a72e656ec21d0ebc253",
+  "python_hash_seed": "0",
+  "source_sha256": "985c39bd5ad4e0f9278a059e6eaa8aa0ddacac51913b1996421880ad8062ff4a",
+  "source_url": "https://zenodo.org/records/21013786",
+  "settings_sha256": "735a17ff69471de8e31ff8c818f4e4661a02984c175c8a41b74217a6bf7e15ed",
+  "crosswalk_sha256": "55bc660cf475772258587a2fb13605a5e429c2b074a8fd0ca6e329068f9c5b1a",
+  "code_sha256": {
+    "cross_cultural.py": "e1c9bcd905d5cbf7fc381b9500e0822ff0d333bc2124ea2c72579b5ca6e44ce3",
+    "ordinal_invariance.R": "a67f6a051ebae487c0cbfb75a8017a7813053f07fe2253cf6c3c22b925daca80"
+  },
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "openpyxl": "3.1.5",
+    "semopy": "2.3.11"
+  },
+  "ordinal_engine": {
+    "estimator": "WLSMV",
+    "parameterization": "theta",
+    "identification": "semTools Wu.Estabrook.2016 with std.lv",
+    "versions": {
+      "R": "4.6.1",
+      "lavaan": "0.7.2",
+      "semTools": "0.5.6"
+    },
+    "warnings": [],
+    "decisions": {
+      "GAID": {
+        "status": "blocked_configural_screen",
+        "reason": "At least one country or multigroup configural model fails the declared fit/admissibility screen. Equality constraints are not interpreted."
+      },
+      "CT": {
+        "status": "blocked_category_support",
+        "reason": "At least one item lacks a category within a country; no category collapsing."
+      },
+      "TP": {
+        "status": "blocked_category_support",
+        "reason": "At least one item lacks a category within a country; no category collapsing."
+      }
+    }
+  },
+  "warnings": [],
+  "bangladesh_compatibility": "No identical anchors; content, response meaning and populations differ. No pooling, score harmonization, profile transfer or latent invariance test with Bangladesh.",
+  "cross_country_method": "Parallel country-specific observed-item Spearman associations with tie-aware permutation tests and Holm correction. No latent means, total scores, standardized country scores or country-causal tests.",
+  "relationships": [
+    [
+      "GAID6",
+      "CT9"
+    ],
+    [
+      "GAID6",
+      "TP6"
+    ]
+  ],
+  "relationship_scope": "GAID6 concerns confidence without AI; CT9 concerns general credibility checking; TP6 concerns self-rated efficiency. These are individual responses, not validated scales or CGPA.",
+  "population": "Separate U.S. and Indonesian undergraduate business-related samples; no representative national sampling claim. Country is the recorded national sample, not a randomized culture exposure.",
+  "translation_evidence": "A common English Codebook is supplied; original administered Indonesian item forms and translation-validation evidence are absent from this release.",
+  "performance_conflict": "Advisor guidance suggesting more objective performance is unsupported: TP1-TP7 are self-reported agreement items, not recorded grades or a performance test.",
+  "standardization_decision": "Within-country z-scores cannot create common item content or measurement equivalence and would erase country mean differences by construction; not used.",
+  "invariance_interpretation": "A failed configural/support screen is not a formal rejection of every possible invariant model. No partial-invariance, item-deletion or category-merging search is performed.",
+  "raw_rows_deleted": 0,
+  "source_values_and_order_unchanged": true,
+  "country_identities_preserved": true,
+  "vietnam_used": false,
+  "acceptance_status": "requires_manual_scientific_review",
+  "artifact_sha256": {
+    "workbook_inventory.csv": "7b0c35dd2104885d1575f9b0188fddbd1e595c6867d587e2b7a2ce2528ec705c",
+    "field_audit.csv": "8705d09c6231217ff761fd124d0100fb37d6b914e005b1303bc99573bb39c1a1",
+    "sample_accounting.csv": "556cd49d9e25b0644e9a610259a14d504e192511fea5f9768edb6d5d86422821",
+    "population_marginals.csv": "93431a292d56600cf5170f821e1365779f792c2e6c8eda55b1900ac40659d8ac",
+    "item_compatibility.csv": "ea006b8e8c3b23c0e98494d77dd0b3dba566309e1563ad0259c89486736e17c4",
+    "bangladesh_item_coverage.csv": "f889a5af7e746c894cbefc7334b745d5fdd3aebfcefb8a11ea8a339173675ba3",
+    "item_distributions.csv": "b1a47ee42c33a24a2406cb2065b5d9ae13b38d4c9c3e0655f2f60c161b3335b7",
+    "item_category_support.csv": "1cf95d92c3b6c4906f4c498f845ec8cf54761fb2b8c64e0e360753b141c16419",
+    "subdimension_reliability.csv": "65257373c52607bb20f556593854a109efd917b7847477285c12eb02958b84a4",
+    "country_factor_diagnostics.csv": "50803138966ac25773ff89afe629b888a9dfecde3d38b192e4450c221b675265",
+    "country_factor_loadings.csv": "380fd7e7d86f13cb7ac633b0bd267e325bd5cded8456162c85b214dbc4011bff",
+    "country_factor_correlations.csv": "8369c4c8157f9c0fc7d5445682006f7b983315e691a589618ce20d7eb28a449f",
+    "ordinal_model_fit.csv": "2f5e671dae0c487aaad771c20c39eb7d6210ac54aad413c5b59a099f4324af15",
+    "ordinal_model_parameters.csv": "18618692782b056002289b886c735723ff1a6d4760166ce51759b885a7422ab1",
+    "ordinal_equality_comparisons.csv": "0c573673a9dbe86de6b97de76bacae5c38f017048aab6b81d2d537f7d3cd528c",
+    "observed_item_associations.csv": "e1e342b9e0461e7d7f32b045469dd688b7a23ba1ba03efe1fb712d00d8733140"
+  }
+}

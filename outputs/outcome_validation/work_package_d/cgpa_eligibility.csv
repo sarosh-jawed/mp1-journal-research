@@ -1,0 +1,5 @@
+raw_value,records,status,order_code,exact_grade_observed,midpoint_imputed
+3.01-3.50,649,eligible_ordered_band,2,False,False
+Above 3.50,243,eligible_ordered_band,3,False,False
+2.51-3.00,204,eligible_ordered_band,1,False,False
+Below 2.50,8,eligible_ordered_band,0,False,False
