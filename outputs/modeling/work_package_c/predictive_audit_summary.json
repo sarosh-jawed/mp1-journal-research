@@ -1,0 +1,130 @@
+{
+  "work_package": "C",
+  "baseline_commit": "d8fdf7a6d9352b41baa8167d5ec7c9811d11c5ed",
+  "research_control_read": {
+    "document_id": "19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o",
+    "revision_id": "ANLCKQn-B-1SIedyptNFYvUHFZNSAgipNR9k3fcH_jRaRspGNFRQggmQpQqeAa1IjM5cLY94n4MJSMIdjbfqfTETih_ymD1FwWcRg3MgWe4",
+    "paragraph_text_sha256": "37e0d8d17784b587be27d594a564c198152bcc3ce1f30860756d79995061d098"
+  },
+  "analysis_config_sha256": "2ea62d0f97d41a14014b2ff1878ad802db320fa59fd9cb479dcde6f971d4b14f",
+  "audit_config_sha256": "815775ffa8455fee236481da09c70b696f75f6db065e9f809b8430edea66b6b2",
+  "source_sha256": "3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2",
+  "quality_flags_sha256": "322854f24cf209f46fb33a5cf71f54fe2ca72be0a60b32d6188ee4d1ed9c76e1",
+  "accepted_evidence": {
+    "analysis_config_sha256": "2ea62d0f97d41a14014b2ff1878ad802db320fa59fd9cb479dcde6f971d4b14f",
+    "manifests": {
+      "outputs/psychometrics/measurement_summary.json": "3e1ceb90db5124519845b986f31b73b41bcf5ae93c516fec8930b847fb6c9b29",
+      "outputs/clustering/clustering_summary.json": "4efeeb180a1dfb31c11033cd66a57830507471dbb8831bfb9ec5a718b38e99bc"
+    },
+    "measurement_manifest": "outputs/psychometrics/measurement_summary.json",
+    "clustering_manifest": "outputs/clustering/clustering_summary.json",
+    "expected_rows": {
+      "full": 2613,
+      "sensitivity": 2512
+    },
+    "expected_sizes": {
+      "full": [
+        2406,
+        207
+      ],
+      "sensitivity": [
+        2307,
+        205
+      ]
+    },
+    "centroid_absolute_tolerance": 1e-12,
+    "minimum_assignment_margin": 1e-12
+  },
+  "code_sha256": {
+    "target_audit.py": "dc00950aa0e7eaf9991b5aa459a52783b12263ca6add9fdfca4ee50362f321ee",
+    "predictive_audit.py": "292208ce076b8cdfe73a4d1137e066d524fd1af089405970c0217a307b232071"
+  },
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "semopy": "2.3.11",
+    "factor-analyzer": "0.5.1"
+  },
+  "target": {
+    "D5_P1": "Accepted B cluster 1, neutral identifier.",
+    "D5_P2": "Accepted B cluster 2, neutral identifier.",
+    "primary_definition": "Accepted full-sample ordinal-item k=2 partition; fixed before the design audit.",
+    "new_population_validation": false
+  },
+  "gate": {
+    "status": "blocked",
+    "target_leakage_eligible_contextual_fields": [
+      "Gender",
+      "Age",
+      "University Type",
+      "Academic Level",
+      "Department/Discipline"
+    ],
+    "independent_psychological_predictors": [],
+    "psychological_correlate_question_supported": false,
+    "metadata_question_meaningful_in_principle": true,
+    "metadata_descriptive_comparison_defensible": true,
+    "predictive_comparison_defensible_under_current_design": false,
+    "intact_pattern_stratification_obstruction": true,
+    "respondent_independence_established": false,
+    "modeling_performed": false,
+    "explainability_performed": false,
+    "reason": "Only contextual metadata avoids target construction. Repeated anonymous full records have unresolved dependence. Intact-pattern protection is incompatible with the requested class allocation when a group exceeds both allocations. A record-random benchmark would largely evaluate already-seen patterns. No independent psychological correlates can be identified. Retain descriptive metadata tables and request an advisor decision or source clarification before any predictive fitting."
+  },
+  "diagnostic_design": {
+    "split_seed": 42,
+    "cv_seed": 43,
+    "scope": "indices_only_no_predictive_fit",
+    "sensitivity_split": "reuse_full_sample_record_assignments",
+    "group_basis": "exact_full_raw_record",
+    "group_interpretation": "conservative_dependence_audit_not_verified_people",
+    "test_size": 0.2,
+    "cv_folds": 5,
+    "primary_metric": "macro_f1"
+  },
+  "sensitivity": {
+    "full_records": 2613,
+    "straight_line_records": 101,
+    "retained_records": 2512,
+    "permanent_exclusions": 0,
+    "fixed_target_P1_records": 2305,
+    "fixed_target_P2_records": 207,
+    "refit_target_P1_records": 2307,
+    "refit_target_P2_records": 205,
+    "changed_assignment_records": 2,
+    "full_sensitivity_ari": 0.9937792070102187
+  },
+  "performance_metrics": {
+    "status": "not_applicable_gate_blocked",
+    "best_model": null
+  },
+  "explanations": {
+    "status": "not_applicable_gate_blocked",
+    "causal_claims": false
+  },
+  "policies": {
+    "raw_rows_modified": 0,
+    "permanent_exclusions": 0,
+    "deduplication": false,
+    "reweighting": false,
+    "hypothesis_tests": false,
+    "joint_metadata_values_released": false,
+    "test_performance_evaluated": false,
+    "A_B_modified": false,
+    "D_E_started": false
+  },
+  "acceptance_status": "audit_complete_pending_researcher_acceptance; predictive_work_blocked",
+  "artifact_sha256": {
+    "feature_eligibility.csv": "0604a3a261f876eda1deb8c24162ca32a37de47c80edd2a22e0542b3186475a1",
+    "derived_information_policy.csv": "5a7d64c5553d1252adbc7d1f6448d717d73667db82a3dbeeb4143747c2cf7b8c",
+    "target_reconstruction.csv": "06d318a3372361955879d31e3d908f616c766ec9c4cf4e73b7b5691e3e1ab2f0",
+    "quality_target_comparison.csv": "e606b324fabc58b316243496e1901f9a6ca878744e38e87fd1c863a1148cdc2f",
+    "record_concentration.csv": "aa5c83c2897c11a64b6335d03771ad08cb078de1b072a96f4817691567b42a41",
+    "evaluation_overlap.csv": "489f27a7da66757fd53b843433b4a80eef7b0989d08f4b9f4fb15db15a7fdadc",
+    "group_allocation_feasibility.csv": "b5a34d1268e974c00964c1a55ba4d1c6782e169938d34cbdf986284e15ccd4f7",
+    "metadata_profile_descriptions.csv": "de24322f72e12e6448d8933e071fcc6a63c20dd74c8a265157e84f22438a61c9",
+    "summary.md": "02098f1060fb13777f139e79eb338b741014fa59130e3c1ffbfb7f5c653b6472"
+  }
+}

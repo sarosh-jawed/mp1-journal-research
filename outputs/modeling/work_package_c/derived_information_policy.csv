@@ -1,0 +1,16 @@
+information,derived_from_target_defining_information,candidate_predictor,final_eligibility_decision,reason
+section_scores,yes,no,ineligible,"Any sums, means, or weighted composites of the 25 items."
+factor_scores_or_embeddings,yes,no,ineligible,"Includes factors, PCA, encodings and learned representations."
+centroid_distances_or_geometry,yes,no,ineligible,"Includes silhouettes, margins and cluster probabilities."
+quality_straight_line,yes,no,ineligible,"Sensitivity control only, never a predictor."
+include_sensitivity,yes,no,ineligible,Complement of the straight-line flag; sensitivity control only.
+quality_assessable,yes,no,ineligible,Item-response quality control only.
+has_missing_survey_response,yes,no,ineligible,Item-response quality control only.
+has_invalid_survey_response,yes,no,ineligible,Item-response quality control only.
+invariant_response,yes,no,ineligible,Contains target-defining item content.
+exact_record_or_item_pattern_group,yes,no,ineligible,Dependence audit only; full records include all target items.
+target_membership_or_relabeling,yes,no,ineligible,"The outcome itself, including alternate encodings."
+source_record_number_or_index,no,no,ineligible,Administrative position is not an independently measured predictor.
+source_sha256_or_dataset,no,no,ineligible,"Provenance identifiers, not measured contextual variables."
+include_full_sample,no,no,ineligible,"Constant retention control, never a predictor."
+diagnostic_split_or_fold,yes,no,ineligible,"Design control stratified using the target, never a predictor."

@@ -44,8 +44,8 @@ All transformations must be reproducible from immutable raw inputs.
 
 ## Active analysis
 
-Work Package A is closed for analytic execution. Its source documentation limitations remain
-recorded without invented corrections. Work Package B evaluates measurement and cluster structure:
+Work Packages A and B are accepted. Their source documentation and measurement limitations remain
+recorded without invented corrections. The accepted B entry points are:
 
 - `scripts/psychometrics_analysis.py`
 - `scripts/clustering_analysis.py`
@@ -64,7 +64,22 @@ Measurement must run first. Both full and quality-sensitivity analyses are expli
 quality flags are read from `data/processed/response_quality_flags.csv`; if missing in a fresh clone,
 regenerate them with `scripts/response_quality.py`. No raw records are changed. Cluster memberships
 remain private under `data/interim/work_package_b/`. Review aggregates before committing them.
-No predictive, outcome, or cross-cultural analysis is authorized by this implementation.
+The active work is C. Its target and leakage audit reproduces B exactly, but withholds predictive
+modeling and explainability because the repeated-record structure prevents a defensible comparison
+under the planned held-out design. Read `docs/predictive_feasibility.md`. The retained C alternative
+describes metadata marginals and the evaluation blocker. No D or E analysis has begun.
+
+For C, read the accepted B outputs without rerunning or modifying B. Run:
+
+```bash
+PYTHONPATH=src python scripts/predictive_audit.py --config config/analysis.yaml --audit-config config/work_package_c.yaml
+```
+
+Optional `--d5-raw`, `--quality-flags`, and `--accepted-memberships` arguments accept existing input
+paths. Only D5 and its accepted flags are required. Original B memberships are additionally checked
+when available. C aggregates are under `outputs/modeling/work_package_c/`; record-level target and
+diagnostic split files are ignored under `data/interim/work_package_c/`. A successful audit command
+can report a scientific blocker. It does not authorize or train classifiers.
 
 ## Quality standard
 

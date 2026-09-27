@@ -46,17 +46,23 @@ For every code delivery:
 
 ## Current starting point
 
-The active work is Work Package B: measurement and cluster structure.
+The active work is Work Package C: predictive modeling and explainability.
 
-Research Control closed Work Package A for analytic execution on 2026-09-26. Source documentation
-questions remain external limitations. Do not remove repeated records or invent institution aliases.
-Reuse the accepted quality flags and immutable source readers.
+Research Control accepted A and B on 2026-09-26. Source documentation questions remain external
+limitations. Do not remove repeated records or invent institution aliases. Preserve accepted A/B
+code, configuration and outputs. Reuse the accepted quality flags and immutable source readers.
 
-The current entry points are:
+The C entry point is:
 
-- `scripts/psychometrics_analysis.py`
-- `scripts/clustering_analysis.py`
+- `scripts/predictive_audit.py`
 
-Run measurement before clustering. Read `docs/measurement_cluster_structure.md` before interpreting
-the outputs. A reproducible partition is not proof of psychological types, particularly when one
-exact repeated record dominates a cluster. Do not begin Work Package C without explicit authorization.
+Read `docs/measurement_cluster_structure.md` and `docs/predictive_feasibility.md`. The C audit exactly
+reconstructs B's full and sensitivity targets, excludes all target-defining survey information, and
+retains a descriptive metadata alternative. Predictive fitting is blocked: the 200-record pattern
+cannot remain intact under the planned 166/41 smaller-class train/test allocation. These patterns
+are not verified people. The five metadata candidates do not answer the psychological-correlate
+question, and ordinary record-random testing does not resolve their dependence uncertainty.
+
+No classifier or explanation method has been run. Do not bypass the gate, silently redefine the
+target, or treat repeated records as independently verified people. Advisor acceptance of the
+blocker and any future design change is pending. Do not begin D or E.

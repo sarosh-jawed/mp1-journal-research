@@ -1,0 +1,319 @@
+column,value,class_id,records,category_records,class_records,class_fraction_within_category,category_fraction_within_class,variant
+Gender,Female,D5_P1,1061,1062,2406,0.9990583804143126,0.44098088113050704,full
+Gender,Female,D5_P2,1,1062,207,0.0009416195856873823,0.004830917874396135,full
+Gender,Male,D5_P1,1345,1551,2406,0.8671824629271437,0.559019118869493,full
+Gender,Male,D5_P2,206,1551,207,0.13281753707285623,0.9951690821256038,full
+Age,18,D5_P1,171,171,2406,1.0,0.07107231920199501,full
+Age,18,D5_P2,0,171,207,0.0,0.0,full
+Age,19,D5_P1,217,217,2406,1.0,0.09019118869492934,full
+Age,19,D5_P2,0,217,207,0.0,0.0,full
+Age,20,D5_P1,193,393,2406,0.4910941475826972,0.08021612635078969,full
+Age,20,D5_P2,200,393,207,0.5089058524173028,0.966183574879227,full
+Age,21,D5_P1,199,199,2406,1.0,0.08270989193682461,full
+Age,21,D5_P2,0,199,207,0.0,0.0,full
+Age,22,D5_P1,318,318,2406,1.0,0.13216957605985039,full
+Age,22,D5_P2,0,318,207,0.0,0.0,full
+Age,23,D5_P1,365,365,2406,1.0,0.1517040731504572,full
+Age,23,D5_P2,0,365,207,0.0,0.0,full
+Age,24,D5_P1,274,281,2406,0.9750889679715302,0.11388196176226101,full
+Age,24,D5_P2,7,281,207,0.02491103202846975,0.033816425120772944,full
+Age,25,D5_P1,157,157,2406,1.0,0.06525353283458021,full
+Age,25,D5_P2,0,157,207,0.0,0.0,full
+Age,26,D5_P1,184,184,2406,1.0,0.07647547797173733,full
+Age,26,D5_P2,0,184,207,0.0,0.0,full
+Age,27,D5_P1,184,184,2406,1.0,0.07647547797173733,full
+Age,27,D5_P2,0,184,207,0.0,0.0,full
+Age,28,D5_P1,144,144,2406,1.0,0.059850374064837904,full
+Age,28,D5_P2,0,144,207,0.0,0.0,full
+University Type,Other,D5_P1,4,4,2406,1.0,0.0016625103906899418,full
+University Type,Other,D5_P2,0,4,207,0.0,0.0,full
+University Type,Private University,D5_P1,1242,1445,2406,0.859515570934256,0.516209476309227,full
+University Type,Private University,D5_P2,203,1445,207,0.14048442906574393,0.9806763285024155,full
+University Type,Public University,D5_P1,1160,1164,2406,0.9965635738831615,0.48212801330008315,full
+University Type,Public University,D5_P2,4,1164,207,0.003436426116838488,0.01932367149758454,full
+Academic Level,Postgraduate,D5_P1,1022,1026,2406,0.9961013645224172,0.4247714048212801,full
+Academic Level,Postgraduate,D5_P2,4,1026,207,0.003898635477582846,0.01932367149758454,full
+Academic Level,Undergraduate,D5_P1,1384,1587,2406,0.8720856962822936,0.5752285951787198,full
+Academic Level,Undergraduate,D5_P2,203,1587,207,0.12791430371770637,0.9806763285024155,full
+Department/Discipline,Accounting,D5_P1,16,16,2406,1.0,0.006650041562759767,full
+Department/Discipline,Accounting,D5_P2,0,16,207,0.0,0.0,full
+Department/Discipline,Architecture,D5_P1,168,168,2406,1.0,0.06982543640897755,full
+Department/Discipline,Architecture,D5_P2,0,168,207,0.0,0.0,full
+Department/Discipline,BBA,D5_P1,235,235,2406,1.0,0.09767248545303409,full
+Department/Discipline,BBA,D5_P2,0,235,207,0.0,0.0,full
+Department/Discipline,CSE,D5_P1,282,289,2406,0.9757785467128027,0.1172069825436409,full
+Department/Discipline,CSE,D5_P2,7,289,207,0.02422145328719723,0.033816425120772944,full
+Department/Discipline,Chemical Engineering,D5_P1,15,15,2406,1.0,0.006234413965087282,full
+Department/Discipline,Chemical Engineering,D5_P2,0,15,207,0.0,0.0,full
+Department/Discipline,Chemistry,D5_P1,15,15,2406,1.0,0.006234413965087282,full
+Department/Discipline,Chemistry,D5_P2,0,15,207,0.0,0.0,full
+Department/Discipline,Civil Engineering,D5_P1,152,152,2406,1.0,0.06317539484621779,full
+Department/Discipline,Civil Engineering,D5_P2,0,152,207,0.0,0.0,full
+Department/Discipline,Computer Science and Engineering,D5_P1,14,14,2406,1.0,0.005818786367414797,full
+Department/Discipline,Computer Science and Engineering,D5_P2,0,14,207,0.0,0.0,full
+Department/Discipline,Development Studies,D5_P1,12,12,2406,1.0,0.004987531172069825,full
+Department/Discipline,Development Studies,D5_P2,0,12,207,0.0,0.0,full
+Department/Discipline,EEE,D5_P1,222,222,2406,1.0,0.09226932668329177,full
+Department/Discipline,EEE,D5_P2,0,222,207,0.0,0.0,full
+Department/Discipline,Economics,D5_P1,215,215,2406,1.0,0.08935993349958438,full
+Department/Discipline,Economics,D5_P2,0,215,207,0.0,0.0,full
+Department/Discipline,Electrical and Electronic Engineering,D5_P1,10,10,2406,1.0,0.004156275976724855,full
+Department/Discipline,Electrical and Electronic Engineering,D5_P2,0,10,207,0.0,0.0,full
+Department/Discipline,English,D5_P1,194,394,2406,0.49238578680203043,0.08063175394846218,full
+Department/Discipline,English,D5_P2,200,394,207,0.5076142131979695,0.966183574879227,full
+Department/Discipline,Environmental Science,D5_P1,13,13,2406,1.0,0.005403158769742311,full
+Department/Discipline,Environmental Science,D5_P2,0,13,207,0.0,0.0,full
+Department/Discipline,Finance,D5_P1,16,16,2406,1.0,0.006650041562759767,full
+Department/Discipline,Finance,D5_P2,0,16,207,0.0,0.0,full
+Department/Discipline,Human Resource Management,D5_P1,16,16,2406,1.0,0.006650041562759767,full
+Department/Discipline,Human Resource Management,D5_P2,0,16,207,0.0,0.0,full
+Department/Discipline,Industrial and Production Engineering,D5_P1,13,13,2406,1.0,0.005403158769742311,full
+Department/Discipline,Industrial and Production Engineering,D5_P2,0,13,207,0.0,0.0,full
+Department/Discipline,Information Technology,D5_P1,16,16,2406,1.0,0.006650041562759767,full
+Department/Discipline,Information Technology,D5_P2,0,16,207,0.0,0.0,full
+Department/Discipline,International Business,D5_P1,15,15,2406,1.0,0.006234413965087282,full
+Department/Discipline,International Business,D5_P2,0,15,207,0.0,0.0,full
+Department/Discipline,Journalism and Media Studies,D5_P1,18,18,2406,1.0,0.007481296758104738,full
+Department/Discipline,Journalism and Media Studies,D5_P2,0,18,207,0.0,0.0,full
+Department/Discipline,Law,D5_P1,204,204,2406,1.0,0.08478802992518704,full
+Department/Discipline,Law,D5_P2,0,204,207,0.0,0.0,full
+Department/Discipline,Management,D5_P1,15,15,2406,1.0,0.006234413965087282,full
+Department/Discipline,Management,D5_P2,0,15,207,0.0,0.0,full
+Department/Discipline,Marketing,D5_P1,14,14,2406,1.0,0.005818786367414797,full
+Department/Discipline,Marketing,D5_P2,0,14,207,0.0,0.0,full
+Department/Discipline,Mass Communication,D5_P1,16,16,2406,1.0,0.006650041562759767,full
+Department/Discipline,Mass Communication,D5_P2,0,16,207,0.0,0.0,full
+Department/Discipline,Mathematics,D5_P1,163,163,2406,1.0,0.06774729842061512,full
+Department/Discipline,Mathematics,D5_P2,0,163,207,0.0,0.0,full
+Department/Discipline,Mechanical Engineering,D5_P1,13,13,2406,1.0,0.005403158769742311,full
+Department/Discipline,Mechanical Engineering,D5_P2,0,13,207,0.0,0.0,full
+Department/Discipline,Pharmacy,D5_P1,175,175,2406,1.0,0.07273482959268496,full
+Department/Discipline,Pharmacy,D5_P2,0,175,207,0.0,0.0,full
+Department/Discipline,Physics,D5_P1,18,18,2406,1.0,0.007481296758104738,full
+Department/Discipline,Physics,D5_P2,0,18,207,0.0,0.0,full
+Department/Discipline,Political Science,D5_P1,10,10,2406,1.0,0.004156275976724855,full
+Department/Discipline,Political Science,D5_P2,0,10,207,0.0,0.0,full
+Department/Discipline,Psychology,D5_P1,16,16,2406,1.0,0.006650041562759767,full
+Department/Discipline,Psychology,D5_P2,0,16,207,0.0,0.0,full
+Department/Discipline,Public Administration,D5_P1,10,10,2406,1.0,0.004156275976724855,full
+Department/Discipline,Public Administration,D5_P2,0,10,207,0.0,0.0,full
+Department/Discipline,Sociology,D5_P1,17,17,2406,1.0,0.007065669160432253,full
+Department/Discipline,Sociology,D5_P2,0,17,207,0.0,0.0,full
+Department/Discipline,Software Engineering,D5_P1,50,50,2406,1.0,0.020781379883624274,full
+Department/Discipline,Software Engineering,D5_P2,0,50,207,0.0,0.0,full
+Department/Discipline,Statistics,D5_P1,14,14,2406,1.0,0.005818786367414797,full
+Department/Discipline,Statistics,D5_P2,0,14,207,0.0,0.0,full
+Department/Discipline,Textile Engineering,D5_P1,14,14,2406,1.0,0.005818786367414797,full
+Department/Discipline,Textile Engineering,D5_P2,0,14,207,0.0,0.0,full
+Gender,Female,D5_P1,1012,1013,2305,0.9990128331688055,0.4390455531453362,sensitivity_fixed_target
+Gender,Female,D5_P2,1,1013,207,0.0009871668311944718,0.004830917874396135,sensitivity_fixed_target
+Gender,Male,D5_P1,1293,1499,2305,0.8625750500333556,0.5609544468546638,sensitivity_fixed_target
+Gender,Male,D5_P2,206,1499,207,0.13742494996664442,0.9951690821256038,sensitivity_fixed_target
+Age,18,D5_P1,171,171,2305,1.0,0.07418655097613883,sensitivity_fixed_target
+Age,18,D5_P2,0,171,207,0.0,0.0,sensitivity_fixed_target
+Age,19,D5_P1,197,197,2305,1.0,0.08546637744034707,sensitivity_fixed_target
+Age,19,D5_P2,0,197,207,0.0,0.0,sensitivity_fixed_target
+Age,20,D5_P1,173,373,2305,0.46380697050938335,0.07505422993492408,sensitivity_fixed_target
+Age,20,D5_P2,200,373,207,0.5361930294906166,0.966183574879227,sensitivity_fixed_target
+Age,21,D5_P1,179,179,2305,1.0,0.07765726681127982,sensitivity_fixed_target
+Age,21,D5_P2,0,179,207,0.0,0.0,sensitivity_fixed_target
+Age,22,D5_P1,298,298,2305,1.0,0.12928416485900218,sensitivity_fixed_target
+Age,22,D5_P2,0,298,207,0.0,0.0,sensitivity_fixed_target
+Age,23,D5_P1,345,345,2305,1.0,0.14967462039045554,sensitivity_fixed_target
+Age,23,D5_P2,0,345,207,0.0,0.0,sensitivity_fixed_target
+Age,24,D5_P1,274,281,2305,0.9750889679715302,0.11887201735357918,sensitivity_fixed_target
+Age,24,D5_P2,7,281,207,0.02491103202846975,0.033816425120772944,sensitivity_fixed_target
+Age,25,D5_P1,156,156,2305,1.0,0.06767895878524946,sensitivity_fixed_target
+Age,25,D5_P2,0,156,207,0.0,0.0,sensitivity_fixed_target
+Age,26,D5_P1,184,184,2305,1.0,0.07982646420824295,sensitivity_fixed_target
+Age,26,D5_P2,0,184,207,0.0,0.0,sensitivity_fixed_target
+Age,27,D5_P1,184,184,2305,1.0,0.07982646420824295,sensitivity_fixed_target
+Age,27,D5_P2,0,184,207,0.0,0.0,sensitivity_fixed_target
+Age,28,D5_P1,144,144,2305,1.0,0.062472885032537964,sensitivity_fixed_target
+Age,28,D5_P2,0,144,207,0.0,0.0,sensitivity_fixed_target
+University Type,Other,D5_P1,4,4,2305,1.0,0.0017353579175704988,sensitivity_fixed_target
+University Type,Other,D5_P2,0,4,207,0.0,0.0,sensitivity_fixed_target
+University Type,Private University,D5_P1,1194,1397,2305,0.854688618468146,0.5180043383947939,sensitivity_fixed_target
+University Type,Private University,D5_P2,203,1397,207,0.14531138153185397,0.9806763285024155,sensitivity_fixed_target
+University Type,Public University,D5_P1,1107,1111,2305,0.9963996399639964,0.48026030368763556,sensitivity_fixed_target
+University Type,Public University,D5_P2,4,1111,207,0.0036003600360036,0.01932367149758454,sensitivity_fixed_target
+Academic Level,Postgraduate,D5_P1,977,981,2305,0.9959225280326198,0.42386117136659435,sensitivity_fixed_target
+Academic Level,Postgraduate,D5_P2,4,981,207,0.004077471967380225,0.01932367149758454,sensitivity_fixed_target
+Academic Level,Undergraduate,D5_P1,1328,1531,2305,0.8674069235793599,0.5761388286334056,sensitivity_fixed_target
+Academic Level,Undergraduate,D5_P2,203,1531,207,0.1325930764206401,0.9806763285024155,sensitivity_fixed_target
+Department/Discipline,Accounting,D5_P1,16,16,2305,1.0,0.006941431670281995,sensitivity_fixed_target
+Department/Discipline,Accounting,D5_P2,0,16,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Architecture,D5_P1,168,168,2305,1.0,0.07288503253796096,sensitivity_fixed_target
+Department/Discipline,Architecture,D5_P2,0,168,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,BBA,D5_P1,235,235,2305,1.0,0.1019522776572668,sensitivity_fixed_target
+Department/Discipline,BBA,D5_P2,0,235,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,CSE,D5_P1,247,254,2305,0.9724409448818898,0.10715835140997831,sensitivity_fixed_target
+Department/Discipline,CSE,D5_P2,7,254,207,0.027559055118110236,0.033816425120772944,sensitivity_fixed_target
+Department/Discipline,Chemical Engineering,D5_P1,15,15,2305,1.0,0.006507592190889371,sensitivity_fixed_target
+Department/Discipline,Chemical Engineering,D5_P2,0,15,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Chemistry,D5_P1,15,15,2305,1.0,0.006507592190889371,sensitivity_fixed_target
+Department/Discipline,Chemistry,D5_P2,0,15,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Civil Engineering,D5_P1,152,152,2305,1.0,0.06594360086767896,sensitivity_fixed_target
+Department/Discipline,Civil Engineering,D5_P2,0,152,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Computer Science and Engineering,D5_P1,14,14,2305,1.0,0.006073752711496746,sensitivity_fixed_target
+Department/Discipline,Computer Science and Engineering,D5_P2,0,14,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Development Studies,D5_P1,12,12,2305,1.0,0.005206073752711497,sensitivity_fixed_target
+Department/Discipline,Development Studies,D5_P2,0,12,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,EEE,D5_P1,189,189,2305,1.0,0.08199566160520608,sensitivity_fixed_target
+Department/Discipline,EEE,D5_P2,0,189,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Economics,D5_P1,215,215,2305,1.0,0.09327548806941431,sensitivity_fixed_target
+Department/Discipline,Economics,D5_P2,0,215,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Electrical and Electronic Engineering,D5_P1,10,10,2305,1.0,0.004338394793926247,sensitivity_fixed_target
+Department/Discipline,Electrical and Electronic Engineering,D5_P2,0,10,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,English,D5_P1,194,394,2305,0.49238578680203043,0.0841648590021692,sensitivity_fixed_target
+Department/Discipline,English,D5_P2,200,394,207,0.5076142131979695,0.966183574879227,sensitivity_fixed_target
+Department/Discipline,Environmental Science,D5_P1,13,13,2305,1.0,0.005639913232104121,sensitivity_fixed_target
+Department/Discipline,Environmental Science,D5_P2,0,13,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Finance,D5_P1,16,16,2305,1.0,0.006941431670281995,sensitivity_fixed_target
+Department/Discipline,Finance,D5_P2,0,16,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Human Resource Management,D5_P1,16,16,2305,1.0,0.006941431670281995,sensitivity_fixed_target
+Department/Discipline,Human Resource Management,D5_P2,0,16,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Industrial and Production Engineering,D5_P1,13,13,2305,1.0,0.005639913232104121,sensitivity_fixed_target
+Department/Discipline,Industrial and Production Engineering,D5_P2,0,13,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Information Technology,D5_P1,16,16,2305,1.0,0.006941431670281995,sensitivity_fixed_target
+Department/Discipline,Information Technology,D5_P2,0,16,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,International Business,D5_P1,15,15,2305,1.0,0.006507592190889371,sensitivity_fixed_target
+Department/Discipline,International Business,D5_P2,0,15,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Journalism and Media Studies,D5_P1,18,18,2305,1.0,0.0078091106290672455,sensitivity_fixed_target
+Department/Discipline,Journalism and Media Studies,D5_P2,0,18,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Law,D5_P1,204,204,2305,1.0,0.08850325379609544,sensitivity_fixed_target
+Department/Discipline,Law,D5_P2,0,204,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Management,D5_P1,15,15,2305,1.0,0.006507592190889371,sensitivity_fixed_target
+Department/Discipline,Management,D5_P2,0,15,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Marketing,D5_P1,14,14,2305,1.0,0.006073752711496746,sensitivity_fixed_target
+Department/Discipline,Marketing,D5_P2,0,14,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Mass Communication,D5_P1,16,16,2305,1.0,0.006941431670281995,sensitivity_fixed_target
+Department/Discipline,Mass Communication,D5_P2,0,16,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Mathematics,D5_P1,163,163,2305,1.0,0.07071583514099783,sensitivity_fixed_target
+Department/Discipline,Mathematics,D5_P2,0,163,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Mechanical Engineering,D5_P1,13,13,2305,1.0,0.005639913232104121,sensitivity_fixed_target
+Department/Discipline,Mechanical Engineering,D5_P2,0,13,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Pharmacy,D5_P1,175,175,2305,1.0,0.07592190889370933,sensitivity_fixed_target
+Department/Discipline,Pharmacy,D5_P2,0,175,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Physics,D5_P1,18,18,2305,1.0,0.0078091106290672455,sensitivity_fixed_target
+Department/Discipline,Physics,D5_P2,0,18,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Political Science,D5_P1,10,10,2305,1.0,0.004338394793926247,sensitivity_fixed_target
+Department/Discipline,Political Science,D5_P2,0,10,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Psychology,D5_P1,16,16,2305,1.0,0.006941431670281995,sensitivity_fixed_target
+Department/Discipline,Psychology,D5_P2,0,16,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Public Administration,D5_P1,10,10,2305,1.0,0.004338394793926247,sensitivity_fixed_target
+Department/Discipline,Public Administration,D5_P2,0,10,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Sociology,D5_P1,17,17,2305,1.0,0.00737527114967462,sensitivity_fixed_target
+Department/Discipline,Sociology,D5_P2,0,17,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Software Engineering,D5_P1,17,17,2305,1.0,0.00737527114967462,sensitivity_fixed_target
+Department/Discipline,Software Engineering,D5_P2,0,17,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Statistics,D5_P1,14,14,2305,1.0,0.006073752711496746,sensitivity_fixed_target
+Department/Discipline,Statistics,D5_P2,0,14,207,0.0,0.0,sensitivity_fixed_target
+Department/Discipline,Textile Engineering,D5_P1,14,14,2305,1.0,0.006073752711496746,sensitivity_fixed_target
+Department/Discipline,Textile Engineering,D5_P2,0,14,207,0.0,0.0,sensitivity_fixed_target
+Gender,Female,D5_P1,1012,1013,2307,0.9990128331688055,0.4386649328131773,sensitivity_refit_target
+Gender,Female,D5_P2,1,1013,205,0.0009871668311944718,0.004878048780487805,sensitivity_refit_target
+Gender,Male,D5_P1,1295,1499,2307,0.8639092728485657,0.5613350671868227,sensitivity_refit_target
+Gender,Male,D5_P2,204,1499,205,0.13609072715143428,0.9951219512195122,sensitivity_refit_target
+Age,18,D5_P1,171,171,2307,1.0,0.0741222366710013,sensitivity_refit_target
+Age,18,D5_P2,0,171,205,0.0,0.0,sensitivity_refit_target
+Age,19,D5_P1,197,197,2307,1.0,0.08539228435197226,sensitivity_refit_target
+Age,19,D5_P2,0,197,205,0.0,0.0,sensitivity_refit_target
+Age,20,D5_P1,173,373,2307,0.46380697050938335,0.07498916341569137,sensitivity_refit_target
+Age,20,D5_P2,200,373,205,0.5361930294906166,0.975609756097561,sensitivity_refit_target
+Age,21,D5_P1,179,179,2307,1.0,0.0775899436497616,sensitivity_refit_target
+Age,21,D5_P2,0,179,205,0.0,0.0,sensitivity_refit_target
+Age,22,D5_P1,298,298,2307,1.0,0.129172084958821,sensitivity_refit_target
+Age,22,D5_P2,0,298,205,0.0,0.0,sensitivity_refit_target
+Age,23,D5_P1,345,345,2307,1.0,0.14954486345903772,sensitivity_refit_target
+Age,23,D5_P2,0,345,205,0.0,0.0,sensitivity_refit_target
+Age,24,D5_P1,276,281,2307,0.9822064056939501,0.11963589076723016,sensitivity_refit_target
+Age,24,D5_P2,5,281,205,0.017793594306049824,0.024390243902439025,sensitivity_refit_target
+Age,25,D5_P1,156,156,2307,1.0,0.06762028608582575,sensitivity_refit_target
+Age,25,D5_P2,0,156,205,0.0,0.0,sensitivity_refit_target
+Age,26,D5_P1,184,184,2307,1.0,0.07975726051148678,sensitivity_refit_target
+Age,26,D5_P2,0,184,205,0.0,0.0,sensitivity_refit_target
+Age,27,D5_P1,184,184,2307,1.0,0.07975726051148678,sensitivity_refit_target
+Age,27,D5_P2,0,184,205,0.0,0.0,sensitivity_refit_target
+Age,28,D5_P1,144,144,2307,1.0,0.06241872561768531,sensitivity_refit_target
+Age,28,D5_P2,0,144,205,0.0,0.0,sensitivity_refit_target
+University Type,Other,D5_P1,4,4,2307,1.0,0.0017338534893801473,sensitivity_refit_target
+University Type,Other,D5_P2,0,4,205,0.0,0.0,sensitivity_refit_target
+University Type,Private University,D5_P1,1196,1397,2307,0.8561202576950608,0.5184221933246641,sensitivity_refit_target
+University Type,Private University,D5_P2,201,1397,205,0.14387974230493916,0.9804878048780488,sensitivity_refit_target
+University Type,Public University,D5_P1,1107,1111,2307,0.9963996399639964,0.4798439531859558,sensitivity_refit_target
+University Type,Public University,D5_P2,4,1111,205,0.0036003600360036,0.01951219512195122,sensitivity_refit_target
+Academic Level,Postgraduate,D5_P1,978,981,2307,0.9969418960244648,0.42392717815344605,sensitivity_refit_target
+Academic Level,Postgraduate,D5_P2,3,981,205,0.0030581039755351682,0.014634146341463415,sensitivity_refit_target
+Academic Level,Undergraduate,D5_P1,1329,1531,2307,0.8680600914435009,0.576072821846554,sensitivity_refit_target
+Academic Level,Undergraduate,D5_P2,202,1531,205,0.131939908556499,0.9853658536585366,sensitivity_refit_target
+Department/Discipline,Accounting,D5_P1,16,16,2307,1.0,0.006935413957520589,sensitivity_refit_target
+Department/Discipline,Accounting,D5_P2,0,16,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Architecture,D5_P1,168,168,2307,1.0,0.07282184655396619,sensitivity_refit_target
+Department/Discipline,Architecture,D5_P2,0,168,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,BBA,D5_P1,235,235,2307,1.0,0.10186389250108366,sensitivity_refit_target
+Department/Discipline,BBA,D5_P2,0,235,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,CSE,D5_P1,249,254,2307,0.9803149606299213,0.10793237971391417,sensitivity_refit_target
+Department/Discipline,CSE,D5_P2,5,254,205,0.01968503937007874,0.024390243902439025,sensitivity_refit_target
+Department/Discipline,Chemical Engineering,D5_P1,15,15,2307,1.0,0.006501950585175552,sensitivity_refit_target
+Department/Discipline,Chemical Engineering,D5_P2,0,15,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Chemistry,D5_P1,15,15,2307,1.0,0.006501950585175552,sensitivity_refit_target
+Department/Discipline,Chemistry,D5_P2,0,15,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Civil Engineering,D5_P1,152,152,2307,1.0,0.0658864325964456,sensitivity_refit_target
+Department/Discipline,Civil Engineering,D5_P2,0,152,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Computer Science and Engineering,D5_P1,14,14,2307,1.0,0.006068487212830516,sensitivity_refit_target
+Department/Discipline,Computer Science and Engineering,D5_P2,0,14,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Development Studies,D5_P1,12,12,2307,1.0,0.005201560468140442,sensitivity_refit_target
+Department/Discipline,Development Studies,D5_P2,0,12,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,EEE,D5_P1,189,189,2307,1.0,0.08192457737321196,sensitivity_refit_target
+Department/Discipline,EEE,D5_P2,0,189,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Economics,D5_P1,215,215,2307,1.0,0.09319462505418293,sensitivity_refit_target
+Department/Discipline,Economics,D5_P2,0,215,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Electrical and Electronic Engineering,D5_P1,10,10,2307,1.0,0.004334633723450368,sensitivity_refit_target
+Department/Discipline,Electrical and Electronic Engineering,D5_P2,0,10,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,English,D5_P1,194,394,2307,0.49238578680203043,0.08409189423493715,sensitivity_refit_target
+Department/Discipline,English,D5_P2,200,394,205,0.5076142131979695,0.975609756097561,sensitivity_refit_target
+Department/Discipline,Environmental Science,D5_P1,13,13,2307,1.0,0.005635023840485479,sensitivity_refit_target
+Department/Discipline,Environmental Science,D5_P2,0,13,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Finance,D5_P1,16,16,2307,1.0,0.006935413957520589,sensitivity_refit_target
+Department/Discipline,Finance,D5_P2,0,16,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Human Resource Management,D5_P1,16,16,2307,1.0,0.006935413957520589,sensitivity_refit_target
+Department/Discipline,Human Resource Management,D5_P2,0,16,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Industrial and Production Engineering,D5_P1,13,13,2307,1.0,0.005635023840485479,sensitivity_refit_target
+Department/Discipline,Industrial and Production Engineering,D5_P2,0,13,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Information Technology,D5_P1,16,16,2307,1.0,0.006935413957520589,sensitivity_refit_target
+Department/Discipline,Information Technology,D5_P2,0,16,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,International Business,D5_P1,15,15,2307,1.0,0.006501950585175552,sensitivity_refit_target
+Department/Discipline,International Business,D5_P2,0,15,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Journalism and Media Studies,D5_P1,18,18,2307,1.0,0.007802340702210663,sensitivity_refit_target
+Department/Discipline,Journalism and Media Studies,D5_P2,0,18,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Law,D5_P1,204,204,2307,1.0,0.08842652795838751,sensitivity_refit_target
+Department/Discipline,Law,D5_P2,0,204,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Management,D5_P1,15,15,2307,1.0,0.006501950585175552,sensitivity_refit_target
+Department/Discipline,Management,D5_P2,0,15,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Marketing,D5_P1,14,14,2307,1.0,0.006068487212830516,sensitivity_refit_target
+Department/Discipline,Marketing,D5_P2,0,14,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Mass Communication,D5_P1,16,16,2307,1.0,0.006935413957520589,sensitivity_refit_target
+Department/Discipline,Mass Communication,D5_P2,0,16,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Mathematics,D5_P1,163,163,2307,1.0,0.07065452969224101,sensitivity_refit_target
+Department/Discipline,Mathematics,D5_P2,0,163,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Mechanical Engineering,D5_P1,13,13,2307,1.0,0.005635023840485479,sensitivity_refit_target
+Department/Discipline,Mechanical Engineering,D5_P2,0,13,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Pharmacy,D5_P1,175,175,2307,1.0,0.07585609016038145,sensitivity_refit_target
+Department/Discipline,Pharmacy,D5_P2,0,175,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Physics,D5_P1,18,18,2307,1.0,0.007802340702210663,sensitivity_refit_target
+Department/Discipline,Physics,D5_P2,0,18,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Political Science,D5_P1,10,10,2307,1.0,0.004334633723450368,sensitivity_refit_target
+Department/Discipline,Political Science,D5_P2,0,10,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Psychology,D5_P1,16,16,2307,1.0,0.006935413957520589,sensitivity_refit_target
+Department/Discipline,Psychology,D5_P2,0,16,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Public Administration,D5_P1,10,10,2307,1.0,0.004334633723450368,sensitivity_refit_target
+Department/Discipline,Public Administration,D5_P2,0,10,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Sociology,D5_P1,17,17,2307,1.0,0.007368877329865626,sensitivity_refit_target
+Department/Discipline,Sociology,D5_P2,0,17,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Software Engineering,D5_P1,17,17,2307,1.0,0.007368877329865626,sensitivity_refit_target
+Department/Discipline,Software Engineering,D5_P2,0,17,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Statistics,D5_P1,14,14,2307,1.0,0.006068487212830516,sensitivity_refit_target
+Department/Discipline,Statistics,D5_P2,0,14,205,0.0,0.0,sensitivity_refit_target
+Department/Discipline,Textile Engineering,D5_P1,14,14,2307,1.0,0.006068487212830516,sensitivity_refit_target
+Department/Discipline,Textile Engineering,D5_P2,0,14,205,0.0,0.0,sensitivity_refit_target

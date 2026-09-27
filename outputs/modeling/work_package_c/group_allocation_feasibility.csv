@@ -1,0 +1,7 @@
+class_id,class_records,distinct_full_record_patterns,largest_exact_record_group,records_outside_largest_group,requested_training_class_records,requested_test_class_records,proven_incompatible_with_intact_groups,interpretation,variant
+D5_P1,2406,2154,100,2306,1924,482,False,not_ruled_out_by_this_necessary_condition; feasibility_not_established,full
+D5_P2,207,8,200,7,166,41,True,impossible_at_these_class_allocations,full
+D5_P1,2305,2079,100,2205,1845,460,False,not_ruled_out_by_this_necessary_condition; feasibility_not_established,sensitivity_fixed_target
+D5_P2,207,8,200,7,166,41,True,impossible_at_these_class_allocations,sensitivity_fixed_target
+D5_P1,2307,2081,100,2207,1847,460,False,not_ruled_out_by_this_necessary_condition; feasibility_not_established,sensitivity_refit_target
+D5_P2,205,6,200,5,164,41,True,impossible_at_these_class_allocations,sensitivity_refit_target

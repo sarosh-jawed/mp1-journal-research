@@ -1,0 +1,54 @@
+package: C
+analysis_mode: target_and_predictive_feasibility_audit
+baseline_commit: d8fdf7a6d9352b41baa8167d5ec7c9811d11c5ed
+review_date: '2026-09-27'
+research_control:
+  document_id: 19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o
+  revision_id: ANLCKQn-B-1SIedyptNFYvUHFZNSAgipNR9k3fcH_jRaRspGNFRQggmQpQqeAa1IjM5cLY94n4MJSMIdjbfqfTETih_ymD1FwWcRg3MgWe4
+  paragraph_text_sha256: 37e0d8d17784b587be27d594a564c198152bcc3ce1f30860756d79995061d098
+accepted_evidence:
+  analysis_config_sha256: 2ea62d0f97d41a14014b2ff1878ad802db320fa59fd9cb479dcde6f971d4b14f
+  manifests:
+    outputs/psychometrics/measurement_summary.json: 3e1ceb90db5124519845b986f31b73b41bcf5ae93c516fec8930b847fb6c9b29
+    outputs/clustering/clustering_summary.json: 4efeeb180a1dfb31c11033cd66a57830507471dbb8831bfb9ec5a718b38e99bc
+  measurement_manifest: outputs/psychometrics/measurement_summary.json
+  clustering_manifest: outputs/clustering/clustering_summary.json
+  expected_rows:
+    full: 2613
+    sensitivity: 2512
+  expected_sizes:
+    full: [2406, 207]
+    sensitivity: [2307, 205]
+  centroid_absolute_tolerance: 1.0e-12
+  minimum_assignment_margin: 1.0e-12
+diagnostic_design:
+  split_seed: 42
+  cv_seed: 43
+  scope: indices_only_no_predictive_fit
+  sensitivity_split: reuse_full_sample_record_assignments
+  group_basis: exact_full_raw_record
+  group_interpretation: conservative_dependence_audit_not_verified_people
+metadata_review:
+  Gender:
+    research_role: demographic_context
+    interpretation: Recorded gender category; not a psychological construct.
+    limitation: Self-report only; repeated-record concentration limits independent interpretation.
+  Age:
+    research_role: demographic_context
+    interpretation: Recorded integer age text, described by exact category without a fitted trend.
+    limitation: No imputation or binning; chronology and independent collection are unverified.
+  University Type:
+    research_role: educational_context
+    interpretation: Recorded institution-type category, not an institution identifier.
+    limitation: The Other category has sparse support; no categories are silently dropped or merged.
+  Academic Level:
+    research_role: educational_context
+    interpretation: Recorded undergraduate or postgraduate category; not psychological measurement.
+    limitation: No temporal or causal ordering relative to item responses is established.
+  Department/Discipline:
+    research_role: educational_context
+    interpretation: Recorded discipline label, retained literally.
+    limitation: Abbreviations and expanded names remain separate without an authoritative mapping.
+outputs:
+  aggregate_directory: outputs/modeling/work_package_c
+  private_directory: data/interim/work_package_c

@@ -1,0 +1,7 @@
+class_id,records,duplicate_groups,duplicate_member_rows,duplicate_excess_rows,unique_records,largest_group_size,largest_exact_record_share,distinct_metadata_combinations,variant
+D5_P1,2406,41,293,252,2154,100,0.04156275976724855,1111,full
+D5_P2,207,1,200,199,8,200,0.966183574879227,6,full
+D5_P1,2305,20,246,226,2079,100,0.04338394793926247,1079,sensitivity_fixed_target
+D5_P2,207,1,200,199,8,200,0.966183574879227,6,sensitivity_fixed_target
+D5_P1,2307,20,246,226,2081,100,0.043346337234503686,1079,sensitivity_refit_target
+D5_P2,205,1,200,199,6,200,0.975609756097561,5,sensitivity_refit_target
