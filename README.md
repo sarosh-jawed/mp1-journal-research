@@ -64,23 +64,14 @@ Measurement must run first. Both full and quality-sensitivity analyses are expli
 quality flags are read from `data/processed/response_quality_flags.csv`; if missing in a fresh clone,
 regenerate them with `scripts/response_quality.py`. No raw records are changed. Cluster memberships
 remain private under `data/interim/work_package_b/`. Review aggregates before committing them.
-The active work is C. Its target and leakage audit reproduces B exactly, but withholds predictive
-modeling and explainability because the repeated-record structure prevents a defensible comparison
-under the planned held-out design. Read `docs/predictive_feasibility.md`. The retained C alternative
-describes metadata marginals and the evaluation blocker. No D or E analysis has begun.
+The accepted C work is complete under the pre-specified design. Its target and leakage audit reproduces B exactly and documents why predictive modeling and explainability were withheld: the D5 smaller class has 207 records, including one identical released full-record pattern of 200 records, and 40 of 41 diagnostic minority test records share an exact full-record pattern with training data. Read `docs/predictive_feasibility.md`. No classifier performance, SHAP, LIME, calibration, or generalizable prediction claims are authorized. C may be reopened only with explicit approval for a justified revised design or additional data.
 
-For C, read the accepted B outputs without rerunning or modifying B. Run:
+For reproducibility, the accepted C entry point remains:
 
 ```bash
 PYTHONPATH=src python scripts/predictive_audit.py --config config/analysis.yaml --audit-config config/work_package_c.yaml
-```
-
-Optional `--d5-raw`, `--quality-flags`, and `--accepted-memberships` arguments accept existing input
-paths. Only D5 and its accepted flags are required. Original B memberships are additionally checked
-when available. C aggregates are under `outputs/modeling/work_package_c/`; record-level target and
-diagnostic split files are ignored under `data/interim/work_package_c/`. A successful audit command
-can report a scientific blocker. It does not authorize or train classifiers.
-
+C aggregates are under outputs/modeling/work_package_c/; record-level target and diagnostic split files remain ignored under data/interim/work_package_c/. A successful audit can report a scientific blocker. It does not authorize classifier fitting.
+The active work is D: outcome and cross-cultural validation. D should analyze D3 CGPA profile differences with an appropriate nonparametric omnibus test, effect size, corrected pairwise comparisons, and profile-level distributions. It must also audit the U.S.-Indonesia codebook and construct compatibility before any cross-country analysis. Do not force raw-score harmonization, pooling, or profile equivalence. If direct comparability is not defensible, retain country-specific or appropriately standardized analyses. D implementation has not yet been added; read the canonical Research Control before writing it.
 ## Quality standard
 
 - No hard-coded local or Colab paths.

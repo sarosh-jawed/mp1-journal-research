@@ -45,24 +45,17 @@ For every code delivery:
 - Do not add models, datasets, or analyses outside the approved scope without first documenting a methodological reason in Research Control.
 
 ## Current starting point
-
-The active work is Work Package C: predictive modeling and explainability.
-
-Research Control accepted A and B on 2026-09-26. Source documentation questions remain external
-limitations. Do not remove repeated records or invent institution aliases. Preserve accepted A/B
-code, configuration and outputs. Reuse the accepted quality flags and immutable source readers.
-
-The C entry point is:
-
-- `scripts/predictive_audit.py`
-
-Read `docs/measurement_cluster_structure.md` and `docs/predictive_feasibility.md`. The C audit exactly
-reconstructs B's full and sensitivity targets, excludes all target-defining survey information, and
-retains a descriptive metadata alternative. Predictive fitting is blocked: the 200-record pattern
-cannot remain intact under the planned 166/41 smaller-class train/test allocation. These patterns
-are not verified people. The five metadata candidates do not answer the psychological-correlate
-question, and ordinary record-random testing does not resolve their dependence uncertainty.
-
-No classifier or explanation method has been run. Do not bypass the gate, silently redefine the
-target, or treat repeated records as independently verified people. Advisor acceptance of the
-blocker and any future design change is pending. Do not begin D or E.
+The active work is Work Package D: outcome and cross-cultural validation.
+Research Control accepted A and B on 2026-09-26. C is frozen under the current pre-specified design as a predictive-feasibility result. The accepted D5 target was reconstructed exactly, all 25 target-defining survey items were excluded as direct leakage, and predictive fitting was withheld because the released repeated-record structure makes the planned held-out comparison non-defensible. No classifier, SHAP, LIME, calibration, or predictive-performance claim was produced. Do not bypass that gate, remove repeated records, redefine the target, or search for a favorable split. C may be reopened only with explicit approval for a justified revised design or additional data.
+Before implementing D, read:
+- the canonical Research Control document in full
+- docs/data_integrity.md
+- docs/measurement_cluster_structure.md
+- docs/predictive_feasibility.md
+- the accepted aggregate outputs for A, B, and C
+- the D3 raw source and its accepted quality flags
+- the U.S.-Indonesia source workbook and codebook in Google Drive
+D has two bounded analytical questions.
+1. D3 academic outcome validation: evaluate profile-level Current CGPA differences without assuming an ordinal trend. Use Kruskal-Wallis, an appropriate effect size, multiplicity-corrected pairwise post hoc comparisons, and profile-level distributions. Preserve accepted D3 clustering logic and do not invent institution mappings or respondent independence.
+2. Cross-cultural compatibility: audit whether the U.S.-Indonesia measures are meaningfully comparable to the accepted constructs before writing pooled or harmonized analysis. Do not force raw-score equivalence. If construct compatibility is insufficient, use separate country-specific analyses or an explicitly justified standardized comparison. The Vietnam dataset remains fallback only unless Research Control is amended.
+Do not begin publication-lock work from E. Any D method that changes accepted A/B/C preprocessing, profile definitions, or source interpretation requires a recorded methodological decision first.
