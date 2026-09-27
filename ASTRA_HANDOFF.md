@@ -46,11 +46,17 @@ For every code delivery:
 
 ## Current starting point
 
-The active work is data integrity and response quality.
+The active work is Work Package B: measurement and cluster structure.
 
-The first analytical files are:
+Research Control closed Work Package A for analytic execution on 2026-09-26. Source documentation
+questions remain external limitations. Do not remove repeated records or invent institution aliases.
+Reuse the accepted quality flags and immutable source readers.
 
-- `scripts/provenance_audit.py`
-- `scripts/response_quality.py`
+The current entry points are:
 
-Do not proceed to psychometrics or clustering until the provenance and response-quality outputs are verified and the Research Control document is updated.
+- `scripts/psychometrics_analysis.py`
+- `scripts/clustering_analysis.py`
+
+Run measurement before clustering. Read `docs/measurement_cluster_structure.md` before interpreting
+the outputs. A reproducible partition is not proof of psychological types, particularly when one
+exact repeated record dominates a cluster. Do not begin Work Package C without explicit authorization.

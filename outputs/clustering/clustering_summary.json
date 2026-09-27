@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "config_sha256": "2ea62d0f97d41a14014b2ff1878ad802db320fa59fd9cb479dcde6f971d4b14f",
+  "sources": {
+    "D5": "3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2",
+    "D3": "ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d"
+  },
+  "random_seed": 42,
+  "quality_flags_sha256": "322854f24cf209f46fb33a5cf71f54fe2ca72be0a60b32d6188ee4d1ed9c76e1",
+  "measurement_code_sha256": {
+    "audit.py": "0baf4ea51adf1432a975bb18dbc1db35576216db169c61b8741d9c0e40104b8d",
+    "response_quality.py": "73b1fec5e05fb38586ebed89ebf8e623188cf70c9ecf9f7621bed1077b9257cc",
+    "config.py": "08ab02b36b273b2fd2a791efd1f2a65605d665a78dab3cfcc6678a651c8e8ae1",
+    "paths.py": "f9d7377b40acf765c7fd3c3a8f264677906210018f097bff718f9dcbbff270bd",
+    "ordinal.py": "cc0cd4c4c74cf4155a94795acf0100894c43d887c70e6c62ab91442384c14a7c",
+    "psychometrics.py": "d85948bb2bcaebbfde533a5e4ce13e62346f8ee2bd4f4d4261f1d4220bf36a95",
+    "measurement.py": "f3abd9a18d63d80705fea192bb830f9dcd569bbaca7edbbe5d09aa631170bf12"
+  },
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "semopy": "2.3.11",
+    "factor-analyzer": "0.5.1"
+  },
+  "measurement_config_sha256": "2ea62d0f97d41a14014b2ff1878ad802db320fa59fd9cb479dcde6f971d4b14f",
+  "clustering_code_sha256": "30e2390aea6a4cc2e0cf2acdc2eed78f341f1af5f2e4955301eb478b43bbdba4",
+  "choices": {
+    "D5": {
+      "k": 2,
+      "status": "supported_descriptive_partition",
+      "individually_preferred_k": {
+        "full": 2,
+        "sensitivity": 2
+      }
+    },
+    "D3": {
+      "k": 2,
+      "status": "supported_descriptive_partition",
+      "individually_preferred_k": {
+        "full": 2,
+        "sensitivity": 2
+      }
+    }
+  },
+  "representation": "Four cumulative ordinal thresholds per item, each divided by two. Squared distance equals the sum of absolute category differences divided by four. No section averages, factor scores or variance standardization.",
+  "selection_rule": "Screen size, omitted-record stability, profile contrast and negative silhouette in both samples. Rank six metrics equally across both samples; choose lowest mean rank, then smaller k. If none qualifies, report the best descriptive candidate and explicit failure status.",
+  "stability_interpretation": "Repeated subsamples without replacement using configured repetitions and fraction; compare nearest-centroid assignments on omitted records with the reference fit. Percentiles describe perturbation variability, not confidence intervals. The reference uses all records; this is not external validation.",
+  "d3_comparison": "Same ordinal representation and selection logic on nine D3 items. Instruments differ; no direct centroid transfer, profile equivalence or invariance claim.",
+  "source_concentration_caution": "Inspect cluster_record_concentration.csv. Stability is conditional on the released multiplicities and does not prove independent respondents or natural population classes. No repeated record is removed or downweighted.",
+  "settings": {
+    "k_values": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "n_init": 50,
+    "resampling_repetitions": 100,
+    "resampling_fraction": 0.8,
+    "minimum_cluster_fraction": 0.05,
+    "minimum_mean_ari": 0.8,
+    "minimum_ari_10_percentile": 0.6,
+    "minimum_cluster_jaccard": 0.75,
+    "minimum_profile_probability_difference": 0.1,
+    "maximum_negative_silhouette_fraction": 0.25
+  },
+  "private_memberships": "data/interim/work_package_b/cluster_memberships.csv",
+  "acceptance_status": "requires_researcher_review",
+  "artifact_sha256": {
+    "cluster_metrics.csv": "b1cc278d4988ae5115409960d1a9d28d00692dba6ac8544ac2a8304d59660dcc",
+    "cluster_selection.csv": "fc8b95c3bea7126fdf49dc045f96d5ebb00f887b243ee3fb002b6de5dfb00e52",
+    "cluster_sizes.csv": "a377f661ab4c72a2018007df4a23ef4bed8dea082ab6e48242429b5429315624",
+    "cluster_centroids.csv": "76356ba58afb95909cac03f3d2c845c0fa46bb39c4f44ef5e1cfe5f311aefa93",
+    "cluster_stability.csv": "45d200e30a52c1745c89f06b47171db01b88798ebebacd2489f2214e479283cf",
+    "quality_sensitivity.csv": "6c7bd3715282c20c48ab69e6715361783380bc321aadc393c48d5e2f376e1ca6",
+    "selected_profiles.csv": "4bf819d2d615d8a65656ddc8fb2ed80a2d5136a55f1e0c7146dcd0cc9505c7b2",
+    "cluster_record_concentration.csv": "42612634d04028ea2042351f6ac72f3add037ab4f61a1a8d01115d8635d27336"
+  }
+}

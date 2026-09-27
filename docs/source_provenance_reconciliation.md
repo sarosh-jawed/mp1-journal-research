@@ -1,5 +1,9 @@
 # Source provenance reconciliation
 
+Current authorization note, 2026-09-26: Research Control subsequently closed A for analytic execution
+and authorized B. The closure judgments below preserve the earlier review. Its remaining source
+questions are now external limitations, not execution blockers. No data correction was inferred.
+
 Reviewed 2026-09-26 against accepted main commit `dab1d4a2ca5eb76681ad58651299f2fc1b62c645`. Its GitHub
 quality workflow succeeded. The user confirmed the original Colab acceptance,
 39 tests, Ruff checks, commit, and push. This review addresses only remaining
@@ -191,7 +195,10 @@ Draft only; no message has been sent.
 Separate, nonblocking codebook follow-up for future authorization: Is there a D5
 item-level codebook giving exact wording and any scoring or reverse-keying rules?
 
-No Research Control closure update is proposed while the blocking source
-questions remain unanswered. Do not begin Work Package B.
+The initial review held A open pending source clarification. Later on 2026-09-26,
+Research Control accepted those questions as external documentation limitations
+and closed A for analytic execution. Its source evidence and unresolved questions
+remain unchanged. B is now authorized; reopen A only if later evidence changes
+preprocessing or interpretation.
 
-WORK PACKAGE A MUST REMAIN OPEN
+WORK PACKAGE A IS CLOSED FOR ANALYTIC EXECUTION

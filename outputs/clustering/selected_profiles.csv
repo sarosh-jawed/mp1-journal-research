@@ -1,0 +1,5 @@
+dataset,cluster,selected_k,profile_description,interpretation
+D5,1,2,higher AD3 agreement; higher U2 agreement; higher T2 agreement,Relative to this dataset; descriptive only.
+D5,2,2,lower AD3 agreement; lower U2 agreement; lower T2 agreement,Relative to this dataset; descriptive only.
+D3,1,2,higher D3_9 agreement; higher D3_8 agreement; higher D3_4 agreement,Relative to this dataset; descriptive only.
+D3,2,2,lower D3_9 agreement; lower D3_8 agreement; lower D3_4 agreement,Relative to this dataset; descriptive only.

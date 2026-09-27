@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "config_sha256": "2ea62d0f97d41a14014b2ff1878ad802db320fa59fd9cb479dcde6f971d4b14f",
+  "sources": {
+    "D5": "3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2",
+    "D3": "ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d"
+  },
+  "random_seed": 42,
+  "quality_flags_sha256": "322854f24cf209f46fb33a5cf71f54fe2ca72be0a60b32d6188ee4d1ed9c76e1",
+  "measurement_code_sha256": {
+    "audit.py": "0baf4ea51adf1432a975bb18dbc1db35576216db169c61b8741d9c0e40104b8d",
+    "response_quality.py": "73b1fec5e05fb38586ebed89ebf8e623188cf70c9ecf9f7621bed1077b9257cc",
+    "config.py": "08ab02b36b273b2fd2a791efd1f2a65605d665a78dab3cfcc6678a651c8e8ae1",
+    "paths.py": "f9d7377b40acf765c7fd3c3a8f264677906210018f097bff718f9dcbbff270bd",
+    "ordinal.py": "cc0cd4c4c74cf4155a94795acf0100894c43d887c70e6c62ab91442384c14a7c",
+    "psychometrics.py": "d85948bb2bcaebbfde533a5e4ce13e62346f8ee2bd4f4d4261f1d4220bf36a95",
+    "measurement.py": "f3abd9a18d63d80705fea192bb830f9dcd569bbaca7edbbe5d09aa631170bf12"
+  },
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "semopy": "2.3.11",
+    "factor-analyzer": "0.5.1"
+  },
+  "samples": {
+    "D5": {
+      "full": 2613,
+      "sensitivity": 2512
+    },
+    "D3": {
+      "full": 1104,
+      "sensitivity": 1099
+    }
+  },
+  "decisions": {
+    "D5_full": {
+      "retained_factors": 5,
+      "section_screens": {
+        "U": false,
+        "CD": false,
+        "T": false,
+        "CT": false,
+        "AD": false
+      },
+      "clear_markers_per_factor": [
+        4,
+        4,
+        3,
+        2,
+        1
+      ],
+      "clear_items": 14,
+      "efa_boundary": false,
+      "efa_marker_screen_passes": false,
+      "five_factor_supported": false
+    },
+    "D5_sensitivity": {
+      "retained_factors": 5,
+      "section_screens": {
+        "U": false,
+        "CD": false,
+        "T": false,
+        "CT": false,
+        "AD": false
+      },
+      "clear_markers_per_factor": [
+        4,
+        3,
+        1,
+        2,
+        1
+      ],
+      "clear_items": 11,
+      "efa_boundary": false,
+      "efa_marker_screen_passes": false,
+      "five_factor_supported": false
+    },
+    "D3_full": {
+      "retained_factors": 2,
+      "section_screens": {},
+      "clear_markers_per_factor": [
+        7,
+        2
+      ],
+      "clear_items": 9,
+      "efa_boundary": false,
+      "efa_marker_screen_passes": false
+    },
+    "D3_sensitivity": {
+      "retained_factors": 2,
+      "section_screens": {},
+      "clear_markers_per_factor": [
+        7,
+        2
+      ],
+      "clear_items": 9,
+      "efa_boundary": false,
+      "efa_marker_screen_passes": false
+    }
+  },
+  "sections_passing_both_screens": [],
+  "representation": "ordinal_item_thresholds",
+  "representation_reason": "Section scores are not supported across both samples. Retain all ordinal items with equal item weight, without estimating latent scores.",
+  "htmt": {
+    "status": "not_interpreted",
+    "reason": "The hypothesized reflective sections fail measurement screening; HTMT cannot rescue invalid section measurement."
+  },
+  "estimator": "Empirical-threshold polychorics; MINRES/oblimin EFA; correlation-based ULS CFA. No WLSMV, robust standard errors, CFI, TLI, RMSEA or model p-values are claimed.",
+  "limitations": [
+    "Polychorics assume bivariate latent normality. Cell probability discrepancies are descriptive assumption diagnostics.",
+    "Ordinal omega concerns standardized latent responses, not observed 1-5 sums; it is conditional on the fitted one-factor model.",
+    "All repeated anonymous records remain. Resampling describes the released records and cannot establish respondent independence.",
+    "EFA is exploratory on these same records. No independent confirmation or measurement invariance is established.",
+    "No item deletion, imputation, reverse coding, aliasing or permanent quality exclusion is applied."
+  ],
+  "warnings": [],
+  "scientific_warnings": [
+    "Five-section CFA is inadmissible when proper=False; ignore its apparent fit.",
+    "A retained exploratory factor is not a validated construct or a scoring key.",
+    "Raw alpha and conditional ordinal omega can change with invariant responses.",
+    "Cell probability discrepancies and repeated records limit latent-normal inference."
+  ],
+  "artifact_sha256": {
+    "item_inventory.csv": "4265ec2bb262fa585970c75deb0dca670093ee4344e113119d7447c34f92d5cd",
+    "item_distributions.csv": "15548e7f9d5ad7e9a301950951034a2b7e0b700dff1c345882498b3a39619c4c",
+    "measurement_assumptions.csv": "8c0218973c445a23e3265ff2f2e7add96c4c51ca4940354a6ff7bab5b7fbb50c",
+    "reliability.csv": "e7643df6294d0a8ad116a7df698ea7475a6f8a0e5db42d63615e56308aace80a",
+    "item_diagnostics.csv": "f5fce65616daa2f5117f71618fa289c0303c725d4c647397aa94927e56a533de",
+    "item_correlations.csv": "8f88dd7f1e0796d90642438543c7560831172a4b6080790780c81852d8cba22e",
+    "parallel_analysis.csv": "4971420ad25b17c7a8eeb8902c33e46e4e663304b59a452f1743182ea0aa1ba4",
+    "factor_models.csv": "1641c647552af48be79fb5c9f6fffdcc80dc9870ccfbc3caf0db981721942d02",
+    "factor_loadings.csv": "4b33457b5a27159441f236757699e62963e69eec370a96e5dd55679a9882a7e1",
+    "factor_correlations.csv": "6f171a70d29fe808e2fdd5eee275332a83fe61e69341f1c5d6abda495b306112"
+  }
+}

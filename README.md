@@ -44,24 +44,27 @@ All transformations must be reproducible from immutable raw inputs.
 
 ## Active analysis
 
-The active work is data provenance and response quality:
+Work Package A is closed for analytic execution. Its source documentation limitations remain
+recorded without invented corrections. Work Package B evaluates measurement and cluster structure:
 
-- `scripts/provenance_audit.py`
-- `scripts/response_quality.py`
+- `scripts/psychometrics_analysis.py`
+- `scripts/clustering_analysis.py`
 
-See `docs/data_integrity.md` for the input contract, output definitions, and review requirements.
+Read `docs/measurement_cluster_structure.md` for the method, evidence, limitations, and review
+requirements. The accepted input and quality-flag contract remains in `docs/data_integrity.md`.
 
 Run from the repository root after setting the configured Drive environment variable:
 
 ```bash
-PYTHONPATH=src python scripts/provenance_audit.py --config config/analysis.yaml
-PYTHONPATH=src python scripts/response_quality.py --config config/analysis.yaml
+PYTHONPATH=src python scripts/psychometrics_analysis.py --config config/analysis.yaml
+PYTHONPATH=src python scripts/clustering_analysis.py --config config/analysis.yaml
 ```
 
-Both entry points retain every source record. The response-quality sensitivity indicator is written
-to `data/processed/response_quality_flags.csv`, which is excluded from Git. Aggregate outputs still
-require review before they are committed. An audit report does not resolve a source discrepancy
-merely by recording it.
+Measurement must run first. Both full and quality-sensitivity analyses are explicit. Accepted
+quality flags are read from `data/processed/response_quality_flags.csv`; if missing in a fresh clone,
+regenerate them with `scripts/response_quality.py`. No raw records are changed. Cluster memberships
+remain private under `data/interim/work_package_b/`. Review aggregates before committing them.
+No predictive, outcome, or cross-cultural analysis is authorized by this implementation.
 
 ## Quality standard
 
