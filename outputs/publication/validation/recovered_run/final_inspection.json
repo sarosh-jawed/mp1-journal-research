@@ -1,0 +1,892 @@
+{
+  "status": "PASS",
+  "scope": "All 87 complete overlay files read and inspected; all 60 accepted originals hash verified.",
+  "files": {
+    ".github/workflows/quality.yml": {
+      "bytes": 1227,
+      "sha256": "b23bfe9eea07d9480dcc72fa3a9d1715a0ecd490a7dbf1aa314da113bf5f928c",
+      "format": ".yml",
+      "read_in_full": true,
+      "yaml": "PASS"
+    },
+    "ASTRA_HANDOFF.md": {
+      "bytes": 4248,
+      "sha256": "0bf0d133280b95a99d55dcbc08fbb6ae7f8080999b1023d4b0fdfc0ee68cb28d",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "README.md": {
+      "bytes": 5973,
+      "sha256": "14288036ae2f5ac8883ac6cbeb63d5d5f71bf04e4bc8227454962f6f5ac45a38",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "config/manuscript_v3_audit.json": {
+      "bytes": 102738,
+      "sha256": "b6ddc5b64b0791a067708278fbc48600f228d5b8fb1d89afcf75b7ad220d5683",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "dict"
+    },
+    "config/publication_claims.json": {
+      "bytes": 31920,
+      "sha256": "f319d2af2c08b8d8b95716344a4963bf10bf18368019039c14c7e98f91a1e874",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "list"
+    },
+    "config/publication_freeze.json": {
+      "bytes": 23975,
+      "sha256": "83e1e008f737ab9d21902a7922cb3cbc646b9f0e3d84595e84c65ddf1fdc3eb2",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "dict"
+    },
+    "docs/manuscript_replacement_text.md": {
+      "bytes": 11438,
+      "sha256": "b59d3a73e76e0caa42ebd95b1bcb436fe2031fdfe93974f47bf606649658f1d1",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "docs/publication_reproducibility.md": {
+      "bytes": 6468,
+      "sha256": "6b37ee0ce8c447ede0ea5072079701c3e5998e3874369ed1c6ea1f059dfddce3",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "docs/publication_terminology.md": {
+      "bytes": 2368,
+      "sha256": "f2a94d88105942abaaed08b36dbf993db150d2e669369485bdb87b1d404a8ab0",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "docs/research_control_e_update.md": {
+      "bytes": 6603,
+      "sha256": "13117dae1e1427574736864c29d5268c383dc6ce13bc9a9f09d08f46f01105e0",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "docs/work_package_e_colab.md": {
+      "bytes": 12115,
+      "sha256": "1a7a1c0041950a060056ee108bd2fcd1c473f46214966b043fbfac2258060b23",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "docs/work_package_e_outputs.md": {
+      "bytes": 4348,
+      "sha256": "50ae09cb10b72da872a71600b11dec7f1c67bba35e33385a45e33be404b56724",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "docs/work_package_e_review.md": {
+      "bytes": 5338,
+      "sha256": "8bd01b04d71eecdf56ea2faa70645d999e7385dca8ce248704c68afc3cfa2982",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "docs/work_package_e_validation.md": {
+      "bytes": 8187,
+      "sha256": "94fa1e752bf49f23bf9e97472002ea63fec42d5c6acca5feb5f83ea7166b3558",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "environment/R-lock.json": {
+      "bytes": 2235,
+      "sha256": "807ade2a6bf97ba86cf0bfa68d8a8943d4af764bd8eb68ca2898b5d01085c40e",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "dict"
+    },
+    "environment/README.md": {
+      "bytes": 2524,
+      "sha256": "0cd9ab11b70e2238f466b9a8905c7b27ddfbb0e8ae60f302f90abdbc4de825b8",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "environment/accepted-constraints.txt": {
+      "bytes": 115,
+      "sha256": "7161bb7910f14110e29d5e697684203cc167a3333606775b24cc1a6c7eaf5ded",
+      "format": ".txt",
+      "read_in_full": true
+    },
+    "environment/bootstrap.in": {
+      "bytes": 43,
+      "sha256": "a081f5426ce700341ae5208574066ad620e980d2491420845389414e3f9a8079",
+      "format": ".in",
+      "read_in_full": true
+    },
+    "environment/bootstrap.lock": {
+      "bytes": 1036,
+      "sha256": "aff92360237dbbf1f258bb2412e1ded64657ad709dd1c7a5862e603f5fa8e7fc",
+      "format": ".lock",
+      "read_in_full": true,
+      "hash_pins": "PASS"
+    },
+    "environment/colab-bootstrap.in": {
+      "bytes": 12,
+      "sha256": "c1feb4781878685a5b61eda32a8b572adb2ca00d60410b0e1c943611217b28f2",
+      "format": ".in",
+      "read_in_full": true
+    },
+    "environment/colab-bootstrap.lock": {
+      "bytes": 1850,
+      "sha256": "86f88db3e493de525d8e1f7e94575a95752bd92b6b9211c6bbc392161a517af0",
+      "format": ".lock",
+      "read_in_full": true,
+      "hash_pins": "PASS"
+    },
+    "environment/requirements.in": {
+      "bytes": 117,
+      "sha256": "9c871a9b567403ea37f97a11baade9e5af66c238cd2e0b470f1535b4a1c1b006",
+      "format": ".in",
+      "read_in_full": true
+    },
+    "environment/requirements.lock": {
+      "bytes": 115474,
+      "sha256": "abe78648c5aa8d4caf204df78495a216a900ac98b12a494be7e5afb9d41b89f5",
+      "format": ".lock",
+      "read_in_full": true,
+      "hash_pins": "PASS"
+    },
+    "outputs/publication/manuscript_audit/manuscript_v3_audit.md": {
+      "bytes": 48662,
+      "sha256": "b9da14fa3ff35cec0c65cf943e6d72d9889665957396b43849965c0b3dfb6682",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "outputs/publication/manuscript_audit/manuscript_v3_disposition.csv": {
+      "bytes": 72526,
+      "sha256": "38426fcf8dfb0c295585ed1d3772593360bfa214a60f542e0a9bf30ce41286d2",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 171,
+      "columns": [
+        "location",
+        "source_text_sha256",
+        "excerpt",
+        "action",
+        "reason",
+        "required_replacement",
+        "claim_ids"
+      ]
+    },
+    "outputs/publication/validation/clean_checkout.json": {
+      "bytes": 4715,
+      "sha256": "d6f85c7fc4a4d0cd8a823639f88bfea9c2fd8a42b8bcdb8383e96ce0a3cd86c4",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "dict"
+    },
+    "outputs/publication/validation/public_checks.json": {
+      "bytes": 4095,
+      "sha256": "1cbfd2f8f9a1b9436ac4cda1fc05a91591cd4a5c98d745c84e3797316ecdb4ea",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "dict"
+    },
+    "outputs/publication/validation/replay_discrepancies.csv": {
+      "bytes": 35945,
+      "sha256": "e49966f6048a7dab0023d3e33b4e8a5fa834deaa236a8f4dde2954ff5ed4d817",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 247,
+      "columns": [
+        "accepted_file",
+        "csv_data_row",
+        "dataset",
+        "sample",
+        "variant",
+        "country",
+        "k",
+        "cluster",
+        "item",
+        "field",
+        "accepted_value",
+        "replayed_value",
+        "difference",
+        "selected_k2"
+      ]
+    },
+    "outputs/publication/validation/source_replay.json": {
+      "bytes": 124088,
+      "sha256": "456719c60c1f80f8513396b92e9f1267ad861710dc6596091e5234e6bf9f8b83",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "dict"
+    },
+    "outputs/publication/work_package_e/accepted_output_inventory.csv": {
+      "bytes": 11736,
+      "sha256": "161bda225a6c2328581f418c85c768e401859e32af8b3ff2ac3489ca9e8eccef",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 60,
+      "columns": [
+        "file",
+        "sha256",
+        "bytes",
+        "data_rows",
+        "claim_ids",
+        "retention"
+      ]
+    },
+    "outputs/publication/work_package_e/aggregate_consistency.json": {
+      "bytes": 988,
+      "sha256": "9c8f791c7736a927fb8bb8c23c28e505f0507459b882a2b9b30da4498b816b5d",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "dict"
+    },
+    "outputs/publication/work_package_e/complete_evidence_register.csv": {
+      "bytes": 2043765,
+      "sha256": "3710035e2ba1a42f1be0167368593f3d9b438d05649e868e142456821f99e9a9",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 4515,
+      "columns": [
+        "file",
+        "sha256",
+        "csv_data_row",
+        "claim_ids",
+        "exact_evidence_json",
+        "role"
+      ]
+    },
+    "outputs/publication/work_package_e/figure_captions.md": {
+      "bytes": 1996,
+      "sha256": "59d17abbe9181d87df4ae75256b1d66d28f559cdd6db43a2e55f918e3c839141",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "outputs/publication/work_package_e/figure_manifest.json": {
+      "bytes": 2820,
+      "sha256": "834a5a3ed5f80e67da0d6cfd2c808ebc4d74c927f2370160d3a3af1b2da1dcbc",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "list"
+    },
+    "outputs/publication/work_package_e/figures/F01_measurement.pdf": {
+      "bytes": 15196,
+      "sha256": "317045c44ece246b366485a6ef7baad842f8156519cb1878f97e13354ccd8694",
+      "format": ".pdf",
+      "read_in_full": true,
+      "pages": 1,
+      "embedded_fonts_checked": true,
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F01_measurement.png": {
+      "bytes": 236699,
+      "sha256": "3ef7ac26ca40706dfdc891d8d35bce8c64273f2483f0182f6827412edeef2e18",
+      "format": ".png",
+      "read_in_full": true,
+      "pixels": [
+        5109,
+        2409
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F01_measurement.svg": {
+      "bytes": 19035,
+      "sha256": "adf9433c296c0e443afb6da80d581e073fa28fb7101a6570734124e6579b81c0",
+      "format": ".svg",
+      "read_in_full": true,
+      "xml": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F01_measurement_data.csv": {
+      "bytes": 2469,
+      "sha256": "883c67d7efa16acce82f3b4fec18b8dad31dbe55b8c1f8ff5a29b8d456066ffd",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 10,
+      "columns": [
+        "dataset",
+        "sample",
+        "n",
+        "section",
+        "alpha_raw",
+        "alpha_ordinal",
+        "omega_standardized_observed",
+        "omega_ordinal_latent_response",
+        "minimum_corrected_item_total",
+        "minimum_ordinal_loading",
+        "one_factor_rmsr",
+        "one_factor_maximum_residual",
+        "one_factor_boundary",
+        "passes_screen",
+        "screen_reason"
+      ]
+    },
+    "outputs/publication/work_package_e/figures/F02_candidate_partitions.pdf": {
+      "bytes": 16392,
+      "sha256": "bb799a363f5c9af34fa84f1681447214af27051fae0f511a3c62873b56337430",
+      "format": ".pdf",
+      "read_in_full": true,
+      "pages": 1,
+      "embedded_fonts_checked": true,
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F02_candidate_partitions.png": {
+      "bytes": 652472,
+      "sha256": "7b8e246e1b30f0774fdb7819fe054bd32394ab87da95205cd1d0f335f10f480d",
+      "format": ".png",
+      "read_in_full": true,
+      "pixels": [
+        4989,
+        3429
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F02_candidate_partitions.svg": {
+      "bytes": 44010,
+      "sha256": "304e3f926e420dad7b4b204f1c44acd5d55be220115a934f7d5223968b4e2716",
+      "format": ".svg",
+      "read_in_full": true,
+      "xml": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F02_candidate_partitions_data.csv": {
+      "bytes": 5341,
+      "sha256": "d3428a0b513717fc37a1e979529f56d4391c6dfb7b19e811f069aaae6b37d5e5",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 20,
+      "columns": [
+        "dataset",
+        "sample",
+        "k",
+        "n",
+        "silhouette",
+        "davies_bouldin",
+        "calinski_harabasz",
+        "minimum_cluster_fraction",
+        "largest_to_smallest_ratio",
+        "negative_silhouette_fraction",
+        "centroid_separation_to_within_rms",
+        "minimum_pair_maximum_agreement_difference",
+        "resampling_repetitions",
+        "resampling_fraction",
+        "ari_mean",
+        "ari_sd",
+        "ari_10_percentile",
+        "ari_90_percentile",
+        "minimum_cluster_jaccard_mean"
+      ]
+    },
+    "outputs/publication/work_package_e/figures/F03_descriptive_profiles.pdf": {
+      "bytes": 19425,
+      "sha256": "0de954aa950abc62e51d2d5b2c9860723b06a0e9a9f739ea2c5cf3d26d60374a",
+      "format": ".pdf",
+      "read_in_full": true,
+      "pages": 1,
+      "embedded_fonts_checked": true,
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F03_descriptive_profiles.png": {
+      "bytes": 464791,
+      "sha256": "b3c66e74dc991e37067c5442eb197c6b652db46fc345c75e1bf0479d8ce15708",
+      "format": ".png",
+      "read_in_full": true,
+      "pixels": [
+        5768,
+        2769
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F03_descriptive_profiles.svg": {
+      "bytes": 40204,
+      "sha256": "0dbcba2617f433d806ca7fc7755be1db11bc9a0fcfe14e9fb6f7227a502d8943",
+      "format": ".svg",
+      "read_in_full": true,
+      "xml": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F03_descriptive_profiles_data.csv": {
+      "bytes": 7446,
+      "sha256": "e538ca444fcdef3e708bff081b4bcc85d76670f35863d07d74244335769c9a39",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 68,
+      "columns": [
+        "dataset",
+        "sample",
+        "k",
+        "cluster",
+        "item",
+        "probability_above_1",
+        "probability_above_2",
+        "probability_above_3",
+        "probability_above_4",
+        "agreement_proportion"
+      ]
+    },
+    "outputs/publication/work_package_e/figures/F04_cgpa.pdf": {
+      "bytes": 18202,
+      "sha256": "baf447071ecfbd2a534e44709425128b07041f8590a6966731b3aca9ea74f08b",
+      "format": ".pdf",
+      "read_in_full": true,
+      "pages": 1,
+      "embedded_fonts_checked": true,
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F04_cgpa.png": {
+      "bytes": 463019,
+      "sha256": "1fb49406040b4ae985a8506dc4a25f46cb82d8ef22a57d13d660596da424284c",
+      "format": ".png",
+      "read_in_full": true,
+      "pixels": [
+        6069,
+        3370
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F04_cgpa.svg": {
+      "bytes": 24124,
+      "sha256": "41b8c6b7509ba95e112b86694e95e732f24db2ee3fb4a2e9aa9df958b50e1718",
+      "format": ".svg",
+      "read_in_full": true,
+      "xml": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F04_cgpa_data.csv": {
+      "bytes": 3914,
+      "sha256": "fc7a438ad2887d34205796c47f21bd86d45c088bc9eb192b0670ab40900b3eca",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 33,
+      "columns": [
+        "variant",
+        "profile",
+        "cgpa_band",
+        "order_code",
+        "records",
+        "profile_n",
+        "fraction",
+        "component",
+        "assumed_independent_units",
+        "cliff_delta",
+        "conditional_percentile_lower",
+        "conditional_percentile_upper",
+        "confidence_level",
+        "repetitions",
+        "seed",
+        "resampling_units",
+        "stratified_by_frozen_profile",
+        "invalid_replicates",
+        "population_interval_validity_established",
+        "profile_estimation_uncertainty_included"
+      ]
+    },
+    "outputs/publication/work_package_e/figures/F05_observed_associations.pdf": {
+      "bytes": 14162,
+      "sha256": "e7e93348bddba55fcebff4b7e528a567e32df841a89e68d541c27a6d1f15256f",
+      "format": ".pdf",
+      "read_in_full": true,
+      "pages": 1,
+      "embedded_fonts_checked": true,
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F05_observed_associations.png": {
+      "bytes": 257325,
+      "sha256": "2ef7c4735aea1747dc5916ee245a364f31a9a71d15173189004ad9d8620f6ec2",
+      "format": ".png",
+      "read_in_full": true,
+      "pixels": [
+        5049,
+        2109
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "visual_review": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F05_observed_associations.svg": {
+      "bytes": 13747,
+      "sha256": "55aec024d6337f3bffe40b7460e4486a951f2f7440c7640508cafffb33dc0387",
+      "format": ".svg",
+      "read_in_full": true,
+      "xml": "PASS"
+    },
+    "outputs/publication/work_package_e/figures/F05_observed_associations_data.csv": {
+      "bytes": 1012,
+      "sha256": "15056884e405c89b6d6a2d164988ab3f9a1849391798be758289c28d0aee6507",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 4,
+      "columns": [
+        "country",
+        "item_x",
+        "item_y",
+        "n",
+        "spearman_rho",
+        "permutation_p_value",
+        "permutation_mc_standard_error",
+        "conditional_95_lower",
+        "conditional_95_upper",
+        "permutations",
+        "bootstrap_repetitions",
+        "seed",
+        "invalid_bootstrap_replicates",
+        "inference_scope",
+        "holm_p_four_test_family"
+      ]
+    },
+    "outputs/publication/work_package_e/manuscript_evidence_map.json": {
+      "bytes": 1226056,
+      "sha256": "e6e792d60bb20771a2e97af40aa8434cd75529ab7470fd3e7b142cb00a7f19c3",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "list"
+    },
+    "outputs/publication/work_package_e/manuscript_evidence_map.md": {
+      "bytes": 29561,
+      "sha256": "93ac08d743902b33a9c2e4838efef160f29d90756b16d6170df3ea1573b91904",
+      "format": ".md",
+      "read_in_full": true
+    },
+    "outputs/publication/work_package_e/render_manifest.json": {
+      "bytes": 5174,
+      "sha256": "213cf856aac60e146e71b4994eb099aa470b98f868b524fc102e75646418f665",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "dict"
+    },
+    "outputs/publication/work_package_e/retained_results_master.csv": {
+      "bytes": 21031,
+      "sha256": "5a0bbff2a36586a4bc9951216743426a9a2b0f65e971c9a22e0cbf8c0ccaafa8",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 31,
+      "columns": [
+        "id",
+        "research_question",
+        "retained_finding",
+        "permitted_interpretation",
+        "prohibited_overclaim",
+        "manuscript_section",
+        "role",
+        "key_evidence_display",
+        "authoritative_files"
+      ]
+    },
+    "outputs/publication/work_package_e/table_manifest.json": {
+      "bytes": 4198,
+      "sha256": "ad5775253220a5f71b1fc223be1164048de5ab1499fedf12d5d9219b9e0455c1",
+      "format": ".json",
+      "read_in_full": true,
+      "top_level": "list"
+    },
+    "outputs/publication/work_package_e/tables/T01.csv": {
+      "bytes": 162,
+      "sha256": "32c1433f7db4b482ee7700b950cb6d02d15be01d1ab53bbc7db7a503b7d87071",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 2,
+      "columns": [
+        "Dataset",
+        "Full records",
+        "Quality sensitivity",
+        "Repeated groups",
+        "Repeated members",
+        "Excess repetitions",
+        "Largest group"
+      ]
+    },
+    "outputs/publication/work_package_e/tables/T01.tex": {
+      "bytes": 276,
+      "sha256": "e9ed629dc546764f88dd14fddbe16d07725d48c7e3f6ae77e35b765a6c4d331d",
+      "format": ".tex",
+      "read_in_full": true,
+      "table_fragment": "PASS"
+    },
+    "outputs/publication/work_package_e/tables/T02.csv": {
+      "bytes": 1319,
+      "sha256": "633bdfd6dc3cf9f23d91424a8a6751b3ce16fd5636ec1577153ac9c4aef693f7",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 10,
+      "columns": [
+        "section",
+        "sample",
+        "n",
+        "alpha_raw",
+        "omega_ordinal_latent_response",
+        "minimum_corrected_item_total",
+        "minimum_ordinal_loading",
+        "one_factor_maximum_residual",
+        "passes_screen"
+      ]
+    },
+    "outputs/publication/work_package_e/tables/T02.tex": {
+      "bytes": 961,
+      "sha256": "53bf89bb7f1f59d134bad5379deb7d24c2465a31782fe1b5644c9edffe3d493c",
+      "format": ".tex",
+      "read_in_full": true,
+      "table_fragment": "PASS"
+    },
+    "outputs/publication/work_package_e/tables/T03.csv": {
+      "bytes": 744,
+      "sha256": "0a3dcef85fde15ec072db1092c5caf807652ae795d5af0c43699d5543c9fdbfd",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 8,
+      "columns": [
+        "dataset",
+        "sample",
+        "cluster",
+        "records",
+        "unique_records",
+        "largest_group_size",
+        "largest_exact_record_share",
+        "silhouette",
+        "ari_mean"
+      ]
+    },
+    "outputs/publication/work_package_e/tables/T03.tex": {
+      "bytes": 732,
+      "sha256": "e961aa7c8b00d874a66161621e372c0ee7444c7403d87fffb0163f6f5807df70",
+      "format": ".tex",
+      "read_in_full": true,
+      "table_fragment": "PASS"
+    },
+    "outputs/publication/work_package_e/tables/T04.csv": {
+      "bytes": 513,
+      "sha256": "2cd3c9a49edd49ae73acda9a60d7b2291851f9e70efb586154c4a322fdf92e44",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 6,
+      "columns": [
+        "variant",
+        "class_id",
+        "training_records",
+        "validation_records",
+        "validation_records_with_pattern_in_training",
+        "validation_records_without_pattern_in_training",
+        "validation_overlap_fraction"
+      ]
+    },
+    "outputs/publication/work_package_e/tables/T04.tex": {
+      "bytes": 571,
+      "sha256": "bf23208ec47f4d06d3710f215f59db67e74ab1628d024c66ef43b36a98bcb8e3",
+      "format": ".tex",
+      "read_in_full": true,
+      "table_fragment": "PASS"
+    },
+    "outputs/publication/work_package_e/tables/T05.csv": {
+      "bytes": 518,
+      "sha256": "e06545c2da57076f3d9265d7c0c84e1fd1e99d292774ba2cdd8647b8a8a0890f",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 6,
+      "columns": [
+        "variant",
+        "profile",
+        "profile_n",
+        "Below 2.50",
+        "2.51-3.00",
+        "3.01-3.50",
+        "Above 3.50"
+      ]
+    },
+    "outputs/publication/work_package_e/tables/T05.tex": {
+      "bytes": 698,
+      "sha256": "537453f7c96a503d6657d1eadec3311f030c7b3b2cecd49d7cb3f3a15ec3f04e",
+      "format": ".tex",
+      "read_in_full": true,
+      "table_fragment": "PASS"
+    },
+    "outputs/publication/work_package_e/tables/T06a.csv": {
+      "bytes": 405,
+      "sha256": "77246d60c807a9e861ada96585c4cc89e65ed6a4fd14e494a227d3d96821c917",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 3,
+      "columns": [
+        "variant",
+        "n",
+        "kruskal_h_tie_corrected",
+        "nominal_p_value",
+        "rank_epsilon_squared_H_over_N_minus_1",
+        "cliff_delta_P2_minus_P1"
+      ]
+    },
+    "outputs/publication/work_package_e/tables/T06a.tex": {
+      "bytes": 328,
+      "sha256": "ed4732791f1400560aceeaa8bcb81a812ab90dbaa6484a91faad0fb773102ab2",
+      "format": ".tex",
+      "read_in_full": true,
+      "table_fragment": "PASS"
+    },
+    "outputs/publication/work_package_e/tables/T06b.csv": {
+      "bytes": 897,
+      "sha256": "141d3a38750e930e30629fad042189f364889ede13c97b6c3dfc39b98cbf4aa6",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 9,
+      "columns": [
+        "variant",
+        "assumed_independent_units",
+        "resampling_units",
+        "conditional_percentile_lower",
+        "conditional_percentile_upper"
+      ]
+    },
+    "outputs/publication/work_package_e/tables/T06b.tex": {
+      "bytes": 737,
+      "sha256": "6b8487ee09bee030511c71ce0bbfb5da6f80792a06189a3cf9ec502a6af7d8b7",
+      "format": ".tex",
+      "read_in_full": true,
+      "table_fragment": "PASS"
+    },
+    "outputs/publication/work_package_e/tables/T07.csv": {
+      "bytes": 517,
+      "sha256": "5cd8496bad5692f61b7a9af379645d03fcb1ca23236773e2eca236c8e3299196",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 3,
+      "columns": [
+        "model",
+        "chisq.scaled",
+        "df.scaled",
+        "cfi.scaled",
+        "rmsea.scaled",
+        "srmr",
+        "cfi.robust",
+        "rmsea.robust",
+        "passes_followup_screen"
+      ]
+    },
+    "outputs/publication/work_package_e/tables/T07.tex": {
+      "bytes": 463,
+      "sha256": "530cd69ddd887188bb8140c45dc380c6da9d832292f7ba5450959124d1164b4d",
+      "format": ".tex",
+      "read_in_full": true,
+      "table_fragment": "PASS"
+    },
+    "outputs/publication/work_package_e/tables/T08.csv": {
+      "bytes": 489,
+      "sha256": "deb57bcb8c6de121c20318e4ab0a15cbcafc13111bd92ec17979c98eca876698",
+      "format": ".csv",
+      "read_in_full": true,
+      "data_rows": 4,
+      "columns": [
+        "country",
+        "item_x",
+        "item_y",
+        "n",
+        "spearman_rho",
+        "permutation_p_value",
+        "holm_p_four_test_family",
+        "conditional_95_lower",
+        "conditional_95_upper"
+      ]
+    },
+    "outputs/publication/work_package_e/tables/T08.tex": {
+      "bytes": 513,
+      "sha256": "8d7449a441df2ff663fd418acefa97c1ddbc96eb2341429bbda9086349c175d0",
+      "format": ".tex",
+      "read_in_full": true,
+      "table_fragment": "PASS"
+    },
+    "outputs/publication/work_package_e/tables/statistical_tables.html": {
+      "bytes": 17233,
+      "sha256": "57596cc12d1ed7a89b3f5b7a2be3f04ed69925523cb7f84394acea6c177be255",
+      "format": ".html",
+      "read_in_full": true,
+      "tables": 9
+    },
+    "outputs/publication/work_package_e/tables/statistical_tables.pdf": {
+      "bytes": 58347,
+      "sha256": "a46ce529fc0f4b05f189973ea51127f90c22833047bbd5876138a633d30e9cfc",
+      "format": ".pdf",
+      "read_in_full": true,
+      "pages": 9,
+      "embedded_fonts_checked": true,
+      "visual_review": "PASS"
+    },
+    "scripts/apply_publication_bundle.py": {
+      "bytes": 5161,
+      "sha256": "cc2368077089dc4538db402318532016ba19e70f154e0f8e8bddc2bb6c8c559b",
+      "format": ".py",
+      "read_in_full": true,
+      "syntax": "PASS"
+    },
+    "scripts/audit_manuscript_v3.py": {
+      "bytes": 4442,
+      "sha256": "604471d5496e2ca20e177e04b0edda5af56a5cf833325c8ac45ace1085da9a58",
+      "format": ".py",
+      "read_in_full": true,
+      "syntax": "PASS"
+    },
+    "scripts/check_publication.py": {
+      "bytes": 4755,
+      "sha256": "b06abdaad11657fa9cbffa1feb3be34a05b72b76b00e82f1ea5187b9c0fa4d0e",
+      "format": ".py",
+      "read_in_full": true,
+      "syntax": "PASS"
+    },
+    "scripts/install_locked_r.py": {
+      "bytes": 3971,
+      "sha256": "e9958a720798e61466564afaa55523f792d59699d34cb467395bacbc1d249311",
+      "format": ".py",
+      "read_in_full": true,
+      "syntax": "PASS"
+    },
+    "scripts/verify_clean_checkout.py": {
+      "bytes": 4733,
+      "sha256": "b4b67430fb7aa75d56cc5357a79ac6e8f82a406596bf849431770e9af4107a78",
+      "format": ".py",
+      "read_in_full": true,
+      "syntax": "PASS"
+    },
+    "scripts/verify_publication_replay.py": {
+      "bytes": 14213,
+      "sha256": "f016437382394a333e76a77cd53c0e0b5a72289c5e8b88abe16afd0993e8bb6b",
+      "format": ".py",
+      "read_in_full": true,
+      "syntax": "PASS"
+    },
+    "src/mp1/publication.py": {
+      "bytes": 43303,
+      "sha256": "64830736c59c55a1931cd89dd127bef0f852a667a9f07d7496e628feaa7eba88",
+      "format": ".py",
+      "read_in_full": true,
+      "syntax": "PASS"
+    },
+    "tests/test_publication.py": {
+      "bytes": 2512,
+      "sha256": "0cce53ff4048a3298f3671be9551d968a9883a64b7b2d7459aec41c8c1ed467d",
+      "format": ".py",
+      "read_in_full": true,
+      "syntax": "PASS"
+    }
+  },
+  "canonical_document_reread_in_full_before_work": true,
+  "all_frozen_files_unchanged": 123,
+  "all_accepted_outputs_unchanged": 60,
+  "raw_sources_sha256_unchanged": {
+    "D5_cognitive_dependence_raw.csv": "3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2",
+    "MP1_Manuscript_v3.docx": "042639bbd2ad6fe49b4ac87e47d5e401cb267945a422d58d15452021554df497",
+    "When Culture Meets AI - Survey Dataset.xlsx": "985c39bd5ad4e0f9278a059e6eaa8aa0ddacac51913b1996421880ad8062ff4a",
+    "DATA_DICTIONARY.md": "8f34000bb5c609d112920b72296430b31f7f25c5277550744b67c4b54825f82d",
+    "D3_dependency_vulnerability_raw.csv": "ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d"
+  },
+  "three_colab_cells_match_notebook_and_guide": true,
+  "publication_tables_visual_review": "All nine PDF pages inspected; legible and unclipped.",
+  "publication_figures_visual_review": "All five final figures inspected, including PDF rendering.",
+  "evidence_boundary": "All 31 findings resolve only to accepted hash-verified aggregate outputs.",
+  "scientific_replay_status": "FAIL: documented nonselected B candidate/resampling mismatches.",
+  "publication_lock_status": "WORK PACKAGE E MUST REMAIN OPEN"
+}

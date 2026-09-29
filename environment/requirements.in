@@ -1,0 +1,6 @@
+-r ../requirements.txt
+-c accepted-constraints.txt
+reportlab==4.4.9
+matplotlib==3.10.8
+-r bootstrap.in
+Jinja2==3.1.6

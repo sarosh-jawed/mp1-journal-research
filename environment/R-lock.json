@@ -1,0 +1,58 @@
+{
+  "R": {
+    "version": "4.6.1",
+    "url": "https://cran.r-project.org/src/base/R-4/R-4.6.1.tar.gz",
+    "sha256": "4da6e61d2c0aac5f14a2e7e432cb5fcc269efe83da4293050ba7f03dff4e2cf4"
+  },
+  "packages": [
+    {
+      "name": "MASS",
+      "version": "7.3-66",
+      "url": "https://cran.r-project.org/src/contrib/MASS_7.3-66.tar.gz",
+      "sha256": "59c619c70bfca653f1c74aef880e69405daefd0134e716a1862ecc5334b4e155"
+    },
+    {
+      "name": "mnormt",
+      "version": "2.1.2",
+      "url": "https://cran.r-project.org/src/contrib/mnormt_2.1.2.tar.gz",
+      "sha256": "684fe9e07cf0b448cf6f0eda026606d8f4e4fd20f077f108630098ae7d0a09b2"
+    },
+    {
+      "name": "pbivnorm",
+      "version": "0.6.0",
+      "url": "https://cran.r-project.org/src/contrib/pbivnorm_0.6.0.tar.gz",
+      "sha256": "07c37d507cb8f8d2d9ae51a9a6d44dfbebd8a53e93c242c4378eaddfb1cc5f16"
+    },
+    {
+      "name": "numDeriv",
+      "version": "2016.8-1.1",
+      "url": "https://cran.r-project.org/src/contrib/numDeriv_2016.8-1.1.tar.gz",
+      "sha256": "d8c4d19ff9aeb31b0c628bd4a16378e51c1c9a3813b525469a31fe89af00b345"
+    },
+    {
+      "name": "quadprog",
+      "version": "1.5-8",
+      "url": "https://cran.r-project.org/src/contrib/quadprog_1.5-8.tar.gz",
+      "sha256": "22128dd6b08d3516c44ff89276719ad4fe46b36b23fdd585274fa3a93e7a49cd"
+    },
+    {
+      "name": "lavaan",
+      "version": "0.7-2",
+      "url": "https://cran.r-project.org/src/contrib/lavaan_0.7-2.tar.gz",
+      "sha256": "5e6497544beca09739a91da4f82e830d6baab367c51e002bbf62c58c3bd866e7"
+    },
+    {
+      "name": "semTools",
+      "version": "0.5-6",
+      "url": "https://cran.r-project.org/src/contrib/Archive/semTools/semTools_0.5-6.tar.gz",
+      "sha256": "f522ce3c02ac580ad49af7a7278141dae39fdfaeccc7d1379faf1266ce9fcaf2"
+    },
+    {
+      "name": "jsonlite",
+      "version": "2.0.0",
+      "url": "https://cran.r-project.org/src/contrib/jsonlite_2.0.0.tar.gz",
+      "sha256": "75eb910c82b350ec33f094779da0f87bff154c232e4ae39c9896a9b89f3ac82d"
+    }
+  ],
+  "note": "R, lavaan and semTools match accepted D manifest. Other R dependencies were not recorded at acceptance; these E pins form the tested reconstruction, not a recovered original transitive environment."
+}

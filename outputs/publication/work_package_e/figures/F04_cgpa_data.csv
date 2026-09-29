@@ -1,0 +1,34 @@
+variant,profile,cgpa_band,order_code,records,profile_n,fraction,component,assumed_independent_units,cliff_delta,conditional_percentile_lower,conditional_percentile_upper,confidence_level,repetitions,seed,resampling_units,stratified_by_frozen_profile,invalid_replicates,population_interval_validity_established,profile_estimation_uncertainty_included
+full,D3_P1,Below 2.50,0.0,6.0,769.0,0.0078023407022106,bands,,,,,,,,,,,,
+full,D3_P1,2.51-3.00,1.0,138.0,769.0,0.1794538361508452,bands,,,,,,,,,,,,
+full,D3_P1,3.01-3.50,2.0,443.0,769.0,0.576072821846554,bands,,,,,,,,,,,,
+full,D3_P1,Above 3.50,3.0,182.0,769.0,0.2366710013003901,bands,,,,,,,,,,,,
+full,D3_P2,Below 2.50,0.0,2.0,335.0,0.0059701492537313,bands,,,,,,,,,,,,
+full,D3_P2,2.51-3.00,1.0,66.0,335.0,0.1970149253731343,bands,,,,,,,,,,,,
+full,D3_P2,3.01-3.50,2.0,206.0,335.0,0.6149253731343284,bands,,,,,,,,,,,,
+full,D3_P2,Above 3.50,3.0,61.0,335.0,0.1820895522388059,bands,,,,,,,,,,,,
+quality_fixed_profiles,D3_P1,Below 2.50,0.0,5.0,764.0,0.006544502617801,bands,,,,,,,,,,,,
+quality_fixed_profiles,D3_P1,2.51-3.00,1.0,137.0,764.0,0.1793193717277487,bands,,,,,,,,,,,,
+quality_fixed_profiles,D3_P1,3.01-3.50,2.0,441.0,764.0,0.5772251308900523,bands,,,,,,,,,,,,
+quality_fixed_profiles,D3_P1,Above 3.50,3.0,181.0,764.0,0.2369109947643979,bands,,,,,,,,,,,,
+quality_fixed_profiles,D3_P2,Below 2.50,0.0,2.0,335.0,0.0059701492537313,bands,,,,,,,,,,,,
+quality_fixed_profiles,D3_P2,2.51-3.00,1.0,66.0,335.0,0.1970149253731343,bands,,,,,,,,,,,,
+quality_fixed_profiles,D3_P2,3.01-3.50,2.0,206.0,335.0,0.6149253731343284,bands,,,,,,,,,,,,
+quality_fixed_profiles,D3_P2,Above 3.50,3.0,61.0,335.0,0.1820895522388059,bands,,,,,,,,,,,,
+quality_refit_profiles,D3_P1,Below 2.50,0.0,5.0,763.0,0.0065530799475753,bands,,,,,,,,,,,,
+quality_refit_profiles,D3_P1,2.51-3.00,1.0,137.0,763.0,0.1795543905635648,bands,,,,,,,,,,,,
+quality_refit_profiles,D3_P1,3.01-3.50,2.0,441.0,763.0,0.5779816513761468,bands,,,,,,,,,,,,
+quality_refit_profiles,D3_P1,Above 3.50,3.0,180.0,763.0,0.2359108781127129,bands,,,,,,,,,,,,
+quality_refit_profiles,D3_P2,Below 2.50,0.0,2.0,336.0,0.0059523809523809,bands,,,,,,,,,,,,
+quality_refit_profiles,D3_P2,2.51-3.00,1.0,66.0,336.0,0.1964285714285714,bands,,,,,,,,,,,,
+quality_refit_profiles,D3_P2,3.01-3.50,2.0,206.0,336.0,0.6130952380952381,bands,,,,,,,,,,,,
+quality_refit_profiles,D3_P2,Above 3.50,3.0,62.0,336.0,0.1845238095238095,bands,,,,,,,,,,,,
+full,,,,,,,intervals,independent_records_reference,-0.0559012479863362,-0.1210609824738466,0.0075973836927197,0.95,10000.0,42701.0,1104.0,True,0.0,False,False
+full,,,,,,,intervals,intact_full_record_patterns,-0.0559012479863362,-0.1309201926865904,0.018237741960858,0.95,10000.0,42702.0,942.0,True,0.0,False,False
+full,,,,,,,intervals,literal_institution_labels,-0.0559012479863362,-0.1126954866080093,0.0765655748205707,0.95,10000.0,42703.0,30.0,False,0.0,False,False
+quality_fixed_profiles,,,,,,,intervals,independent_records_reference,-0.057478315230132,-0.1211892435727123,0.0073388294131436,0.95,10000.0,42711.0,1099.0,True,0.0,False,False
+quality_fixed_profiles,,,,,,,intervals,intact_full_record_patterns,-0.057478315230132,-0.130814947141833,0.0162247220366095,0.95,10000.0,42712.0,937.0,True,0.0,False,False
+quality_fixed_profiles,,,,,,,intervals,literal_institution_labels,-0.057478315230132,-0.1138501982538567,0.0754171620089227,0.95,10000.0,42713.0,30.0,False,0.0,False,False
+quality_refit_profiles,,,,,,,intervals,independent_records_reference,-0.0540395057105411,-0.1167589168695,0.011456480527991,0.95,10000.0,42721.0,1099.0,True,0.0,False,False
+quality_refit_profiles,,,,,,,intervals,intact_full_record_patterns,-0.0540395057105411,-0.130761311922679,0.0204465837429151,0.95,10000.0,42722.0,937.0,True,0.0,False,False
+quality_refit_profiles,,,,,,,intervals,literal_institution_labels,-0.0540395057105411,-0.1116439727459489,0.0747800826176111,0.95,10000.0,42723.0,30.0,False,0.0,False,False

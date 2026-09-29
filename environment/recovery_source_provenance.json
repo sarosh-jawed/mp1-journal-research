@@ -1,0 +1,16 @@
+{
+  "scope": "Reacquired contextual/source records on 2026-09-28; not new MP1 evidence",
+  "D5_companion": {
+    "record": "https://zenodo.org/records/21459044",
+    "filename": "SPECTRA 2026 - TS3-2.pdf",
+    "sha256": "6749bd03dbb1da07d1d175cf7493097af870cbc39d500f712fc6fd58a3f21a50",
+    "role": "Novelty/context only; findings not imported as MP1 findings"
+  },
+  "external_workbook": {
+    "record": "https://zenodo.org/records/21013786",
+    "filename": "When Culture Meets AI - Survey Dataset.xlsx",
+    "sha256": "985c39bd5ad4e0f9278a059e6eaa8aa0ddacac51913b1996421880ad8062ff4a",
+    "matches_accepted_release": true
+  },
+  "private_sources_shipped": false
+}

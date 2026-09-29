@@ -1,4 +1,4 @@
-name: Quality checks
+name: Public reproducibility checks
 
 on:
   push:
@@ -6,29 +6,28 @@ on:
 
 jobs:
   quality:
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-24.04
+    env:
+      PYTHONHASHSEED: "0"
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      PYTHONPATH: src
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-          cache: "pip"
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Install ordinal measurement dependencies
+          python-version: "3.12.14"
+      - name: Install hash-locked Python environment
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install --require-hashes -r environment/bootstrap.lock
+          .venv/bin/python -m pip install --require-hashes --no-build-isolation -r environment/requirements.lock
+      - name: Install ordinal runtime build prerequisites
         run: |
           sudo apt-get update
-          sudo apt-get install -y r-base-core r-cran-lavaan r-cran-semtools r-cran-jsonlite
-
-      - name: Lint
-        run: ruff check .
-
-      - name: Format check
-        run: ruff format --check .
-
-      - name: Test
-        run: pytest -q
+          sudo apt-get install -y --no-install-recommends build-essential gfortran pkg-config zlib1g-dev libbz2-dev liblzma-dev libpcre2-dev libcurl4-openssl-dev libtirpc-dev
+      - name: Install hash-locked R and ordinal packages
+        run: .venv/bin/python scripts/install_locked_r.py
+      - name: Verify public quality, synthetic tests, aggregate identities and rendering
+        run: .venv/bin/python scripts/check_publication.py

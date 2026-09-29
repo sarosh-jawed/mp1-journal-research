@@ -1,0 +1,10 @@
+variant,assumed_independent_units,resampling_units,conditional_percentile_lower,conditional_percentile_upper
+full,independent_records_reference,1104,-0.1210609824738466,0.0075973836927197
+full,intact_full_record_patterns,942,-0.1309201926865904,0.018237741960858
+full,literal_institution_labels,30,-0.1126954866080093,0.0765655748205707
+quality_fixed_profiles,independent_records_reference,1099,-0.1211892435727123,0.0073388294131436
+quality_fixed_profiles,intact_full_record_patterns,937,-0.130814947141833,0.0162247220366095
+quality_fixed_profiles,literal_institution_labels,30,-0.1138501982538567,0.0754171620089227
+quality_refit_profiles,independent_records_reference,1099,-0.1167589168695,0.011456480527991
+quality_refit_profiles,intact_full_record_patterns,937,-0.130761311922679,0.0204465837429151
+quality_refit_profiles,literal_institution_labels,30,-0.1116439727459489,0.0747800826176111

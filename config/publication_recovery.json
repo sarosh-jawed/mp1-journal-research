@@ -1,0 +1,15 @@
+{
+  "recovery_date": "2026-09-28",
+  "recovered_archive_sha256": "cf1c3d11233fd6e6780865c4f096d4261ea13ff7f3d8a75e1f752080ae2947ca",
+  "baseline_commit": "56b335c705ef15d5a261865382dd79991d2a93a2",
+  "recovered_evidence_sha256": {
+    "outputs/publication/validation/source_replay.json": "456719c60c1f80f8513396b92e9f1267ad861710dc6596091e5234e6bf9f8b83",
+    "outputs/publication/validation/replay_discrepancies.csv": "e49966f6048a7dab0023d3e33b4e8a5fa834deaa236a8f4dde2954ff5ed4d817",
+    "outputs/publication/validation/recovered_run/public_checks.json": "1cbfd2f8f9a1b9436ac4cda1fc05a91591cd4a5c98d745c84e3797316ecdb4ea",
+    "outputs/publication/validation/recovered_run/clean_checkout.json": "d6f85c7fc4a4d0cd8a823639f88bfea9c2fd8a42b8bcdb8383e96ce0a3cd86c4",
+    "outputs/publication/validation/recovered_run/delivery_verification.json": "f3e144ef905f4ebb7a9ff12e4ef0272190d15c1edbee2df5d0c42ed29055fefa",
+    "outputs/publication/validation/recovered_run/final_inspection.json": "29f013b919906322363752746c65ca131f0ce3198589d7fcaea5394beac898c2"
+  },
+  "record_policy": "Historical source replay retains FAIL for the complete grid. Current assessment is separately qualified; no historical result is overwritten.",
+  "source_analyses_rerun_in_recovery": false
+}

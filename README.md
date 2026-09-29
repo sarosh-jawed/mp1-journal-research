@@ -22,19 +22,22 @@ Google Drive is the source of truth for raw datasets, advisor materials, and pub
 
 Colab is the execution environment. Code is reviewed locally before the user commits and pushes it manually.
 
-## Setup in Colab
+## Work Package E: publication lock
 
-1. Mount Google Drive.
-2. Clone this repository.
-3. Set `MP1_DRIVE_ROOT` to the mounted `MP1 Journal Research` folder.
-4. Install dependencies with `pip install -r requirements.txt`.
-5. Run `pytest -q`.
-6. Run `ruff check .`.
-7. Run `ruff format --check .`.
+D is accepted at `56b335c705ef15d5a261865382dd79991d2a93a2`; E is active.
+Use `docs/work_package_e_colab.md` for the complete Colab delivery and exact inputs.
+The E environment is `environment/requirements.lock` plus `environment/R-lock.json`.
+Use the hash-checked installation instructions, not a fresh resolution of broad requirements.
 
-Work Package D also requires R with lavaan, semTools and jsonlite for its ordinal measurement
-checks. Follow `docs/work_package_d_colab.md` for the full installation and application guide.
-Do not begin real-data analysis until the repository checks pass.
+Start with `docs/work_package_e_review.md` and the retained-results master table in
+`outputs/publication/work_package_e/`. The evidence map references only frozen accepted A-D
+outputs. `docs/manuscript_replacement_text.md` and the complete V3 disposition register define
+what the manuscript may retain. Publication rendering uses aggregate outputs and no private data.
+Recovered source replay is preserved with its complete-grid FAIL and a 247-cell nonselected-B
+discrepancy register. Fresh aggregate checks confirm unchanged retained k=2 evidence and
+selection decisions. E can close with that disclosed limitation after manual acceptance.
+See `docs/publication_discrepancy_register.md` and `docs/work_package_e_validation.md`.
+The standard recovery commands do not rerun A-D or replace accepted results.
 
 ## Data policy
 
@@ -44,7 +47,7 @@ Expected raw file locations are defined in `config/analysis.yaml`.
 
 All transformations must be reproducible from immutable raw inputs.
 
-## Active analysis
+## Accepted entry points (historical methods; frozen)
 
 Work Packages A and B are accepted. Their source documentation and measurement limitations remain
 recorded without invented corrections. The accepted B entry points are:
@@ -76,7 +79,9 @@ PYTHONPATH=src python scripts/predictive_audit.py --config config/analysis.yaml 
 
 C aggregates are under outputs/modeling/work_package_c/; record-level target and diagnostic split files remain ignored under data/interim/work_package_c/. A successful audit can report a scientific blocker. It does not authorize classifier fitting.
 
-Work Package D is implemented and awaiting scientific review. Read
+Work Package D is completed and accepted at
+`56b335c705ef15d5a261865382dd79991d2a93a2`. Work Package E is active:
+publication lock and reproducibility only. Read
 `docs/outcome_cross_cultural_validation.md` for the CGPA eligibility audit, ordinal outcome
 comparisons, quality and repeated-record sensitivity, complete compatibility audit and external
 measurement-testing boundary. The methods preserve A/B/C and do not resume predictive modeling.
@@ -91,8 +96,10 @@ Use `docs/work_package_d_colab.md` for exact execution instructions,
 `docs/work_package_d_outputs.md` for the output inventory and
 `docs/work_package_d_review.md` for scientific review and proposed project updates.
 Only D aggregate outputs are added under the existing outcome and external validation folders.
-Private D artifacts stay under ignored `data/interim/work_package_d/`. No commit, push,
-Research Control edit or publication-lock action is part of the delivery.
+Private D artifacts stay under ignored `data/interim/work_package_d/`. No commit, push or
+Research Control edit was part of the historical D delivery. Its pending-review wording is
+superseded by canonical Research Control acceptance on 2026-09-27. E preserves accepted A-D
+results and does not authorize new empirical questions or journal shortlisting.
 
 ## Quality standard
 

@@ -1,0 +1,118 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_LIMITATION",
+  "baseline_commit": "56b335c705ef15d5a261865382dd79991d2a93a2",
+  "evidence_origin": "Recovered E archive; source analyses were not rerun in this recovery",
+  "historical_complete_grid_source_replay_status": "FAIL",
+  "source_analyses_rerun": 0,
+  "accepted_output_bytes_verified": 60,
+  "frozen_files_verified": 123,
+  "recovered_csv_comparisons_checked": 50,
+  "selected_k2_rows_in_compared_B_tables": 170,
+  "selected_k2_mismatch_cells": 0,
+  "mismatch_cells": 247,
+  "by_file": {
+    "outputs/clustering/cluster_centroids.csv": 76,
+    "outputs/clustering/cluster_metrics.csv": 48,
+    "outputs/clustering/cluster_selection.csv": 48,
+    "outputs/clustering/cluster_sizes.csv": 4,
+    "outputs/clustering/cluster_stability.csv": 69,
+    "outputs/clustering/quality_sensitivity.csv": 2
+  },
+  "by_k": {
+    "6": 163,
+    "3": 32,
+    "4": 25,
+    "5": 27
+  },
+  "maximum_absolute_difference_by_field": {
+    "outputs/clustering/cluster_centroids.csv::probability_above_1": 0.0008887133405747205,
+    "outputs/clustering/cluster_centroids.csv::probability_above_2": 0.0068452674086476595,
+    "outputs/clustering/cluster_centroids.csv::probability_above_3": 0.005417118093174356,
+    "outputs/clustering/cluster_centroids.csv::agreement_proportion": 0.005417118093174356,
+    "outputs/clustering/cluster_centroids.csv::probability_above_4": 0.005909583374372113,
+    "outputs/clustering/cluster_metrics.csv::ari_mean": 0.00891968012903166,
+    "outputs/clustering/cluster_metrics.csv::ari_sd": 0.011200523852334596,
+    "outputs/clustering/cluster_metrics.csv::ari_10_percentile": 0.009152159278875804,
+    "outputs/clustering/cluster_metrics.csv::ari_90_percentile": 0.020800976085449285,
+    "outputs/clustering/cluster_metrics.csv::minimum_cluster_jaccard_mean": 0.01839105266090668,
+    "outputs/clustering/cluster_metrics.csv::silhouette": 0.0002225875775640207,
+    "outputs/clustering/cluster_metrics.csv::davies_bouldin": 0.001762719371537269,
+    "outputs/clustering/cluster_metrics.csv::calinski_harabasz": 0.009517735176984843,
+    "outputs/clustering/cluster_metrics.csv::minimum_cluster_fraction": 0.0009057971014492239,
+    "outputs/clustering/cluster_metrics.csv::largest_to_smallest_ratio": 0.013345809120456797,
+    "outputs/clustering/cluster_metrics.csv::negative_silhouette_fraction": 0.0018115942028986143,
+    "outputs/clustering/cluster_metrics.csv::centroid_separation_to_within_rms": 0.0003330419438966059,
+    "outputs/clustering/cluster_selection.csv::ari_mean": 0.00891968012903166,
+    "outputs/clustering/cluster_selection.csv::ari_sd": 0.011200523852334596,
+    "outputs/clustering/cluster_selection.csv::ari_10_percentile": 0.009152159278875804,
+    "outputs/clustering/cluster_selection.csv::ari_90_percentile": 0.020800976085449285,
+    "outputs/clustering/cluster_selection.csv::minimum_cluster_jaccard_mean": 0.01839105266090668,
+    "outputs/clustering/cluster_selection.csv::silhouette": 0.0002225875775640207,
+    "outputs/clustering/cluster_selection.csv::davies_bouldin": 0.001762719371537269,
+    "outputs/clustering/cluster_selection.csv::calinski_harabasz": 0.009517735176984843,
+    "outputs/clustering/cluster_selection.csv::minimum_cluster_fraction": 0.0009057971014492239,
+    "outputs/clustering/cluster_selection.csv::largest_to_smallest_ratio": 0.013345809120456797,
+    "outputs/clustering/cluster_selection.csv::negative_silhouette_fraction": 0.0018115942028986143,
+    "outputs/clustering/cluster_selection.csv::centroid_separation_to_within_rms": 0.0003330419438966059,
+    "outputs/clustering/cluster_sizes.csv::count": 1.0,
+    "outputs/clustering/cluster_sizes.csv::fraction": 0.0009057971014493071,
+    "outputs/clustering/cluster_stability.csv::jaccard_mean": 0.02474171705107464,
+    "outputs/clustering/cluster_stability.csv::jaccard_10_percentile": 0.0721236559139784,
+    "outputs/clustering/cluster_stability.csv::jaccard_90_percentile": 0.045858406960734954,
+    "outputs/clustering/quality_sensitivity.csv::full_sensitivity_ari": 0.0021571904165833544,
+    "outputs/clustering/quality_sensitivity.csv::minimum_matched_jaccard": 0.0071428571428572285
+  },
+  "aggregate_selection_recheck": [
+    {
+      "dataset": "D5",
+      "sample": "both",
+      "accepted_k": 2,
+      "recorded_replay_k": 2,
+      "ranks_and_screens_equal": true
+    },
+    {
+      "dataset": "D5",
+      "sample": "full",
+      "accepted_k": 2,
+      "recorded_replay_k": 2,
+      "ranks_and_screens_equal": true
+    },
+    {
+      "dataset": "D5",
+      "sample": "sensitivity",
+      "accepted_k": 2,
+      "recorded_replay_k": 2,
+      "ranks_and_screens_equal": true
+    },
+    {
+      "dataset": "D3",
+      "sample": "both",
+      "accepted_k": 2,
+      "recorded_replay_k": 2,
+      "ranks_and_screens_equal": true
+    },
+    {
+      "dataset": "D3",
+      "sample": "full",
+      "accepted_k": 2,
+      "recorded_replay_k": 2,
+      "ranks_and_screens_equal": true
+    },
+    {
+      "dataset": "D3",
+      "sample": "sensitivity",
+      "accepted_k": 2,
+      "recorded_replay_k": 2,
+      "ranks_and_screens_equal": true
+    }
+  ],
+  "limitations": [
+    "Complete nonselected candidate-grid source reproduction remains failed.",
+    "Original numerical-runtime cause remains unproven.",
+    "Raw replay aggregates and private execution logs were not in the recovered ZIP.",
+    "Evidence supports the recorded replay comparison, not universal identity across platforms.",
+    "Within-tolerance numerical differences are not enumerated cell by cell in the recovered report."
+  ],
+  "publication_assessment": "Retained-result lock can close with this disclosed limitation after manual acceptance; no A-D reopening is justified by these differences.",
+  "canonical_control_changed": false
+}

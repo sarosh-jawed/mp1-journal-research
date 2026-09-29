@@ -1,0 +1,56 @@
+[
+  {
+    "id": "T01",
+    "title": "Source records and repeated-pattern accounting",
+    "note": "Record counts do not establish unique people. All primary records are retained. D5 metadata reports 2614 although the release contains 2613; D3 reports 22 universities although 30 literal labels are released. No institution aliases are applied.",
+    "claims": "A01-A04, B01"
+  },
+  {
+    "id": "T02",
+    "title": "D5 source-section measurement screens",
+    "note": "U: AI usage; CD: cognitive dependence; T: trust in AI; CT: reported reduction in independent thinking; AD: academic decision-making. Names are source-defined headings, not validated subscales. Ordinal omega concerns latent responses conditional on a one-factor model. All-section screen requires alpha/omega >=0.70, item-total >=0.30, loading >=0.40, maximum residual <=0.10 and no model boundary. No section passes all criteria.",
+    "claims": "B02-B04"
+  },
+  {
+    "id": "T03",
+    "title": "Accepted descriptive k=2 profiles and concentration",
+    "note": "Neutral profile numbers are dataset-specific and unordered. ARI is mean omitted-record perturbation agreement over 100 subsamples of 80%; it is not predictive accuracy. D5_P2 includes 200 copies of one full-record pattern: 200/207 primary and 200/205 sensitivity. Stability is conditional on these released multiplicities.",
+    "claims": "B07-B10"
+  },
+  {
+    "id": "T04",
+    "title": "C feasibility audit: record-random held-out overlap",
+    "note": "Diagnostic allocation only; no classifier was fitted. All 25 survey items define the target. Five contextual metadata fields avoid that construction but do not restore respondent independence. The 200-record P2 pattern exceeds both primary allocations (166 training, 41 held-out); intact-pattern protection cannot satisfy this design.",
+    "claims": "C01-C04"
+  },
+  {
+    "id": "T05",
+    "title": "D3 CGPA bands by nominal descriptive profile",
+    "note": "Cells are records (within-profile percentage). Self-reported ordered bands are not continuous grades; the source does not specify an exact 2.50 value. Fixed sensitivity retains primary labels; refit sensitivity uses accepted B sensitivity labels. Percentages may differ from 100 by rounding.",
+    "claims": "D01, D03"
+  },
+  {
+    "id": "T06a",
+    "title": "D3 rank comparison and effect size",
+    "note": "H is tie-corrected Kruskal-Wallis with nominal chi-square reference (df=1). Rank epsilon squared is explicitly H/(N-1). Cliff delta is P2 minus P1; a negative value favors higher bands in P1. Profiles are not ordered severity tiers. Record independence remains unverified, so reference p values are nominal. All variants are very small and inconclusive, not evidence of equivalence.",
+    "claims": "D02-D05"
+  },
+  {
+    "id": "T06b",
+    "title": "D3 conditional 95% percentile intervals for Cliff delta",
+    "note": "10,000 bootstrap repetitions per row. Record and intact-pattern draws are stratified by fixed profile; literal-institution draws are not. Independent units are assumptions. None of these intervals includes profile-estimation uncertainty or establishes population coverage. All intervals include zero.",
+    "claims": "D04"
+  },
+  {
+    "id": "T07",
+    "title": "External GAID ordinal configural follow-up",
+    "note": "WLSMV with std.lv, theta parameterization and the Wu-Estabrook identification plan. Follow-up uses scaled CFI >=0.90, RMSEA <=0.08 and SRMR <=0.08; robust alternatives are reported separately. Indonesia and multigroup fits fail. CT and TP are blocked by category support. No equality constraints are tested. USA n=116; Indonesia n=111. No Bangladesh anchors or latent equivalence are established.",
+    "claims": "D06-D11"
+  },
+  {
+    "id": "T08",
+    "title": "Exploratory observed-item associations within each country",
+    "note": "GAID6: confidence without AI; CT9: source-credibility checking; TP6: efficient work completion (consult the source workbook for exact wording). Spearman rho; 9,999 permutations; Holm adjustment across all four tests; 5,000 bootstrap repetitions. Intervals are marginal conditional 95% intervals, not multiplicity-adjusted intervals. No country-difference test, latent comparison or causal inference is made.",
+    "claims": "D12"
+  }
+]

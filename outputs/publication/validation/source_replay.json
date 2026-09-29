@@ -1,0 +1,3642 @@
+{
+  "baseline_commit": "56b335c705ef15d5a261865382dd79991d2a93a2",
+  "purpose": "reproduction only; no result replacement",
+  "input_sha256": {
+    "D5_cognitive_dependence_raw.csv": "3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2",
+    "MP1_Manuscript_v3.docx": "042639bbd2ad6fe49b4ac87e47d5e401cb267945a422d58d15452021554df497",
+    "When Culture Meets AI - Survey Dataset.xlsx": "985c39bd5ad4e0f9278a059e6eaa8aa0ddacac51913b1996421880ad8062ff4a",
+    "DATA_DICTIONARY.md": "8f34000bb5c609d112920b72296430b31f7f25c5277550744b67c4b54825f82d",
+    "D3_dependency_vulnerability_raw.csv": "ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d"
+  },
+  "stages": [
+    {
+      "stage": "A_response_quality",
+      "exit_code": 0,
+      "csv_comparisons": [],
+      "quality_flags_sha256_equal": true,
+      "status": "PASS"
+    },
+    {
+      "stage": "B_measurement",
+      "exit_code": 0,
+      "csv_comparisons": [
+        {
+          "file": "factor_correlations.csv",
+          "rows": 42,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "factor_loadings.csv",
+          "rows": 404,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "factor_models.csv",
+          "rows": 10,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "item_correlations.csv",
+          "rows": 672,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "item_diagnostics.csv",
+          "rows": 50,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "item_distributions.csv",
+          "rows": 68,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "item_inventory.csv",
+          "rows": 34,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "measurement_assumptions.csv",
+          "rows": 4,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "parallel_analysis.csv",
+          "rows": 68,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "reliability.csv",
+          "rows": 10,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        }
+      ],
+      "decision_keys_equal": {
+        "samples": true,
+        "decisions": true,
+        "representation": true,
+        "htmt": true
+      },
+      "status": "PASS"
+    },
+    {
+      "stage": "B_clustering",
+      "exit_code": 0,
+      "csv_comparisons": [
+        {
+          "file": "cluster_centroids.csv",
+          "rows": 1360,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": false,
+          "differences": [
+            {
+              "column": "probability_above_1",
+              "maximum_absolute_difference": 0.0008887133405747205
+            },
+            {
+              "column": "probability_above_2",
+              "maximum_absolute_difference": 0.0068452674086476595
+            },
+            {
+              "column": "probability_above_3",
+              "maximum_absolute_difference": 0.005417118093174356
+            },
+            {
+              "column": "probability_above_4",
+              "maximum_absolute_difference": 0.005909583374372113
+            },
+            {
+              "column": "agreement_proportion",
+              "maximum_absolute_difference": 0.005417118093174356
+            }
+          ],
+          "mismatch_cells": [
+            {
+              "csv_data_row": 1127,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_1",
+              "field": "probability_above_1",
+              "accepted_value": "0.8461538461538461",
+              "replayed_value": "0.8455284552845529",
+              "difference": -0.0006253908692932519,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1127,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_1",
+              "field": "probability_above_2",
+              "accepted_value": "0.068825910931174",
+              "replayed_value": "0.0691056910569105",
+              "difference": 0.0002797801257364979,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1127,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_1",
+              "field": "probability_above_3",
+              "accepted_value": "0.0080971659919028",
+              "replayed_value": "0.008130081300813",
+              "difference": 3.291530891020092e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1127,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_1",
+              "field": "agreement_proportion",
+              "accepted_value": "0.0080971659919028",
+              "replayed_value": "0.008130081300813",
+              "difference": 3.291530891020092e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1128,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_2",
+              "field": "probability_above_1",
+              "accepted_value": "0.7813765182186235",
+              "replayed_value": "0.7804878048780488",
+              "difference": -0.0008887133405747205,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1128,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_2",
+              "field": "probability_above_2",
+              "accepted_value": "0.1052631578947368",
+              "replayed_value": "0.1016260162601626",
+              "difference": -0.0036371416345741953,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1128,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_2",
+              "field": "probability_above_3",
+              "accepted_value": "0.020242914979757",
+              "replayed_value": "0.016260162601626",
+              "difference": -0.003982752378130998,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1128,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_2",
+              "field": "agreement_proportion",
+              "accepted_value": "0.020242914979757",
+              "replayed_value": "0.016260162601626",
+              "difference": -0.003982752378130998,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1129,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_3",
+              "field": "probability_above_1",
+              "accepted_value": "0.9919028340080972",
+              "replayed_value": "0.991869918699187",
+              "difference": -3.291530891025296e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1129,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_3",
+              "field": "probability_above_2",
+              "accepted_value": "0.9473684210526316",
+              "replayed_value": "0.9471544715447154",
+              "difference": -0.00021394950791620015,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1129,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_3",
+              "field": "probability_above_3",
+              "accepted_value": "0.8744939271255061",
+              "replayed_value": "0.8739837398373984",
+              "difference": -0.0005101872881076996,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1129,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_3",
+              "field": "probability_above_4",
+              "accepted_value": "0.3076923076923077",
+              "replayed_value": "0.3089430894308943",
+              "difference": 0.001250781738586615,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1129,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_3",
+              "field": "agreement_proportion",
+              "accepted_value": "0.8744939271255061",
+              "replayed_value": "0.8739837398373984",
+              "difference": -0.0005101872881076996,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1130,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_4",
+              "field": "probability_above_2",
+              "accepted_value": "0.9919028340080972",
+              "replayed_value": "0.991869918699187",
+              "difference": -3.291530891025296e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1130,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_4",
+              "field": "probability_above_3",
+              "accepted_value": "0.9068825910931174",
+              "replayed_value": "0.9105691056910568",
+              "difference": 0.0036865145979393388,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1130,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_4",
+              "field": "probability_above_4",
+              "accepted_value": "0.2995951417004048",
+              "replayed_value": "0.3008130081300813",
+              "difference": 0.0012178664296765285,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1130,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_4",
+              "field": "agreement_proportion",
+              "accepted_value": "0.9068825910931174",
+              "replayed_value": "0.9105691056910568",
+              "difference": 0.0036865145979393388,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1131,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_5",
+              "field": "probability_above_2",
+              "accepted_value": "0.979757085020243",
+              "replayed_value": "0.9796747967479674",
+              "difference": -8.228827227552138e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1131,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_5",
+              "field": "probability_above_3",
+              "accepted_value": "0.8744939271255061",
+              "replayed_value": "0.8739837398373984",
+              "difference": -0.0005101872881076996,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1131,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_5",
+              "field": "probability_above_4",
+              "accepted_value": "0.2550607287449393",
+              "replayed_value": "0.2520325203252032",
+              "difference": -0.0030282084197361114,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1131,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_5",
+              "field": "agreement_proportion",
+              "accepted_value": "0.8744939271255061",
+              "replayed_value": "0.8739837398373984",
+              "difference": -0.0005101872881076996,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1132,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_6",
+              "field": "probability_above_2",
+              "accepted_value": "0.9919028340080972",
+              "replayed_value": "0.991869918699187",
+              "difference": -3.291530891025296e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1132,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_6",
+              "field": "probability_above_3",
+              "accepted_value": "0.8663967611336032",
+              "replayed_value": "0.8658536585365854",
+              "difference": -0.0005431025970178416,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1132,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_6",
+              "field": "probability_above_4",
+              "accepted_value": "0.2267206477732793",
+              "replayed_value": "0.2235772357723577",
+              "difference": -0.0031434120009216082,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1132,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_6",
+              "field": "agreement_proportion",
+              "accepted_value": "0.8663967611336032",
+              "replayed_value": "0.8658536585365854",
+              "difference": -0.0005431025970178416,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1133,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_7",
+              "field": "probability_above_2",
+              "accepted_value": "0.9919028340080972",
+              "replayed_value": "0.9959349593495936",
+              "difference": 0.00403212534149644,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1133,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_7",
+              "field": "probability_above_3",
+              "accepted_value": "0.8663967611336032",
+              "replayed_value": "0.8699186991869918",
+              "difference": 0.003521938053388629,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1133,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_7",
+              "field": "probability_above_4",
+              "accepted_value": "0.242914979757085",
+              "replayed_value": "0.2439024390243902",
+              "difference": 0.0009874592673052018,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1133,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_7",
+              "field": "agreement_proportion",
+              "accepted_value": "0.8663967611336032",
+              "replayed_value": "0.8699186991869918",
+              "difference": 0.003521938053388629,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1134,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_8",
+              "field": "probability_above_1",
+              "accepted_value": "0.9959514170040484",
+              "replayed_value": "0.9959349593495936",
+              "difference": -1.6457654454793413e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1134,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_8",
+              "field": "probability_above_2",
+              "accepted_value": "0.9919028340080972",
+              "replayed_value": "0.991869918699187",
+              "difference": -3.291530891025296e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1134,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_8",
+              "field": "probability_above_3",
+              "accepted_value": "0.9352226720647774",
+              "replayed_value": "0.934959349593496",
+              "difference": -0.00026332247128135755,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1134,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_8",
+              "field": "probability_above_4",
+              "accepted_value": "0.3805668016194332",
+              "replayed_value": "0.3780487804878049",
+              "difference": -0.0025180211316283008,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1134,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_8",
+              "field": "agreement_proportion",
+              "accepted_value": "0.9352226720647774",
+              "replayed_value": "0.934959349593496",
+              "difference": -0.00026332247128135755,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1135,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_9",
+              "field": "probability_above_1",
+              "accepted_value": "0.9919028340080972",
+              "replayed_value": "0.991869918699187",
+              "difference": -3.291530891025296e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1135,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_9",
+              "field": "probability_above_2",
+              "accepted_value": "0.9878542510121456",
+              "replayed_value": "0.9878048780487804",
+              "difference": -4.937296336526842e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1135,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_9",
+              "field": "probability_above_3",
+              "accepted_value": "0.9190283400809716",
+              "replayed_value": "0.91869918699187",
+              "difference": -0.0003291530891015304,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1135,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "item": "D3_9",
+              "field": "agreement_proportion",
+              "accepted_value": "0.9190283400809716",
+              "replayed_value": "0.91869918699187",
+              "difference": -0.0003291530891015304,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1172,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_1",
+              "field": "probability_above_2",
+              "accepted_value": "0.9788732394366196",
+              "replayed_value": "0.972027972027972",
+              "difference": -0.0068452674086476595,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1172,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_1",
+              "field": "probability_above_3",
+              "accepted_value": "0.7394366197183099",
+              "replayed_value": "0.7342657342657343",
+              "difference": -0.005170885452575602,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1172,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_1",
+              "field": "probability_above_4",
+              "accepted_value": "0.0845070422535211",
+              "replayed_value": "0.0839160839160839",
+              "difference": -0.0005909583374371918,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1172,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_1",
+              "field": "agreement_proportion",
+              "accepted_value": "0.7394366197183099",
+              "replayed_value": "0.7342657342657343",
+              "difference": -0.005170885452575602,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1173,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_2",
+              "field": "probability_above_2",
+              "accepted_value": "0.8591549295774648",
+              "replayed_value": "0.8601398601398601",
+              "difference": 0.0009849305623953475,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1173,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_2",
+              "field": "probability_above_3",
+              "accepted_value": "0.6690140845070423",
+              "replayed_value": "0.6713286713286714",
+              "difference": 0.0023145868216291055,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1173,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_2",
+              "field": "probability_above_4",
+              "accepted_value": "0.1267605633802817",
+              "replayed_value": "0.1258741258741259",
+              "difference": -0.0008864375061558016,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1173,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_2",
+              "field": "agreement_proportion",
+              "accepted_value": "0.6690140845070423",
+              "replayed_value": "0.6713286713286714",
+              "difference": 0.0023145868216291055,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1174,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_3",
+              "field": "probability_above_1",
+              "accepted_value": "0.9929577464788732",
+              "replayed_value": "0.993006993006993",
+              "difference": 4.9246528119772925e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1174,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_3",
+              "field": "probability_above_2",
+              "accepted_value": "0.7887323943661971",
+              "replayed_value": "0.7902097902097902",
+              "difference": 0.0014773958435930767,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1174,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_3",
+              "field": "probability_above_3",
+              "accepted_value": "0.6549295774647887",
+              "replayed_value": "0.6573426573426573",
+              "difference": 0.0024130798778685403,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1174,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_3",
+              "field": "probability_above_4",
+              "accepted_value": "0.1971830985915492",
+              "replayed_value": "0.1958041958041958",
+              "difference": -0.0013789027873533921,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1174,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_3",
+              "field": "agreement_proportion",
+              "accepted_value": "0.6549295774647887",
+              "replayed_value": "0.6573426573426573",
+              "difference": 0.0024130798778685403,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1175,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_4",
+              "field": "probability_above_1",
+              "accepted_value": "0.9929577464788732",
+              "replayed_value": "0.993006993006993",
+              "difference": 4.9246528119772925e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1175,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_4",
+              "field": "probability_above_2",
+              "accepted_value": "0.8450704225352113",
+              "replayed_value": "0.8461538461538461",
+              "difference": 0.0010834236186348933,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1175,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_4",
+              "field": "probability_above_3",
+              "accepted_value": "0.6901408450704225",
+              "replayed_value": "0.6853146853146853",
+              "difference": -0.004826159755737192,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1175,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_4",
+              "field": "probability_above_4",
+              "accepted_value": "0.056338028169014",
+              "replayed_value": "0.0559440559440559",
+              "difference": -0.00039397222495810014,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1175,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_4",
+              "field": "agreement_proportion",
+              "accepted_value": "0.6901408450704225",
+              "replayed_value": "0.6853146853146853",
+              "difference": -0.004826159755737192,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1176,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_5",
+              "field": "probability_above_2",
+              "accepted_value": "0.9014084507042254",
+              "replayed_value": "0.902097902097902",
+              "difference": 0.0006894513936765989,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1176,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_5",
+              "field": "probability_above_3",
+              "accepted_value": "0.7112676056338029",
+              "replayed_value": "0.7132867132867133",
+              "difference": 0.002019107652910468,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1176,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_5",
+              "field": "probability_above_4",
+              "accepted_value": "0.1690140845070422",
+              "replayed_value": "0.1748251748251748",
+              "difference": 0.005811090318132595,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1176,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_5",
+              "field": "agreement_proportion",
+              "accepted_value": "0.7112676056338029",
+              "replayed_value": "0.7132867132867133",
+              "difference": 0.002019107652910468,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1177,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_6",
+              "field": "probability_above_2",
+              "accepted_value": "0.9154929577464788",
+              "replayed_value": "0.916083916083916",
+              "difference": 0.0005909583374372751,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1177,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_6",
+              "field": "probability_above_3",
+              "accepted_value": "0.7535211267605634",
+              "replayed_value": "0.7552447552447552",
+              "difference": 0.0017236284841918303,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1177,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_6",
+              "field": "probability_above_4",
+              "accepted_value": "0.1619718309859155",
+              "replayed_value": "0.1678321678321678",
+              "difference": 0.005860336846252312,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1177,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_6",
+              "field": "agreement_proportion",
+              "accepted_value": "0.7535211267605634",
+              "replayed_value": "0.7552447552447552",
+              "difference": 0.0017236284841918303,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1178,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_7",
+              "field": "probability_above_2",
+              "accepted_value": "0.943661971830986",
+              "replayed_value": "0.9370629370629372",
+              "difference": -0.006599034768048795,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1178,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_7",
+              "field": "probability_above_3",
+              "accepted_value": "0.7746478873239436",
+              "replayed_value": "0.7692307692307693",
+              "difference": -0.005417118093174356,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1178,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_7",
+              "field": "probability_above_4",
+              "accepted_value": "0.1197183098591549",
+              "replayed_value": "0.1188811188811188",
+              "difference": -0.0008371909780360981,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1178,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_7",
+              "field": "agreement_proportion",
+              "accepted_value": "0.7746478873239436",
+              "replayed_value": "0.7692307692307693",
+              "difference": -0.005417118093174356,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1179,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_8",
+              "field": "probability_above_2",
+              "accepted_value": "0.9929577464788732",
+              "replayed_value": "0.993006993006993",
+              "difference": 4.9246528119772925e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1179,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_8",
+              "field": "probability_above_3",
+              "accepted_value": "0.8309859154929577",
+              "replayed_value": "0.8321678321678322",
+              "difference": 0.0011819166748744392,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1179,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_8",
+              "field": "probability_above_4",
+              "accepted_value": "0.1549295774647887",
+              "replayed_value": "0.1608391608391608",
+              "difference": 0.005909583374372113,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1179,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_8",
+              "field": "agreement_proportion",
+              "accepted_value": "0.8309859154929577",
+              "replayed_value": "0.8321678321678322",
+              "difference": 0.0011819166748744392,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1180,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_9",
+              "field": "probability_above_2",
+              "accepted_value": "0.9859154929577464",
+              "replayed_value": "0.986013986013986",
+              "difference": 9.849305623965687e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1180,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_9",
+              "field": "probability_above_3",
+              "accepted_value": "0.9295774647887324",
+              "replayed_value": "0.93006993006993",
+              "difference": 0.0004924652811976182,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1180,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_9",
+              "field": "probability_above_4",
+              "accepted_value": "0.2816901408450704",
+              "replayed_value": "0.2797202797202797",
+              "difference": -0.001969861124790695,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 1180,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "item": "D3_9",
+              "field": "agreement_proportion",
+              "accepted_value": "0.9295774647887324",
+              "replayed_value": "0.93006993006993",
+              "difference": 0.0004924652811976182,
+              "selected_k2": false
+            }
+          ],
+          "status": "FAIL"
+        },
+        {
+          "file": "cluster_metrics.csv",
+          "rows": 20,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": false,
+          "differences": [
+            {
+              "column": "silhouette",
+              "maximum_absolute_difference": 0.0002225875775640207
+            },
+            {
+              "column": "davies_bouldin",
+              "maximum_absolute_difference": 0.001762719371537269
+            },
+            {
+              "column": "calinski_harabasz",
+              "maximum_absolute_difference": 0.009517735176984843
+            },
+            {
+              "column": "minimum_cluster_fraction",
+              "maximum_absolute_difference": 0.0009057971014492239
+            },
+            {
+              "column": "largest_to_smallest_ratio",
+              "maximum_absolute_difference": 0.013345809120456797
+            },
+            {
+              "column": "negative_silhouette_fraction",
+              "maximum_absolute_difference": 0.0018115942028986143
+            },
+            {
+              "column": "centroid_separation_to_within_rms",
+              "maximum_absolute_difference": 0.0003330419438966059
+            },
+            {
+              "column": "ari_mean",
+              "maximum_absolute_difference": 0.00891968012903166
+            },
+            {
+              "column": "ari_sd",
+              "maximum_absolute_difference": 0.011200523852334596
+            },
+            {
+              "column": "ari_10_percentile",
+              "maximum_absolute_difference": 0.009152159278875804
+            },
+            {
+              "column": "ari_90_percentile",
+              "maximum_absolute_difference": 0.020800976085449285
+            },
+            {
+              "column": "minimum_cluster_jaccard_mean",
+              "maximum_absolute_difference": 0.01839105266090668
+            }
+          ],
+          "mismatch_cells": [
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_mean",
+              "accepted_value": "0.6176869973323392",
+              "replayed_value": "0.6266066774613709",
+              "difference": 0.00891968012903166,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_sd",
+              "accepted_value": "0.1630271953429144",
+              "replayed_value": "0.1659172226582497",
+              "difference": 0.002890027315335303,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.3863707003430198",
+              "replayed_value": "0.3895850167819179",
+              "difference": 0.003214316438898135,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_90_percentile",
+              "accepted_value": "0.7802171698040647",
+              "replayed_value": "0.801018145889514",
+              "difference": 0.020800976085449285,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.5622451474021476",
+              "replayed_value": "0.5699487891119385",
+              "difference": 0.007703641709790876,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 7,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_mean",
+              "accepted_value": "0.997526467968452",
+              "replayed_value": "0.9974457004598544",
+              "difference": -8.076750859764559e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 7,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_sd",
+              "accepted_value": "0.004725493229437",
+              "replayed_value": "0.004751739395897",
+              "difference": 2.6246166460000032e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 7,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.995255755013014",
+              "replayed_value": "0.9950705698278286",
+              "difference": -0.00018518518518539917,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 10,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_mean",
+              "accepted_value": "0.3732299703356186",
+              "replayed_value": "0.3733764030105084",
+              "difference": 0.00014643267488978484,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 10,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_sd",
+              "accepted_value": "0.0921116205060329",
+              "replayed_value": "0.092083025203947",
+              "difference": -2.8595302085904217e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 10,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.2470377000636917",
+              "replayed_value": "0.2459958215918493",
+              "difference": -0.0010418784718423946,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 12,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "field": "ari_mean",
+              "accepted_value": "0.983990153548056",
+              "replayed_value": "0.9838543462902752",
+              "difference": -0.000135807257780729,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 12,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "field": "ari_sd",
+              "accepted_value": "0.0190284059049166",
+              "replayed_value": "0.0190559499474902",
+              "difference": 2.75440425735983e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 12,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.969603840687758",
+              "replayed_value": "0.9625494474991292",
+              "difference": -0.007054393188628771,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 12,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.9802027022091964",
+              "replayed_value": "0.9800214474659632",
+              "difference": -0.00018125474323316126,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 13,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "field": "ari_mean",
+              "accepted_value": "0.9877450690012374",
+              "replayed_value": "0.9874962015919276",
+              "difference": -0.0002488674093097387,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 13,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "field": "ari_sd",
+              "accepted_value": "0.0146110650100059",
+              "replayed_value": "0.0145566766098378",
+              "difference": -5.4388400168100745e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 13,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.957956133003914",
+              "replayed_value": "0.9564822233937696",
+              "difference": -0.001473909610144375,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 14,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "field": "ari_mean",
+              "accepted_value": "0.9834622623012286",
+              "replayed_value": "0.9832524831603524",
+              "difference": -0.00020977914087616512,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 14,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "field": "ari_sd",
+              "accepted_value": "0.0153017345264597",
+              "replayed_value": "0.0158113850921438",
+              "difference": 0.0005096505656841006,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 14,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.9433799032780082",
+              "replayed_value": "0.9447579094709054",
+              "difference": 0.0013780061928971854,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "silhouette",
+              "accepted_value": "0.1288302992449439",
+              "replayed_value": "0.1286077116673799",
+              "difference": -0.0002225875775640207,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "davies_bouldin",
+              "accepted_value": "2.475878718272584",
+              "replayed_value": "2.477641437644121",
+              "difference": 0.001762719371537269,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "calinski_harabasz",
+              "accepted_value": "261.1561299892646",
+              "replayed_value": "261.1656477244416",
+              "difference": 0.009517735176984843,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "minimum_cluster_fraction",
+              "accepted_value": "0.1286231884057971",
+              "replayed_value": "0.1295289855072463",
+              "difference": 0.0009057971014492239,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "largest_to_smallest_ratio",
+              "accepted_value": "1.908450704225352",
+              "replayed_value": "1.8951048951048952",
+              "difference": -0.013345809120456797,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "negative_silhouette_fraction",
+              "accepted_value": "0.1476449275362318",
+              "replayed_value": "0.1494565217391304",
+              "difference": 0.0018115942028986143,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "centroid_separation_to_within_rms",
+              "accepted_value": "0.6456548500124922",
+              "replayed_value": "0.6453218080685956",
+              "difference": -0.0003330419438966059,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_mean",
+              "accepted_value": "0.9499552720484156",
+              "replayed_value": "0.9419274765084198",
+              "difference": -0.008027795539995775,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_sd",
+              "accepted_value": "0.0823525352394345",
+              "replayed_value": "0.0935530590917691",
+              "difference": 0.011200523852334596,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.9054097151020872",
+              "replayed_value": "0.8986366958809306",
+              "difference": -0.006773019221156584,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.907142731043339",
+              "replayed_value": "0.8887516783824323",
+              "difference": -0.01839105266090668,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 17,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_mean",
+              "accepted_value": "0.9872550890052064",
+              "replayed_value": "0.9869851833186007",
+              "difference": -0.00026990568660567593,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 17,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_sd",
+              "accepted_value": "0.0173555147020154",
+              "replayed_value": "0.0175911245820686",
+              "difference": 0.00023560988005320166,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 17,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.9713859476640112",
+              "replayed_value": "0.9713212863974268",
+              "difference": -6.46612665844426e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 17,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.9839341567451594",
+              "replayed_value": "0.9835892274998764",
+              "difference": -0.00034492924528295443,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "field": "ari_mean",
+              "accepted_value": "0.983605347018168",
+              "replayed_value": "0.9843418831575278",
+              "difference": 0.0007365361393597558,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "field": "ari_sd",
+              "accepted_value": "0.0169468444238489",
+              "replayed_value": "0.0158912044458217",
+              "difference": -0.001055639978027198,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.9595772720412878",
+              "replayed_value": "0.9640431765046232",
+              "difference": 0.004465904463335391,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.943563929254802",
+              "replayed_value": "0.945789657535142",
+              "difference": 0.002225728280339956,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 19,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "field": "ari_mean",
+              "accepted_value": "0.9781970040071748",
+              "replayed_value": "0.9778792088360428",
+              "difference": -0.00031779517113195155,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 19,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "field": "ari_sd",
+              "accepted_value": "0.0139084881444945",
+              "replayed_value": "0.0142078805221815",
+              "difference": 0.0002993923776870005,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 19,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.961764704660418",
+              "replayed_value": "0.9612519495385176",
+              "difference": -0.0005127551219004101,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 19,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.918172459381992",
+              "replayed_value": "0.9162559661532974",
+              "difference": -0.0019164932286945824,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 20,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_mean",
+              "accepted_value": "0.954959609385485",
+              "replayed_value": "0.9511966752766396",
+              "difference": -0.003762934108845317,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 20,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_sd",
+              "accepted_value": "0.0845629144545179",
+              "replayed_value": "0.0941761921401104",
+              "difference": 0.009613277685592503,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 20,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.9265627705861498",
+              "replayed_value": "0.917410611307274",
+              "difference": -0.009152159278875804,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 20,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.9083031930713792",
+              "replayed_value": "0.9087437413258872",
+              "difference": 0.00044054825450801083,
+              "selected_k2": false
+            }
+          ],
+          "status": "FAIL"
+        },
+        {
+          "file": "cluster_record_concentration.csv",
+          "rows": 8,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "cluster_selection.csv",
+          "rows": 20,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": false,
+          "differences": [
+            {
+              "column": "silhouette",
+              "maximum_absolute_difference": 0.0002225875775640207
+            },
+            {
+              "column": "davies_bouldin",
+              "maximum_absolute_difference": 0.001762719371537269
+            },
+            {
+              "column": "calinski_harabasz",
+              "maximum_absolute_difference": 0.009517735176984843
+            },
+            {
+              "column": "minimum_cluster_fraction",
+              "maximum_absolute_difference": 0.0009057971014492239
+            },
+            {
+              "column": "largest_to_smallest_ratio",
+              "maximum_absolute_difference": 0.013345809120456797
+            },
+            {
+              "column": "negative_silhouette_fraction",
+              "maximum_absolute_difference": 0.0018115942028986143
+            },
+            {
+              "column": "centroid_separation_to_within_rms",
+              "maximum_absolute_difference": 0.0003330419438966059
+            },
+            {
+              "column": "ari_mean",
+              "maximum_absolute_difference": 0.00891968012903166
+            },
+            {
+              "column": "ari_sd",
+              "maximum_absolute_difference": 0.011200523852334596
+            },
+            {
+              "column": "ari_10_percentile",
+              "maximum_absolute_difference": 0.009152159278875804
+            },
+            {
+              "column": "ari_90_percentile",
+              "maximum_absolute_difference": 0.020800976085449285
+            },
+            {
+              "column": "minimum_cluster_jaccard_mean",
+              "maximum_absolute_difference": 0.01839105266090668
+            }
+          ],
+          "mismatch_cells": [
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_mean",
+              "accepted_value": "0.6176869973323392",
+              "replayed_value": "0.6266066774613709",
+              "difference": 0.00891968012903166,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_sd",
+              "accepted_value": "0.1630271953429144",
+              "replayed_value": "0.1659172226582497",
+              "difference": 0.002890027315335303,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.3863707003430198",
+              "replayed_value": "0.3895850167819179",
+              "difference": 0.003214316438898135,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_90_percentile",
+              "accepted_value": "0.7802171698040647",
+              "replayed_value": "0.801018145889514",
+              "difference": 0.020800976085449285,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 5,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.5622451474021476",
+              "replayed_value": "0.5699487891119385",
+              "difference": 0.007703641709790876,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 7,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_mean",
+              "accepted_value": "0.997526467968452",
+              "replayed_value": "0.9974457004598544",
+              "difference": -8.076750859764559e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 7,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_sd",
+              "accepted_value": "0.004725493229437",
+              "replayed_value": "0.004751739395897",
+              "difference": 2.6246166460000032e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 7,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.995255755013014",
+              "replayed_value": "0.9950705698278286",
+              "difference": -0.00018518518518539917,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 10,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_mean",
+              "accepted_value": "0.3732299703356186",
+              "replayed_value": "0.3733764030105084",
+              "difference": 0.00014643267488978484,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 10,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_sd",
+              "accepted_value": "0.0921116205060329",
+              "replayed_value": "0.092083025203947",
+              "difference": -2.8595302085904217e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 10,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.2470377000636917",
+              "replayed_value": "0.2459958215918493",
+              "difference": -0.0010418784718423946,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 12,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "field": "ari_mean",
+              "accepted_value": "0.983990153548056",
+              "replayed_value": "0.9838543462902752",
+              "difference": -0.000135807257780729,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 12,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "field": "ari_sd",
+              "accepted_value": "0.0190284059049166",
+              "replayed_value": "0.0190559499474902",
+              "difference": 2.75440425735983e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 12,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.969603840687758",
+              "replayed_value": "0.9625494474991292",
+              "difference": -0.007054393188628771,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 12,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.9802027022091964",
+              "replayed_value": "0.9800214474659632",
+              "difference": -0.00018125474323316126,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 13,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "field": "ari_mean",
+              "accepted_value": "0.9877450690012374",
+              "replayed_value": "0.9874962015919276",
+              "difference": -0.0002488674093097387,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 13,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "field": "ari_sd",
+              "accepted_value": "0.0146110650100059",
+              "replayed_value": "0.0145566766098378",
+              "difference": -5.4388400168100745e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 13,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.957956133003914",
+              "replayed_value": "0.9564822233937696",
+              "difference": -0.001473909610144375,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 14,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "field": "ari_mean",
+              "accepted_value": "0.9834622623012286",
+              "replayed_value": "0.9832524831603524",
+              "difference": -0.00020977914087616512,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 14,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "field": "ari_sd",
+              "accepted_value": "0.0153017345264597",
+              "replayed_value": "0.0158113850921438",
+              "difference": 0.0005096505656841006,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 14,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.9433799032780082",
+              "replayed_value": "0.9447579094709054",
+              "difference": 0.0013780061928971854,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "silhouette",
+              "accepted_value": "0.1288302992449439",
+              "replayed_value": "0.1286077116673799",
+              "difference": -0.0002225875775640207,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "davies_bouldin",
+              "accepted_value": "2.475878718272584",
+              "replayed_value": "2.477641437644121",
+              "difference": 0.001762719371537269,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "calinski_harabasz",
+              "accepted_value": "261.1561299892646",
+              "replayed_value": "261.1656477244416",
+              "difference": 0.009517735176984843,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "minimum_cluster_fraction",
+              "accepted_value": "0.1286231884057971",
+              "replayed_value": "0.1295289855072463",
+              "difference": 0.0009057971014492239,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "largest_to_smallest_ratio",
+              "accepted_value": "1.908450704225352",
+              "replayed_value": "1.8951048951048952",
+              "difference": -0.013345809120456797,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "negative_silhouette_fraction",
+              "accepted_value": "0.1476449275362318",
+              "replayed_value": "0.1494565217391304",
+              "difference": 0.0018115942028986143,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "centroid_separation_to_within_rms",
+              "accepted_value": "0.6456548500124922",
+              "replayed_value": "0.6453218080685956",
+              "difference": -0.0003330419438966059,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_mean",
+              "accepted_value": "0.9499552720484156",
+              "replayed_value": "0.9419274765084198",
+              "difference": -0.008027795539995775,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_sd",
+              "accepted_value": "0.0823525352394345",
+              "replayed_value": "0.0935530590917691",
+              "difference": 0.011200523852334596,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.9054097151020872",
+              "replayed_value": "0.8986366958809306",
+              "difference": -0.006773019221156584,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.907142731043339",
+              "replayed_value": "0.8887516783824323",
+              "difference": -0.01839105266090668,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 17,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_mean",
+              "accepted_value": "0.9872550890052064",
+              "replayed_value": "0.9869851833186007",
+              "difference": -0.00026990568660567593,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 17,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_sd",
+              "accepted_value": "0.0173555147020154",
+              "replayed_value": "0.0175911245820686",
+              "difference": 0.00023560988005320166,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 17,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.9713859476640112",
+              "replayed_value": "0.9713212863974268",
+              "difference": -6.46612665844426e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 17,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.9839341567451594",
+              "replayed_value": "0.9835892274998764",
+              "difference": -0.00034492924528295443,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "field": "ari_mean",
+              "accepted_value": "0.983605347018168",
+              "replayed_value": "0.9843418831575278",
+              "difference": 0.0007365361393597558,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "field": "ari_sd",
+              "accepted_value": "0.0169468444238489",
+              "replayed_value": "0.0158912044458217",
+              "difference": -0.001055639978027198,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.9595772720412878",
+              "replayed_value": "0.9640431765046232",
+              "difference": 0.004465904463335391,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.943563929254802",
+              "replayed_value": "0.945789657535142",
+              "difference": 0.002225728280339956,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 19,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "field": "ari_mean",
+              "accepted_value": "0.9781970040071748",
+              "replayed_value": "0.9778792088360428",
+              "difference": -0.00031779517113195155,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 19,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "field": "ari_sd",
+              "accepted_value": "0.0139084881444945",
+              "replayed_value": "0.0142078805221815",
+              "difference": 0.0002993923776870005,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 19,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.961764704660418",
+              "replayed_value": "0.9612519495385176",
+              "difference": -0.0005127551219004101,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 19,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.918172459381992",
+              "replayed_value": "0.9162559661532974",
+              "difference": -0.0019164932286945824,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 20,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_mean",
+              "accepted_value": "0.954959609385485",
+              "replayed_value": "0.9511966752766396",
+              "difference": -0.003762934108845317,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 20,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_sd",
+              "accepted_value": "0.0845629144545179",
+              "replayed_value": "0.0941761921401104",
+              "difference": 0.009613277685592503,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 20,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "ari_10_percentile",
+              "accepted_value": "0.9265627705861498",
+              "replayed_value": "0.917410611307274",
+              "difference": -0.009152159278875804,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 20,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "field": "minimum_cluster_jaccard_mean",
+              "accepted_value": "0.9083031930713792",
+              "replayed_value": "0.9087437413258872",
+              "difference": 0.00044054825450801083,
+              "selected_k2": false
+            }
+          ],
+          "status": "FAIL"
+        },
+        {
+          "file": "cluster_sizes.csv",
+          "rows": 80,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": false,
+          "differences": [
+            {
+              "column": "count",
+              "maximum_absolute_difference": 1.0
+            },
+            {
+              "column": "fraction",
+              "maximum_absolute_difference": 0.0009057971014493071
+            }
+          ],
+          "mismatch_cells": [
+            {
+              "csv_data_row": 55,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "field": "count",
+              "accepted_value": "247",
+              "replayed_value": "246",
+              "difference": -1.0,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 55,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "field": "fraction",
+              "accepted_value": "0.223731884057971",
+              "replayed_value": "0.2228260869565217",
+              "difference": -0.0009057971014493071,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 60,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "field": "count",
+              "accepted_value": "142",
+              "replayed_value": "143",
+              "difference": 1.0,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 60,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "field": "fraction",
+              "accepted_value": "0.1286231884057971",
+              "replayed_value": "0.1295289855072463",
+              "difference": 0.0009057971014492239,
+              "selected_k2": false
+            }
+          ],
+          "status": "FAIL"
+        },
+        {
+          "file": "cluster_stability.csv",
+          "rows": 80,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": false,
+          "differences": [
+            {
+              "column": "jaccard_mean",
+              "maximum_absolute_difference": 0.02474171705107464
+            },
+            {
+              "column": "jaccard_10_percentile",
+              "maximum_absolute_difference": 0.0721236559139784
+            },
+            {
+              "column": "jaccard_90_percentile",
+              "maximum_absolute_difference": 0.045858406960734954
+            }
+          ],
+          "mismatch_cells": [
+            {
+              "csv_data_row": 15,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.5622451474021476",
+              "replayed_value": "0.5699487891119385",
+              "difference": 0.007703641709790876,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.2599180380629519",
+              "replayed_value": "0.258327740371084",
+              "difference": -0.001590297691867859,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 15,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "field": "jaccard_90_percentile",
+              "accepted_value": "0.7449074297868227",
+              "replayed_value": "0.7907658367475576",
+              "difference": 0.045858406960734954,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 16,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "2",
+              "field": "jaccard_mean",
+              "accepted_value": "0.7224943670578532",
+              "replayed_value": "0.7298178595930128",
+              "difference": 0.007323492535159626,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 16,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "2",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.4955699379210144",
+              "replayed_value": "0.5010329319599593",
+              "difference": 0.005462994038944957,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 16,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "2",
+              "field": "jaccard_90_percentile",
+              "accepted_value": "0.8620991926182238",
+              "replayed_value": "0.8757447875318598",
+              "difference": 0.013645594913636039,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 17,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "3",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9962887735048108",
+              "replayed_value": "0.9965061648091584",
+              "difference": 0.0002173913043476139,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "4",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9978756252427544",
+              "replayed_value": "0.9926124673480178",
+              "difference": -0.005263157894736636,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 18,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "4",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "1.0",
+              "replayed_value": "0.9795493197278912",
+              "difference": -0.020450680272108834,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 20,
+              "dataset": "D5",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9997297297297296",
+              "replayed_value": "0.9994971715901948",
+              "difference": -0.00023255813953482196,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 23,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "3",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9993321067333296",
+              "replayed_value": "0.9993073542580824",
+              "difference": -2.475247524724722e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 25,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "3",
+              "cluster": "3",
+              "field": "jaccard_mean",
+              "accepted_value": "0.995255755013014",
+              "replayed_value": "0.9950705698278286",
+              "difference": -0.00018518518518539917,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 35,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.2470377000636917",
+              "replayed_value": "0.2459958215918493",
+              "difference": -0.0010418784718423946,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 35,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "1",
+              "field": "jaccard_90_percentile",
+              "accepted_value": "0.2647839666840187",
+              "replayed_value": "0.2628761181892111",
+              "difference": -0.001907848494807629,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 36,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "2",
+              "field": "jaccard_mean",
+              "accepted_value": "0.4861404929636239",
+              "replayed_value": "0.4874264703583984",
+              "difference": 0.00128597739477454,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 36,
+              "dataset": "D5",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "2",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.4522865039152464",
+              "replayed_value": "0.4533703041144901",
+              "difference": 0.0010838001992437007,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 43,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9897765043604174",
+              "replayed_value": "0.9896797535361084",
+              "difference": -9.675082430904425e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 43,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "cluster": "1",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.9789249720044794",
+              "replayed_value": "0.9781724924012156",
+              "difference": -0.0007524796032637449,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 44,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "cluster": "2",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9802027022091964",
+              "replayed_value": "0.9800214474659632",
+              "difference": -0.00018125474323316126,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 44,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "3",
+              "cluster": "2",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.9562541806020068",
+              "replayed_value": "0.953846153846154",
+              "difference": -0.0024080267558528323,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 46,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9959087049272296",
+              "replayed_value": "0.9958171593773372",
+              "difference": -9.154554989243557e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 46,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "cluster": "1",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.989561170212766",
+              "replayed_value": "0.9893502630976894",
+              "difference": -0.00021090711507665283,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 47,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "cluster": "2",
+              "field": "jaccard_mean",
+              "accepted_value": "0.961279832672581",
+              "replayed_value": "0.960101183435108",
+              "difference": -0.0011786492374730173,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 48,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "cluster": "3",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9964149951899408",
+              "replayed_value": "0.9965762855125212",
+              "difference": 0.00016129032258038745,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 49,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "4",
+              "cluster": "4",
+              "field": "jaccard_mean",
+              "accepted_value": "0.957956133003914",
+              "replayed_value": "0.9564822233937696",
+              "difference": -0.001473909610144375,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 50,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.991031618675476",
+              "replayed_value": "0.9898289632481964",
+              "difference": -0.0012026554272795975,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 50,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "cluster": "1",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.976688815060908",
+              "replayed_value": "0.9761324041811846",
+              "difference": -0.0005564108797233569,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 52,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "cluster": "3",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9433799032780082",
+              "replayed_value": "0.9450098479820908",
+              "difference": 0.0016299447040825088,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 52,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "cluster": "3",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.8567226890756302",
+              "replayed_value": "0.8615763546798029",
+              "difference": 0.004853665604172663,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 53,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "cluster": "4",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9961020502172062",
+              "replayed_value": "0.9962659846434356",
+              "difference": 0.00016393442622941734,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 54,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "cluster": "5",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9452952536626614",
+              "replayed_value": "0.9447579094709054",
+              "difference": -0.0005373441917559951,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 54,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "5",
+              "cluster": "5",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.8745967741935484",
+              "replayed_value": "0.8812144212523719",
+              "difference": 0.006617647058823506,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 55,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9659496547370244",
+              "replayed_value": "0.9612065400343356",
+              "difference": -0.004743114702688844,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 55,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "1",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.9540909090909092",
+              "replayed_value": "0.9474191063174114",
+              "difference": -0.00667180277349777,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 56,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "2",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9743000594934752",
+              "replayed_value": "0.9692241450484604",
+              "difference": -0.005075914445014762,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 56,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "2",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.9837889557135048",
+              "replayed_value": "0.979872340425532",
+              "difference": -0.003916615287972824,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 57,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "3",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9470002626620916",
+              "replayed_value": "0.946978241130608",
+              "difference": -2.2021531483562562e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 57,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "3",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.8819964349376114",
+              "replayed_value": "0.8745967741935484",
+              "difference": -0.0073996607440629525,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 58,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "4",
+              "field": "jaccard_mean",
+              "accepted_value": "0.907142731043339",
+              "replayed_value": "0.8887516783824323",
+              "difference": -0.01839105266090668,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 58,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "4",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.7404692082111437",
+              "replayed_value": "0.6966666666666667",
+              "difference": -0.04380254154447705,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 59,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "5",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9255229794467926",
+              "replayed_value": "0.900781262395718",
+              "difference": -0.02474171705107464,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 59,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "5",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.7775",
+              "replayed_value": "0.7053763440860216",
+              "difference": -0.0721236559139784,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 60,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9382360850832164",
+              "replayed_value": "0.9329117442369528",
+              "difference": -0.005324340846263653,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 60,
+              "dataset": "D3",
+              "sample": "full",
+              "k": "6",
+              "cluster": "6",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.8645852749301025",
+              "replayed_value": "0.8615763546798029",
+              "difference": -0.0030089202502996404,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 63,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9915674195804138",
+              "replayed_value": "0.9913612354875052",
+              "difference": -0.00020618409290862338,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 63,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "cluster": "1",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.9802696078431372",
+              "replayed_value": "0.9786771507863088",
+              "difference": -0.0015924570568284224,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 64,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "cluster": "2",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9839341567451594",
+              "replayed_value": "0.9835892274998764",
+              "difference": -0.00034492924528295443,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 64,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "3",
+              "cluster": "2",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.9607058823529412",
+              "replayed_value": "0.9599183673469388",
+              "difference": -0.0007875150060023817,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 66,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9936752030926488",
+              "replayed_value": "0.9940720339982656",
+              "difference": 0.00039683090561681844,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 66,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "cluster": "1",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.9805634875309348",
+              "replayed_value": "0.9807692307692308",
+              "difference": 0.00020574323829603003,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 67,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "cluster": "2",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9516624555600156",
+              "replayed_value": "0.9537583939277324",
+              "difference": 0.002095938367716821,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 67,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "cluster": "2",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.8571428571428571",
+              "replayed_value": "0.8615763546798029",
+              "difference": 0.004433497536945774,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 69,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "cluster": "4",
+              "field": "jaccard_mean",
+              "accepted_value": "0.943563929254802",
+              "replayed_value": "0.945789657535142",
+              "difference": 0.002225728280339956,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 69,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "4",
+              "cluster": "4",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.8421052631578947",
+              "replayed_value": "0.8558035714285714",
+              "difference": 0.013698308270676751,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 70,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.988815964087013",
+              "replayed_value": "0.9881937518687924",
+              "difference": -0.0006222122182205636,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 72,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "cluster": "3",
+              "field": "jaccard_mean",
+              "accepted_value": "0.91913235294154",
+              "replayed_value": "0.9192256015121965",
+              "difference": 9.324857065640124e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 72,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "cluster": "3",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.8484848484848485",
+              "replayed_value": "0.8476363636363636",
+              "difference": -0.0008484848484848762,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 73,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "cluster": "4",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9945983122983948",
+              "replayed_value": "0.9947580572351244",
+              "difference": 0.0001597449367296555,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 74,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "cluster": "5",
+              "field": "jaccard_mean",
+              "accepted_value": "0.918172459381992",
+              "replayed_value": "0.9162559661532974",
+              "difference": -0.0019164932286945824,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 74,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "5",
+              "cluster": "5",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.8387096774193549",
+              "replayed_value": "0.8386224934612032",
+              "difference": -8.71839581516598e-05,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 75,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "1",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9691766324797008",
+              "replayed_value": "0.9631118760980812",
+              "difference": -0.006064756381619518,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 75,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "1",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.9620377358490566",
+              "replayed_value": "0.9596521739130436",
+              "difference": -0.0023855619360130254,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 76,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "2",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9782262563654304",
+              "replayed_value": "0.9731714178177248",
+              "difference": -0.005054838547705609,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 77,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "3",
+              "field": "jaccard_mean",
+              "accepted_value": "0.947584020367763",
+              "replayed_value": "0.947463270815447",
+              "difference": -0.00012074955231600182,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 77,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "3",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.8692753623188406",
+              "replayed_value": "0.8682456140350877",
+              "difference": -0.001029748283752907,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 78,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "4",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9083031930713792",
+              "replayed_value": "0.9087437413258872",
+              "difference": 0.00044054825450801083,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 79,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "5",
+              "field": "jaccard_mean",
+              "accepted_value": "0.937598280183639",
+              "replayed_value": "0.9275371947122732",
+              "difference": -0.01006108547136575,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 79,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "5",
+              "field": "jaccard_10_percentile",
+              "accepted_value": "0.7797916666666667",
+              "replayed_value": "0.7935096153846154",
+              "difference": 0.013717948717948736,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 80,
+              "dataset": "D3",
+              "sample": "sensitivity",
+              "k": "6",
+              "cluster": "6",
+              "field": "jaccard_mean",
+              "accepted_value": "0.9324579238329196",
+              "replayed_value": "0.9327386805123556",
+              "difference": 0.0002807566794360561,
+              "selected_k2": false
+            }
+          ],
+          "status": "FAIL"
+        },
+        {
+          "file": "quality_sensitivity.csv",
+          "rows": 10,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": false,
+          "differences": [
+            {
+              "column": "full_sensitivity_ari",
+              "maximum_absolute_difference": 0.0021571904165833544
+            },
+            {
+              "column": "minimum_matched_jaccard",
+              "maximum_absolute_difference": 0.0071428571428572285
+            }
+          ],
+          "mismatch_cells": [
+            {
+              "csv_data_row": 10,
+              "dataset": "D3",
+              "k": "6",
+              "field": "full_sensitivity_ari",
+              "accepted_value": "0.9978428095834166",
+              "replayed_value": "1.0",
+              "difference": 0.0021571904165833544,
+              "selected_k2": false
+            },
+            {
+              "csv_data_row": 10,
+              "dataset": "D3",
+              "k": "6",
+              "field": "minimum_matched_jaccard",
+              "accepted_value": "0.9928571428571428",
+              "replayed_value": "1.0",
+              "difference": 0.0071428571428572285,
+              "selected_k2": false
+            }
+          ],
+          "status": "FAIL"
+        },
+        {
+          "file": "selected_profiles.csv",
+          "rows": 4,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        }
+      ],
+      "decision_keys_equal": {
+        "choices": true,
+        "representation": true
+      },
+      "status": "FAIL"
+    },
+    {
+      "stage": "C_feasibility",
+      "exit_code": 0,
+      "csv_comparisons": [
+        {
+          "file": "derived_information_policy.csv",
+          "rows": 15,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "evaluation_overlap.csv",
+          "rows": 36,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "feature_eligibility.csv",
+          "rows": 30,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "group_allocation_feasibility.csv",
+          "rows": 6,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "metadata_profile_descriptions.csv",
+          "rows": 318,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "quality_target_comparison.csv",
+          "rows": 1,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "record_concentration.csv",
+          "rows": 6,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "target_reconstruction.csv",
+          "rows": 2,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        }
+      ],
+      "decision_keys_equal": {
+        "gate": true,
+        "sensitivity": true,
+        "performance_metrics": true
+      },
+      "status": "PASS"
+    },
+    {
+      "stage": "D_CGPA",
+      "exit_code": 0,
+      "csv_comparisons": [
+        {
+          "file": "cgpa_comparisons.csv",
+          "rows": 3,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "cgpa_distributions.csv",
+          "rows": 24,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "cgpa_eligibility.csv",
+          "rows": 4,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "cgpa_profile_descriptions.csv",
+          "rows": 6,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "conditional_uncertainty.csv",
+          "rows": 9,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "profile_reconstruction.csv",
+          "rows": 2,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "record_concentration.csv",
+          "rows": 6,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "sample_accounting.csv",
+          "rows": 3,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        }
+      ],
+      "decision_keys_equal": {
+        "outcome": true,
+        "posthoc": true,
+        "raw_records_removed": true
+      },
+      "status": "PASS"
+    },
+    {
+      "stage": "D_external",
+      "exit_code": 0,
+      "csv_comparisons": [
+        {
+          "file": "bangladesh_item_coverage.csv",
+          "rows": 34,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "country_factor_correlations.csv",
+          "rows": 8,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "country_factor_diagnostics.csv",
+          "rows": 6,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "country_factor_loadings.csv",
+          "rows": 58,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "field_audit.csv",
+          "rows": 41,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "item_category_support.csv",
+          "rows": 58,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "item_compatibility.csv",
+          "rows": 29,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "item_distributions.csv",
+          "rows": 290,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "observed_item_associations.csv",
+          "rows": 4,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "ordinal_equality_comparisons.csv",
+          "rows": 0,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "ordinal_model_fit.csv",
+          "rows": 3,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "ordinal_model_parameters.csv",
+          "rows": 388,
+          "absolute_tolerance": 1e-05,
+          "byte_identical": false,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "population_marginals.csv",
+          "rows": 103,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "sample_accounting.csv",
+          "rows": 2,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "subdimension_reliability.csv",
+          "rows": 12,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        },
+        {
+          "file": "workbook_inventory.csv",
+          "rows": 2,
+          "absolute_tolerance": 1e-10,
+          "byte_identical": true,
+          "differences": [],
+          "mismatch_cells": [],
+          "status": "PASS"
+        }
+      ],
+      "decision_keys_equal": {
+        "bangladesh_compatibility": true,
+        "invariance_interpretation": true,
+        "raw_rows_deleted": true,
+        "vietnam_used": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "status": "FAIL",
+  "private_logs_distributed": false,
+  "original_private_B_memberships_available": false,
+  "reconstructed_B_memberships": "Preserved privately; withheld from C/D to match accepted invocation",
+  "tolerance_policy": "Counts, labels and decisions exact; ordinary floats 1e-10; iterative B factor/ULS and external ULS/WLSMV outputs 1e-5 absolute. Iterative tolerance covers polychoric optimization and derived eigenvalues as well. An initial verifier wrongly treated those as exact arithmetic; see the E validation note.",
+  "input_sha256_after": {
+    "D5_cognitive_dependence_raw.csv": "3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2",
+    "MP1_Manuscript_v3.docx": "042639bbd2ad6fe49b4ac87e47d5e401cb267945a422d58d15452021554df497",
+    "When Culture Meets AI - Survey Dataset.xlsx": "985c39bd5ad4e0f9278a059e6eaa8aa0ddacac51913b1996421880ad8062ff4a",
+    "DATA_DICTIONARY.md": "8f34000bb5c609d112920b72296430b31f7f25c5277550744b67c4b54825f82d",
+    "D3_dependency_vulnerability_raw.csv": "ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d"
+  },
+  "raw_source_immutable": true,
+  "caller_accepted_files_unchanged": true,
+  "diagnostic_expansion": "Per-cell mismatch register generated from preserved replayed aggregate files; no additional scientific fit."
+}

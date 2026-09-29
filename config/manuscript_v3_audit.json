@@ -1,0 +1,1549 @@
+{
+  "source_name": "MP1_Manuscript_v3.docx",
+  "source_sha256": "042639bbd2ad6fe49b4ac87e47d5e401cb267945a422d58d15452021554df497",
+  "paragraphs": 156,
+  "tables": 7,
+  "figures": 8,
+  "location_convention": "P is one-based top-level Word paragraph index including empty paragraphs. Table and figure numbers follow V3 captions. Figure binary SHA-256 is recorded, not the image. Individual-case excerpts are withheld from public audit metadata; their original text/image hashes remain available for private source verification.",
+  "audit": [
+    {
+      "location": "P001",
+      "source_text_sha256": "7aa21a91ca8b9152b1419b1c87cedbf349c9ab8f70bf1a8c5116c0643d353b81",
+      "excerpt": "Trust, Critical Thinking Erosion, and Academic Decision-Making as Correlates of AI Cognitive Dependence",
+      "action": "REPLACE",
+      "reason": "The title promises unsupported correlational relationships and labels self-reported thinking reduction as erosion.",
+      "required_replacement": "Measurement limits, descriptive response profiles, and predictive-feasibility boundaries in released generative-AI surveys",
+      "claim_ids": "B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P002",
+      "source_text_sha256": "73569c899719888b32f41ab3bc681176a0992b6feadbd340969588a658b991c9",
+      "excerpt": "A Leakage-Free, Explainable Machine-Learning Study on Two Real Bangladeshi University Surveys, with Indonesian and Georgian Corroboration",
+      "action": "REPLACE",
+      "reason": "Title promises unsupported correlates, prediction and international corroboration.",
+      "required_replacement": "Measurement limits, descriptive response profiles, and predictive-feasibility boundaries in released generative-AI surveys",
+      "claim_ids": "B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P003",
+      "source_text_sha256": "056fb979fa9dd3d2321495aa8149f1ad93939365bc439fa99597ec952d0e674c",
+      "excerpt": "MP1 Working Paper - Version 3 (Real-Data Rewrite)",
+      "action": "REWRITE",
+      "reason": "Version history must not imply accepted real-person validation.",
+      "required_replacement": "MP1 publication-lock evidence revision; secondary released records.",
+      "claim_ids": "A01; B10"
+    },
+    {
+      "location": "P004",
+      "source_text_sha256": "615d81bd4a170df5acd7ebb18f6f1cee8725cc759cf5b85524ba3166ca296d15",
+      "excerpt": "Draft prepared for EDM/LAK-track submission",
+      "action": "REMOVE",
+      "reason": "Journal targeting precedes acceptance of E.",
+      "required_replacement": "No submission venue in this evidence package.",
+      "claim_ids": "scope"
+    },
+    {
+      "location": "P005",
+      "source_text_sha256": "d21b4a64a2d8656a0fdf7ab2e89a49164ac504686cfa2a3d442e87c209286330",
+      "excerpt": "Abstract",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P006",
+      "source_text_sha256": "f8f4ee79c7ebb11b99403c803df49cb1dd7c4c06c3e7b8af865c7db8509bc8e9",
+      "excerpt": "Prior versions of this paper demonstrated a leakage-free, explainable machine-learning pipeline on a large but likely-synthetic dataset, explicitly fr",
+      "action": "REPLACE",
+      "reason": "Abstract combines unaccepted four-tier results, classifier metrics, SHAP/LIME and old external datasets.",
+      "required_replacement": "Use the replacement abstract in docs/manuscript_replacement_text.md in full.",
+      "claim_ids": "A01; B02-B10; C02-C04; D02-D04; D07-D12"
+    },
+    {
+      "location": "P007",
+      "source_text_sha256": "6e62ee82e3df2a7dfcaba91e18eab2a77c9c7f7b4a5dceb49528346078b636d2",
+      "excerpt": "1. Introduction",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P008",
+      "source_text_sha256": "f030c101272ec4e5f79d9497ba7f0bdfd1d791feaa681f47b930fbee35cb4633",
+      "excerpt": "Generative AI (GenAI) tools such as ChatGPT, Gemini, and DeepSeek have moved from novelty to infrastructure in higher education within a few academic ",
+      "action": "REWRITE_CONTEXT",
+      "reason": "Background may remain only with independent bibliographic verification; own-data scale and predictor claims must be removed.",
+      "required_replacement": "Separate cited literature from the accepted findings; use source-defined section and reported reduction in independent thinking.",
+      "claim_ids": "B02-B06; C02-C04"
+    },
+    {
+      "location": "P009",
+      "source_text_sha256": "1968570645b1dd5364c16cc9d0dcf4737181ed4cc0d73a545b64b5548bf9d7b3",
+      "excerpt": "Earlier versions of this paper explored these questions using a large, low-cost, publicly available Kaggle-style dataset explicitly flagged as likely ",
+      "action": "REWRITE",
+      "reason": "Released anonymous records do not establish unique real people or validated instruments.",
+      "required_replacement": "Describe verified release provenance, self-report items and absent burnout measurement; remove Indonesia/Georgia corroboration.",
+      "claim_ids": "A01-A04; B01-B06; D06-D08"
+    },
+    {
+      "location": "P010",
+      "source_text_sha256": "912fa7a42d48e22247aed3595b6c6c382563de603d290f4084400cc7085e3f16",
+      "excerpt": "Moving to real data required a substantive reframing, not just a dataset swap. Neither Bangladeshi survey includes a formal burnout instrument, so the",
+      "action": "REWRITE",
+      "reason": "Released anonymous records do not establish unique real people or validated instruments.",
+      "required_replacement": "Describe verified release provenance, self-report items and absent burnout measurement; remove Indonesia/Georgia corroboration.",
+      "claim_ids": "A01-A04; B01-B06; D06-D08"
+    },
+    {
+      "location": "P011",
+      "source_text_sha256": "02d8b3db863335b45683836e4e47f8841d433fc75f9e3bfa0e9346c3b1adfdda",
+      "excerpt": "Our contribution is threefold. First, we demonstrate that the leakage-free tier-construction-and-prediction architecture developed in prior versions t",
+      "action": "REPLACE",
+      "reason": "Contribution and novelty rely on an unperformed predictive/explanation pipeline.",
+      "required_replacement": "Use the exact contribution statement; cite Arifen et al. (2026), DOI 10.5281/zenodo.21459044, and distinguish this audit from its composite regression.",
+      "claim_ids": "A01-A04; B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P012",
+      "source_text_sha256": "af39e47cb1cb44f218dfda47243b529d5dd6b0f3fe4e8ac1b90ea52ea55d94f0",
+      "excerpt": "2. Related Work",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P013",
+      "source_text_sha256": "90ec010ff711f759b3dd2654564f1fd97416847a8bbfbc3897932ad237c6ac94",
+      "excerpt": "2.1 Generative AI Adoption and Reliance in Higher Education",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P014",
+      "source_text_sha256": "475ed8bf136d4a415c055b2d1f4a23c6752bcf6f3b632be9a44b04f7c9436be0",
+      "excerpt": "Large surveys document rapid, largely unsupervised GenAI adoption among students globally (HEPI & Kortext, 2025; Jisc, 2025) and specifically in South",
+      "action": "REWRITE_CONTEXT",
+      "reason": "Background may remain only with independent bibliographic verification; own-data scale and predictor claims must be removed.",
+      "required_replacement": "Separate cited literature from the accepted findings; use source-defined section and reported reduction in independent thinking.",
+      "claim_ids": "B02-B06; C02-C04"
+    },
+    {
+      "location": "P015",
+      "source_text_sha256": "b0a2d29181376cb85a31615c197265940118a416c1b4053c73426c24d6ab1d04",
+      "excerpt": "2.2 Trust, Cognitive Dependence, and Overreliance",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P016",
+      "source_text_sha256": "85692a16a5ef32efd82d96a548ef5a2efa25e3b097baa66b286751fa3b7267b8",
+      "excerpt": "Cabrera and Neville (2025) find that generative AI is \"widely used but barely trusted\": fewer than a quarter of surveyed students regard AI outputs as",
+      "action": "REWRITE_CONTEXT",
+      "reason": "Background may remain only with independent bibliographic verification; own-data scale and predictor claims must be removed.",
+      "required_replacement": "Separate cited literature from the accepted findings; use source-defined section and reported reduction in independent thinking.",
+      "claim_ids": "B02-B06; C02-C04"
+    },
+    {
+      "location": "P017",
+      "source_text_sha256": "17650fba6d48cc5ae3c725f72eb4d1336b86bc059f9bf5f61e4c380a663cd9d1",
+      "excerpt": "2.3 Critical Thinking Erosion and Cognitive Offloading",
+      "action": "RENAME",
+      "reason": "Erosion implies change in ability not measured here.",
+      "required_replacement": "Reported reduction in independent thinking and cognitive offloading",
+      "claim_ids": "B06"
+    },
+    {
+      "location": "P018",
+      "source_text_sha256": "ad30b8cfcbbfde7d0539e77311e630d93cc953b9ecb4794fdd2e9e7ef1661a35",
+      "excerpt": "A fast-growing empirical literature documents measurable associations between frequent GenAI use and reduced critical-thinking engagement. Gerlich (20",
+      "action": "REWRITE_CONTEXT",
+      "reason": "Background may remain only with independent bibliographic verification; own-data scale and predictor claims must be removed.",
+      "required_replacement": "Separate cited literature from the accepted findings; use source-defined section and reported reduction in independent thinking.",
+      "claim_ids": "B02-B06; C02-C04"
+    },
+    {
+      "location": "P019",
+      "source_text_sha256": "68f979e1471bc53903d1e69e7d700a1ad7954150ad42fe7081248dedaaa66b9f",
+      "excerpt": "2.4 Burnout and Self-Efficacy: Background, Not a Direct Measure Here",
+      "action": "REMOVE_OR_SHORTEN_CONTEXT",
+      "reason": "Burnout is not measured and is not an active research question.",
+      "required_replacement": "If retained as background, explicitly state it is untested; add no new burnout analysis.",
+      "claim_ids": "scope"
+    },
+    {
+      "location": "P020",
+      "source_text_sha256": "64001416e6d77b09a52614cdbc56b6c0070de590d3e32c40ec6cfac8ff2eb919",
+      "excerpt": "A separate literature links GenAI dependence to academic stress, self-efficacy erosion, and burnout via structural-equation and mediation models (Wang",
+      "action": "REMOVE_OR_SHORTEN_CONTEXT",
+      "reason": "Burnout is not measured and is not an active research question.",
+      "required_replacement": "If retained as background, explicitly state it is untested; add no new burnout analysis.",
+      "claim_ids": "scope"
+    },
+    {
+      "location": "P021",
+      "source_text_sha256": "d7e456da2d0dc7a197cf372d213107ea19638e8b620a7fcc21e221e085c61e86",
+      "excerpt": "2.5 Explainable Machine Learning in Educational Data Mining",
+      "action": "REMOVE",
+      "reason": "Explainable ML background supports analyses absent from accepted C.",
+      "required_replacement": "Replace with the rationale for leakage and dependence auditing, without fitted-model claims.",
+      "claim_ids": "C02-C04"
+    },
+    {
+      "location": "P022",
+      "source_text_sha256": "f442c54b72e3bd26c93e56057691a6ac6dd794a495e739447251358f4106333e",
+      "excerpt": "SHAP-based explanation is close to a default choice for interpretable student-outcome prediction in the EDM/LAK community (Gaftandzhieva, 2025; Islam ",
+      "action": "REMOVE",
+      "reason": "Explainable ML background supports analyses absent from accepted C.",
+      "required_replacement": "Replace with the rationale for leakage and dependence auditing, without fitted-model claims.",
+      "claim_ids": "C02-C04"
+    },
+    {
+      "location": "P023",
+      "source_text_sha256": "e8f9ec51f7c0e1b2415d76d9a2b975137263e574136f3df834a7d3fd05b02470",
+      "excerpt": "2.6 Positioning of the Present Study",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P024",
+      "source_text_sha256": "0d8289b5bc762ab0c352eb68dbc151ee71f26dee46b430d162b95c63e69c237d",
+      "excerpt": "This version relates to three points of comparison. First, prior versions of this same MP1 project (Versions 1-2) developed the leakage-free tier-cons",
+      "action": "REPLACE",
+      "reason": "Contribution and novelty rely on an unperformed predictive/explanation pipeline.",
+      "required_replacement": "Use the exact contribution statement; cite Arifen et al. (2026), DOI 10.5281/zenodo.21459044, and distinguish this audit from its composite regression.",
+      "claim_ids": "A01-A04; B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P025",
+      "source_text_sha256": "ded357a24296ef265d25e0373c1f215eb4af702479ea4abcb8b3526845b4cb3b",
+      "excerpt": "3. Research Questions and Hypotheses",
+      "action": "REPLACE",
+      "reason": "Psychological prediction and SHAP hypotheses cannot be answered by this target design.",
+      "required_replacement": "Organize around the already completed measurement, descriptive structure, feasibility, CGPA and compatibility questions; do not retroactively label hypotheses preregistered.",
+      "claim_ids": "B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P026",
+      "source_text_sha256": "654a31d6a6fe2953413484d02d55c8233caca6b48d11f6b06011c7740f4cfb3a",
+      "excerpt": "RQ1: Can Trust in AI, Critical Thinking erosion, and AI-mediated Academic Decision-Making -- deliberately excluding the AI Usage and Cognitive Depende",
+      "action": "REPLACE",
+      "reason": "Psychological prediction and SHAP hypotheses cannot be answered by this target design.",
+      "required_replacement": "Organize around the already completed measurement, descriptive structure, feasibility, CGPA and compatibility questions; do not retroactively label hypotheses preregistered.",
+      "claim_ids": "B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P027",
+      "source_text_sha256": "c06b8dc990625b15e696171d4b19564ff7ddb3e842c6187ec4a74a3c4fa07044",
+      "excerpt": "RQ2: Which of these three constructs most strongly distinguishes the Over-reliant tier from other tiers according to SHAP explanations, and is this ra",
+      "action": "REPLACE",
+      "reason": "Psychological prediction and SHAP hypotheses cannot be answered by this target design.",
+      "required_replacement": "Organize around the already completed measurement, descriptive structure, feasibility, CGPA and compatibility questions; do not retroactively label hypotheses preregistered.",
+      "claim_ids": "B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P028",
+      "source_text_sha256": "a3e386b957ab09af0adadc72d35fe356f34921c7c3f4effedd00228898746c30",
+      "excerpt": "RQ3: Does the AI Cognitive-Dependence Tier constructed from attitudinal/behavioral survey items correlate with real, independently reported academic p",
+      "action": "REWRITE",
+      "reason": "D3 uses its own nine-item nominal partition, not ordered D5 severity tiers; H3 cannot be declared supported or reversed.",
+      "required_replacement": "Ask whether the accepted nominal D3 profiles differ in recorded CGPA bands. Report the very small, inconclusive result.",
+      "claim_ids": "D01-D05"
+    },
+    {
+      "location": "P029",
+      "source_text_sha256": "d7c7a8d52840a48463f43d882ac7c6fff74a39338f4eab565e10c08a095fcd0a",
+      "excerpt": "H1: Trust in AI, Critical Thinking erosion, and Academic Decision-Making influence will each differ significantly across tiers (Kruskal-Wallis), with ",
+      "action": "REPLACE",
+      "reason": "Psychological prediction and SHAP hypotheses cannot be answered by this target design.",
+      "required_replacement": "Organize around the already completed measurement, descriptive structure, feasibility, CGPA and compatibility questions; do not retroactively label hypotheses preregistered.",
+      "claim_ids": "B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P030",
+      "source_text_sha256": "597d75511b6c39311f6a7b579eae1fa8654db5a62817239e8ba6826d538a098e",
+      "excerpt": "H2: Critical Thinking erosion will rank among the top SHAP predictors of Over-reliant classification, consistent with the cognitive-offloading literat",
+      "action": "REPLACE",
+      "reason": "Psychological prediction and SHAP hypotheses cannot be answered by this target design.",
+      "required_replacement": "Organize around the already completed measurement, descriptive structure, feasibility, CGPA and compatibility questions; do not retroactively label hypotheses preregistered.",
+      "claim_ids": "B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P031",
+      "source_text_sha256": "fe4fa079d1789cb5eefec98c7e951544d4e6e17d7ccefb15e866b8615cda8420",
+      "excerpt": "H3: Given that overreliance research finds confidence and trust are not protective against overreliance (Pitts et al., 2025), we hypothesize the AI Co",
+      "action": "REWRITE",
+      "reason": "D3 uses its own nine-item nominal partition, not ordered D5 severity tiers; H3 cannot be declared supported or reversed.",
+      "required_replacement": "Ask whether the accepted nominal D3 profiles differ in recorded CGPA bands. Report the very small, inconclusive result.",
+      "claim_ids": "D01-D05"
+    },
+    {
+      "location": "P032",
+      "source_text_sha256": "6b253572053844e19c2a4384633d6af78a6d259a2df4fc54e62dc1ed4343b42f",
+      "excerpt": "4. Data and Methods",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P033",
+      "source_text_sha256": "a0b06613c67d42ba1397bbbe06b40b6e055e5ce0f82d631e6e6a0a7938acf24a",
+      "excerpt": "4.1 Datasets",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P034",
+      "source_text_sha256": "3c4386b2fd90acc34f9173ca33ea1ec6f5ed1fdd04d45879dc80af50d33fbd2e",
+      "excerpt": "The primary dataset (D5) is \"Dataset on Cognitive Dependence on Generative AI Tools among Bangladeshi University Students\" (Arifen, 2026; Mendeley Dat",
+      "action": "REWRITE",
+      "reason": "The invariance sensitivity is not evidence that measurement and all later results were unchanged.",
+      "required_replacement": "Report D5 2613 records, 101 invariant-response flags, sensitivity n=2512, and source limitations.",
+      "claim_ids": "A01-A03; B01-B04"
+    },
+    {
+      "location": "P035",
+      "source_text_sha256": "b283bee9b258551588b343a01dda7c6dd1c62158b2234ff8b89d90c0e8c89ff6",
+      "excerpt": "The validation dataset (D3) is \"AI Dependency and Academic Vulnerability in Higher Education: A Survey Dataset from Bangladesh\" (Islam, 2026; Mendeley",
+      "action": "REPLACE",
+      "reason": "Thirty labels are not 30 verified sampled universities; 80.7% above 2.50 is numerically incorrect.",
+      "required_replacement": "Report bands as 8 Below 2.50, 204 at 2.51-3.00, 649 at 3.01-3.50, 243 Above 3.50. These counts imply 892/1104=80.8% in bands above 3.00; do not infer a ceiling mechanism.",
+      "claim_ids": "A02; A04; D01"
+    },
+    {
+      "location": "P036",
+      "source_text_sha256": "94ce4d66cb8d30130fc2f67f1fd9fffea0e0241f853205acf6aad6d67d2d054f",
+      "excerpt": "Two more distant real surveys are retained from the prior version as tertiary, differently-instrumented corroboration: an Indonesian UTAUT2-based stud",
+      "action": "REMOVE_REPLACE_SCOPE",
+      "reason": "The older Indonesia n=103 and Georgia surveys are not accepted A-D evidence.",
+      "required_replacement": "Replace with the accepted USA-Indonesia compatibility audit, n=116/111 active users; do not pool, substitute Vietnam or claim corroboration.",
+      "claim_ids": "D06-D12"
+    },
+    {
+      "location": "P037",
+      "source_text_sha256": "33cf7c4f648d17c4a700b052ecf4dc7a8c09d5ef2a93d9798433aca53d4780c8",
+      "excerpt": "4.2 Feature Engineering",
+      "action": "REPLACE",
+      "reason": "Composite averaging, invented Field_Group, reverse scoring and continuous CGPA midpoints are not accepted.",
+      "required_replacement": "Retain all 25 D5 and nine D3 ordinal items with equal-weight cumulative thresholds; raw labels and recorded CGPA bands remain unchanged.",
+      "claim_ids": "B06; D01"
+    },
+    {
+      "location": "P038",
+      "source_text_sha256": "a70ee8f3e0069d66f400a84738e22847b6770571927a4464f1827386ab2194d9",
+      "excerpt": "For D5, the 25 Likert items were averaged within each documented subscale to produce five composite scores (1-5 scale): Usage_Composite, Dependence_Co",
+      "action": "REPLACE",
+      "reason": "Composite averaging, invented Field_Group, reverse scoring and continuous CGPA midpoints are not accepted.",
+      "required_replacement": "Retain all 25 D5 and nine D3 ordinal items with equal-weight cumulative thresholds; raw labels and recorded CGPA bands remain unchanged.",
+      "claim_ids": "B06; D01"
+    },
+    {
+      "location": "P039",
+      "source_text_sha256": "f7443dd1bdc5ccc36b174b0f838320a099c3c01ff8a607b4c68a10952538b961",
+      "excerpt": "For D3, two of the nine items are protective/independence-oriented (\"I verify AI-generated information before using it,\" \"I can study and complete tas",
+      "action": "REPLACE",
+      "reason": "Composite averaging, invented Field_Group, reverse scoring and continuous CGPA midpoints are not accepted.",
+      "required_replacement": "Retain all 25 D5 and nine D3 ordinal items with equal-weight cumulative thresholds; raw labels and recorded CGPA bands remain unchanged.",
+      "claim_ids": "B06; D01"
+    },
+    {
+      "location": "P040",
+      "source_text_sha256": "999b521b45b5a43b3596e6c891d7069fc2571f4794878f04becc6792cef98bd1",
+      "excerpt": "4.3 AI Cognitive-Dependence Tier Construction (D5)",
+      "action": "REPLACE",
+      "reason": "Four ordered tiers and validation by target-related composites are unsupported.",
+      "required_replacement": "Use accepted k=2, all-k selection diagnostics, neutral dataset-specific labels, and repeated-pattern concentration. Replace V3 Figure 1 with F02 and Table 1 with T02/T03.",
+      "claim_ids": "B02-B10; C02"
+    },
+    {
+      "location": "P041",
+      "source_text_sha256": "56e352ce83b63a00e0f83ceb83f22e8ebf61475c01159eeea51ef9e3dc6d8783",
+      "excerpt": "We constructed the tier from exactly two composites -- Usage_Composite and Dependence_Composite, standardized (z-scored) -- via k-means clustering. As",
+      "action": "REPLACE",
+      "reason": "Four ordered tiers and validation by target-related composites are unsupported.",
+      "required_replacement": "Use accepted k=2, all-k selection diagnostics, neutral dataset-specific labels, and repeated-pattern concentration. Replace V3 Figure 1 with F02 and Table 1 with T02/T03.",
+      "claim_ids": "B02-B10; C02"
+    },
+    {
+      "location": "P042",
+      "source_text_sha256": "e16dc160cbcc4b9e7dafd14a2f9d9079d8d5eab04af1165430802a26de19c028",
+      "excerpt": "Crucially, both tier-construction composites (Usage_Composite, Dependence_Composite) and all ten of their constituent raw items are excluded from the ",
+      "action": "REPLACE",
+      "reason": "Four ordered tiers and validation by target-related composites are unsupported.",
+      "required_replacement": "Use accepted k=2, all-k selection diagnostics, neutral dataset-specific labels, and repeated-pattern concentration. Replace V3 Figure 1 with F02 and Table 1 with T02/T03.",
+      "claim_ids": "B02-B10; C02"
+    },
+    {
+      "location": "P043",
+      "source_text_sha256": "f905561c03206480c93494a917df190c67c66c3a923722ae9e198d93c93fd247",
+      "excerpt": "4.4 Predictive Modeling (D5)",
+      "action": "REPLACE",
+      "reason": "No accepted classifier fitting or held-out predictive evaluation was performed.",
+      "required_replacement": "Describe the fixed target, information-origin audit, 40/41 minority overlap and intact-pattern allocation blocker.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P044",
+      "source_text_sha256": "cbf9960378f231b8914261d8905eafeb6d8b95ba93cd1400a4f60694bf341b34",
+      "excerpt": "The predictor set (14 features after one-hot encoding) comprised Trust_Composite, CriticalThinking_Composite, DecisionInfluence_Composite, Age, and on",
+      "action": "REPLACE",
+      "reason": "No accepted classifier fitting or held-out predictive evaluation was performed.",
+      "required_replacement": "Describe the fixed target, information-origin audit, 40/41 minority overlap and intact-pattern allocation blocker.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P045",
+      "source_text_sha256": "b89c4c3702eae689cb33d07769a47a3608defbe8b6d43ea4d27f5dd8da469c23",
+      "excerpt": "4.5 Explainability (SHAP, Interactions, Counterfactual, LIME, Domain Alignment)",
+      "action": "REMOVE_REPLACE_METHOD",
+      "reason": "SHAP, interactions, counterfactuals, LIME and ranking stability do not exist in accepted evidence.",
+      "required_replacement": "Describe only accepted resampling of descriptive partitions, then the feasibility stop.",
+      "claim_ids": "B09-B10; C04"
+    },
+    {
+      "location": "P046",
+      "source_text_sha256": "ccbc440259a1f5026e7d548ced2c741fa7c50d90b245dbaf3a030daf57ecf663",
+      "excerpt": "We computed TreeSHAP contributions for the tuned XGBoost model natively via XGBoost's pred_contribs interface on the full held-out test set (n = 523),",
+      "action": "REMOVE_REPLACE_METHOD",
+      "reason": "SHAP, interactions, counterfactuals, LIME and ranking stability do not exist in accepted evidence.",
+      "required_replacement": "Describe only accepted resampling of descriptive partitions, then the feasibility stop.",
+      "claim_ids": "B09-B10; C04"
+    },
+    {
+      "location": "P047",
+      "source_text_sha256": "8d7069e0522b6d4ae59d3059bbb67d6fba3a154ec4e0158043773005e76e499b",
+      "excerpt": "4.6 Robustness (D5)",
+      "action": "REMOVE_REPLACE_METHOD",
+      "reason": "SHAP, interactions, counterfactuals, LIME and ranking stability do not exist in accepted evidence.",
+      "required_replacement": "Describe only accepted resampling of descriptive partitions, then the feasibility stop.",
+      "claim_ids": "B09-B10; C04"
+    },
+    {
+      "location": "P048",
+      "source_text_sha256": "2fbd2348a23e8b50323536fc6047a306549d0985baa7188c8b6f1b5e95e0ab5c",
+      "excerpt": "We assessed SHAP ranking stability via bootstrap resampling: 8 replicates (sampled with replacement, up to 1,600 training observations each), retraini",
+      "action": "REMOVE_REPLACE_METHOD",
+      "reason": "SHAP, interactions, counterfactuals, LIME and ranking stability do not exist in accepted evidence.",
+      "required_replacement": "Describe only accepted resampling of descriptive partitions, then the feasibility stop.",
+      "claim_ids": "B09-B10; C04"
+    },
+    {
+      "location": "P049",
+      "source_text_sha256": "319f4799d658837d818f6fe80d91ffad11e6bed77811d7e983ac856b2bf05e64",
+      "excerpt": "4.7 Independent Replication and Real-Outcome Validation (D3)",
+      "action": "REPLACE",
+      "reason": "Different instruments and a separately selected D3 partition do not replicate D5 profiles.",
+      "required_replacement": "Describe the independent nine-item D3 k=2 descriptive partition and nominal CGPA comparison. Replace V3 Figure 8 with the D3 panels of F02.",
+      "claim_ids": "B07-B10; D01-D05"
+    },
+    {
+      "location": "P050",
+      "source_text_sha256": "07a22247a273663079ec18c371f57b78dd9920ec759fbad8ab4b85603ee0e788",
+      "excerpt": "On D3, we built an analogous two-variable tier (standardized Dependency_Composite and Usage_Ord, k-means, same k = 2-6 reporting convention) as an ind",
+      "action": "REPLACE",
+      "reason": "Different instruments and a separately selected D3 partition do not replicate D5 profiles.",
+      "required_replacement": "Describe the independent nine-item D3 k=2 descriptive partition and nominal CGPA comparison. Replace V3 Figure 8 with the D3 panels of F02.",
+      "claim_ids": "B07-B10; D01-D05"
+    },
+    {
+      "location": "P051",
+      "source_text_sha256": "36b6ce4cbaafb3d4edf6ac1dc1da25406a6d0880a2ac127ec5cc177b36f8ed5d",
+      "excerpt": "4.8 Tertiary Real-Data Corroboration (Indonesia, Georgia)",
+      "action": "REMOVE_REPLACE_SCOPE",
+      "reason": "The older Indonesia n=103 and Georgia surveys are not accepted A-D evidence.",
+      "required_replacement": "Replace with the accepted USA-Indonesia compatibility audit, n=116/111 active users; do not pool, substitute Vietnam or claim corroboration.",
+      "claim_ids": "D06-D12"
+    },
+    {
+      "location": "P052",
+      "source_text_sha256": "1da53f044a38c71e68a5a6a303f82cae5ea8f868797596ef05fe8bab9bf960e6",
+      "excerpt": "For the Indonesian survey we computed Cronbach's alpha for its AI Dependency, Habit, Actual-Use, and Performance-Expectancy composite scales and Spear",
+      "action": "REMOVE_REPLACE_SCOPE",
+      "reason": "The older Indonesia n=103 and Georgia surveys are not accepted A-D evidence.",
+      "required_replacement": "Replace with the accepted USA-Indonesia compatibility audit, n=116/111 active users; do not pool, substitute Vietnam or claim corroboration.",
+      "claim_ids": "D06-D12"
+    },
+    {
+      "location": "P053",
+      "source_text_sha256": "ae13e0190f9b67d5875a7bc9a9eee598f56ae46f862a406fd5cd02e7ba014bd9",
+      "excerpt": "4.9 Ethical Considerations",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P054",
+      "source_text_sha256": "b97b7a297d25c61c4ec643db2f9ba8ebbbd7de5f863c01e8e1ed1529a066075c",
+      "excerpt": "D5, D3, the Indonesian survey, and the Georgian survey are secondary, de-identified, publicly shared datasets released under open licenses (Mendeley D",
+      "action": "REWRITE",
+      "reason": "An open release is not blanket license equivalence, independence or deployment authorization.",
+      "required_replacement": "State secondary analysis with no new respondent contact; cite each source license specifically and preserve private respondent-level processing. No early-warning claim.",
+      "claim_ids": "A01; C04; D06"
+    },
+    {
+      "location": "P055",
+      "source_text_sha256": "d9ff449547a47730edef3de3f26af685b5c1e5052e6a3af583c2c988e0f85bed",
+      "excerpt": "5. Results",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P056",
+      "source_text_sha256": "adee8ac2332acc42376568e15f1597a83330efc80ef1a4cbc20423fd7a8b4029",
+      "excerpt": "5.1 Tier Distribution, k Justification, and External Validation (Dataset 5)",
+      "action": "REPLACE",
+      "reason": "Four ordered tiers and validation by target-related composites are unsupported.",
+      "required_replacement": "Use accepted k=2, all-k selection diagnostics, neutral dataset-specific labels, and repeated-pattern concentration. Replace V3 Figure 1 with F02 and Table 1 with T02/T03.",
+      "claim_ids": "B02-B10; C02"
+    },
+    {
+      "location": "P057",
+      "source_text_sha256": "e08ecd5ae83944b1f7284a8a114f9353a126d37457e5457400b060a4909485d3",
+      "excerpt": "Figure 1 compares k = 2 through k = 6 on the two tier-construction composites (Usage_Composite, Dependence_Composite): silhouette score increases mono",
+      "action": "REPLACE",
+      "reason": "Four ordered tiers and validation by target-related composites are unsupported.",
+      "required_replacement": "Use accepted k=2, all-k selection diagnostics, neutral dataset-specific labels, and repeated-pattern concentration. Replace V3 Figure 1 with F02 and Table 1 with T02/T03.",
+      "claim_ids": "B02-B10; C02"
+    },
+    {
+      "location": "P058",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "",
+      "action": "LAYOUT_ONLY",
+      "reason": "Empty/image anchor paragraph.",
+      "required_replacement": "Remove or relink with the corresponding accepted figure; see figure audit.",
+      "claim_ids": "layout"
+    },
+    {
+      "location": "P059",
+      "source_text_sha256": "3777270e9aecb2871c44ebd5dbb589d3e00c102693f4f44558b5445a7bfb3531",
+      "excerpt": "Figure 1. k-selection comparison for the Dataset 5 tier-construction clustering step. Silhouette increases smoothly with k, favoring neither a sharp e",
+      "action": "REPLACE",
+      "reason": "Four ordered tiers and validation by target-related composites are unsupported.",
+      "required_replacement": "Use accepted k=2, all-k selection diagnostics, neutral dataset-specific labels, and repeated-pattern concentration. Replace V3 Figure 1 with F02 and Table 1 with T02/T03.",
+      "claim_ids": "B02-B10; C02"
+    },
+    {
+      "location": "P060",
+      "source_text_sha256": "eabbf35762954edbb198e95dbe95b2e87d48c0ffa24048248a376ce772fc2d96",
+      "excerpt": "With k = 4 fixed, the procedure produced four tiers: Independent (n = 250; 9.6%), Assisted (n = 751; 28.7%), Dependent (n = 877; 33.6%), and Over-reli",
+      "action": "REPLACE",
+      "reason": "Four ordered tiers and validation by target-related composites are unsupported.",
+      "required_replacement": "Use accepted k=2, all-k selection diagnostics, neutral dataset-specific labels, and repeated-pattern concentration. Replace V3 Figure 1 with F02 and Table 1 with T02/T03.",
+      "claim_ids": "B02-B10; C02"
+    },
+    {
+      "location": "P061",
+      "source_text_sha256": "93c8ce57ecbc27122d444314e14a01aed9ba64af8374c60420f2fcc1c5564134",
+      "excerpt": "Table 1. External validation of the AI Cognitive-Dependence Tier: tier means on the three predictor subscales (not used to build the tiers), with Krus",
+      "action": "REPLACE",
+      "reason": "Four ordered tiers and validation by target-related composites are unsupported.",
+      "required_replacement": "Use accepted k=2, all-k selection diagnostics, neutral dataset-specific labels, and repeated-pattern concentration. Replace V3 Figure 1 with F02 and Table 1 with T02/T03.",
+      "claim_ids": "B02-B10; C02"
+    },
+    {
+      "location": "P062",
+      "source_text_sha256": "93809e623ef7b148155985339be342fb7512c6e76f705121693d9f28576d0500",
+      "excerpt": "Trust in AI and Academic Decision-Making both increase roughly monotonically from Independent through Over-reliant, correlating with H1. Critical Thin",
+      "action": "REPLACE",
+      "reason": "Four ordered tiers and validation by target-related composites are unsupported.",
+      "required_replacement": "Use accepted k=2, all-k selection diagnostics, neutral dataset-specific labels, and repeated-pattern concentration. Replace V3 Figure 1 with F02 and Table 1 with T02/T03.",
+      "claim_ids": "B02-B10; C02"
+    },
+    {
+      "location": "P063",
+      "source_text_sha256": "831e01e039fcddf9c940b5ed95113d03eb233f8209f943db599761b89f8c17d9",
+      "excerpt": "5.2 Model Performance",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P064",
+      "source_text_sha256": "b4dbba7e248ee09cddede3afc54dbe9d1fc2cf52e7cc17ad3c9e25387ea69d72",
+      "excerpt": "Table 2 reports 5-fold cross-validated training performance and held-out test-set performance (n = 523), with 1,000-iteration bootstrapped 95% confide",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P065",
+      "source_text_sha256": "d5083f9870adff920718a65e67bd5d67c15c80d35baf66d0f407816abf055e7f",
+      "excerpt": "Table 2. Model comparison: 5-fold cross-validated training performance and held-out test performance, with bootstrapped 95% confidence intervals (1,00",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P066",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P067",
+      "source_text_sha256": "5f38663af612a9c132b905e5aa6d0132e7de98231e0acf8f95528a88140c7704",
+      "excerpt": "Figure 2. Five-fold cross-validated macro-F1 for XGBoost vs. Random Forest on Dataset 5 (error bars = 1 SD across folds); the two are statistically in",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P068",
+      "source_text_sha256": "fcd2f6cdb70e6b506b4277cf098cc4a4c771e5542ffd4fcd449b05996c4fbba8",
+      "excerpt": "Table 3 reports per-class performance for XGBoost. The Over-reliant tier -- the class of greatest practical interest -- shows the same conservative pr",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P069",
+      "source_text_sha256": "7734357c57e251691cf04352d5679b85a5db363b79cad950147a9b1af6a28285",
+      "excerpt": "Table 3. XGBoost per-class classification performance, held-out test set (n = 523), Dataset 5.",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P070",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P071",
+      "source_text_sha256": "67f85d9cbcd2958ab8c50e132f641c48078ef585b95a6ac05af49bf4da4a292a",
+      "excerpt": "Figure 3. XGBoost confusion matrix, Dataset 5 test set (row-normalized percentages in parentheses).",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P072",
+      "source_text_sha256": "3299864c097e41044b8930c806ca71c3e76783fc5a9b525d6cce8c4c93093569",
+      "excerpt": "5.2.1 Operating-Point Analysis",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P073",
+      "source_text_sha256": "87ced5649ac591763ef5f89714c57d00b7cda65343e5f7d0cc27bdc3f5cb1bc5",
+      "excerpt": "Figure 4 reports the full one-vs-rest precision-recall curve for the Over-reliant class (average precision = 0.739, substantially above the 28.1% base",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P074",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P075",
+      "source_text_sha256": "5bc224e0ccca20666c4a50ce5e4d1bab132d789beb343d3fcb4a4e37ea25e2d6",
+      "excerpt": "Figure 4. Precision-recall curve for the Over-reliant class (one-vs-rest, XGBoost, Dataset 5), with the default operating point (black) and four alter",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P076",
+      "source_text_sha256": "43f1757d9582d9747780817ba21ccad76866f805afc4f31834987a9f7ef0e0f9",
+      "excerpt": "5.3 SHAP Explainability Findings",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P077",
+      "source_text_sha256": "9539d5dfb669cd15b7f892b074a85eadbc0122ab8437aea8b8636a68509916c1",
+      "excerpt": "Table 4 reports global feature importance (mean |SHAP value| across all four tiers) and importance specific to the Over-reliant tier.",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P078",
+      "source_text_sha256": "fd94cc763707469dc7a2ece56d721d47e90b79a8239bc17e5bb2a36f2e535150",
+      "excerpt": "Table 4. Top 5 SHAP features, global (mean |SHAP| across all four tiers) vs. specific to the Over-reliant class, Dataset 5.",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P079",
+      "source_text_sha256": "0b8b466b2aedc6e24a8fdea70850e64ae4011f84d2e933bb7180e1a77dba5899",
+      "excerpt": "Critical Thinking erosion is the single strongest correlate of Over-reliant classification specifically (mean |SHAP| = 0.469), ahead of Academic Decis",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P080",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P081",
+      "source_text_sha256": "403a940315f3635246abc22b0f54495d66112f095a1c6961ee03a212f8fac177",
+      "excerpt": "Figure 5. Global feature importance (mean |SHAP value| across the four tiers), XGBoost, Dataset 5.",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P082",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P083",
+      "source_text_sha256": "4b91b0e1db55a28bc9aa9bd3f591d4905dd9ff272e2c7a5476147e72c1114e67",
+      "excerpt": "Figure 6. SHAP summary plot for the Over-reliant class, Dataset 5: each point is one student; color indicates feature value; horizontal position indic",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P084",
+      "source_text_sha256": "9471bb54c9f4f8aab5c8c2a3c31e7889b926abfa57fad12fbf726d425d943b58",
+      "excerpt": "[Individual-case excerpt withheld; exact source location and SHA-256 retained.]",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P085",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P086",
+      "source_text_sha256": "7111b4253a48f716492d337d479851d730aa1a64bac33b91df814496b5bb5556",
+      "excerpt": "[Individual-case excerpt withheld; exact source location and SHA-256 retained.]",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P087",
+      "source_text_sha256": "7c3209a89ae034b430b5f578c4bc6a92ef2687ceabbb7f6f72f52217cc295481",
+      "excerpt": "5.3.1 SHAP Interaction Values",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P088",
+      "source_text_sha256": "621122bcc79cfccf66cf78706b6f27bed44d13970911765b533c47486ec2b3ba",
+      "excerpt": "Using XGBoost's native pairwise interaction output on a 500-student subsample, we computed interaction magnitudes for the Over-reliant class for the t",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P089",
+      "source_text_sha256": "e30b97dfefe761c0f2615be52e3f9d5fcfa22e5fe3524c68707f86c7b9c47a5c",
+      "excerpt": "Table 5. SHAP pairwise interaction magnitudes for the Over-reliant class, Dataset 5 (500-student subsample).",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P090",
+      "source_text_sha256": "c4dcc97f15691b04f121a12181959fc9e2166090ed5a6753948c57c6b1ff5122",
+      "excerpt": "5.3.2 Counterfactual Explanation",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P091",
+      "source_text_sha256": "f083a5e3986c90489f2eac4504f8d9f711c578dbdbf66c5899a28426041bd7a0",
+      "excerpt": "[Individual-case excerpt withheld; exact source location and SHA-256 retained.]",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P092",
+      "source_text_sha256": "08724381030968b7cedc0054a1daa7f7563fa19626985540144509fd1eff827d",
+      "excerpt": "[Individual-case excerpt withheld; exact source location and SHA-256 retained.]",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P093",
+      "source_text_sha256": "75bb8775ce6d5056b64507d0267dd97caf4a8a5a683909fe37a92a17049208a5",
+      "excerpt": "[Individual-case excerpt withheld; exact source location and SHA-256 retained.]",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P094",
+      "source_text_sha256": "156401cc2b7fa487b18de793ce798ca2bd6a646dad5e4006f4cb5d06644a3ea4",
+      "excerpt": "5.3.3 Domain-Knowledge Alignment and Cross-Method Check (SHAP vs. LIME)",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P095",
+      "source_text_sha256": "92fce222bfb37662c302cf480e73971685e2bd06d8d906a8a46acf13bc6450c8",
+      "excerpt": "Table 7. Domain-knowledge alignment check, Dataset 5: none of the top SHAP-identified correlates for the Over-reliant class contradicts the reviewed l",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P096",
+      "source_text_sha256": "fc38d30ac15f364ea7fe207145a94524334d6d62fad2f8b80494d528a1ed5b1c",
+      "excerpt": "[Individual-case excerpt withheld; exact source location and SHA-256 retained.]",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P097",
+      "source_text_sha256": "f35614eb465efa2c3b751ad25ea7005e108e273cbb0e3b2fb3b3f72feffdf1ac",
+      "excerpt": "5.4 Robustness Checks",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P098",
+      "source_text_sha256": "efa0f869893a88bb72f30e4d60f4ed0fe0cde0371eed18bbbf46c649adb8b7a3",
+      "excerpt": "Bootstrap resampling (8 replicates) showed the global SHAP feature ranking was reasonably stable: mean top-5 feature overlap with the full-data rankin",
+      "action": "REMOVE",
+      "reason": "Classifier performance, class metrics, precision-recall, SHAP, LIME, interactions and counterfactuals are unsupported by accepted C.",
+      "required_replacement": "Remove the entire result block, V3 Tables 2-7 and Figures 2-7. Insert the accepted feasibility audit using T04, not fabricated replacement predictions.",
+      "claim_ids": "C01-C04"
+    },
+    {
+      "location": "P099",
+      "source_text_sha256": "1a4e04f4ad662de4cf9d14754528d2f863a55ae2e15cc10b9ae43d2475c1cb9e",
+      "excerpt": "5.5 Independent Replication and Real-Outcome Validation (Dataset 3)",
+      "action": "REPLACE",
+      "reason": "Different instruments and a separately selected D3 partition do not replicate D5 profiles.",
+      "required_replacement": "Describe the independent nine-item D3 k=2 descriptive partition and nominal CGPA comparison. Replace V3 Figure 8 with the D3 panels of F02.",
+      "claim_ids": "B07-B10; D01-D05"
+    },
+    {
+      "location": "P100",
+      "source_text_sha256": "860c98a21b0fd65fccde6c41736fb64f2ca4758acd849262f95d237e8f3e93fe",
+      "excerpt": "Applying the same tier-construction logic to Dataset 3's single-item instrument (standardized Dependency_Composite and Usage_Ord; k = 2-6 comparison i",
+      "action": "REPLACE",
+      "reason": "Different instruments and a separately selected D3 partition do not replicate D5 profiles.",
+      "required_replacement": "Describe the independent nine-item D3 k=2 descriptive partition and nominal CGPA comparison. Replace V3 Figure 8 with the D3 panels of F02.",
+      "claim_ids": "B07-B10; D01-D05"
+    },
+    {
+      "location": "P101",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerpt": "",
+      "action": "LAYOUT_ONLY",
+      "reason": "Empty/image anchor paragraph.",
+      "required_replacement": "Remove or relink with the corresponding accepted figure; see figure audit.",
+      "claim_ids": "layout"
+    },
+    {
+      "location": "P102",
+      "source_text_sha256": "b980c48ecc5b3252cb257f9276a501d143b080cafe994bee58ad299230b5a687",
+      "excerpt": "Figure 8. k-selection comparison for the Dataset 3 tier-construction clustering step.",
+      "action": "REPLACE",
+      "reason": "Different instruments and a separately selected D3 partition do not replicate D5 profiles.",
+      "required_replacement": "Describe the independent nine-item D3 k=2 descriptive partition and nominal CGPA comparison. Replace V3 Figure 8 with the D3 panels of F02.",
+      "claim_ids": "B07-B10; D01-D05"
+    },
+    {
+      "location": "P103",
+      "source_text_sha256": "6886a6cb735a979471181a7ce1a0995e5f819ac45168553f1331a88bee1d79fe",
+      "excerpt": "The central new test in this version is whether this tier predicts real academic performance. It technically does: CGPA differs significantly across t",
+      "action": "REPLACE",
+      "reason": "V3 significance, tier correlation and exact-grade means are not accepted; harmlessness and reversed-effect narratives are unsupported.",
+      "required_replacement": "Report H(1)=2.8025, nominal p=0.0941, H/(N-1)=0.0025408, delta=-0.0559012; all nine conditional intervals include zero. Small and inconclusive; not equivalence.",
+      "claim_ids": "D01-D05"
+    },
+    {
+      "location": "P104",
+      "source_text_sha256": "51d55b26fab1d295d3973c67ec0f61d1156f3c9e178d19e668310d63375dabd5",
+      "excerpt": "We do not read this as evidence that overreliance is harmless; several explanations are equally or more plausible than a genuine null effect. CGPA is ",
+      "action": "REPLACE",
+      "reason": "V3 significance, tier correlation and exact-grade means are not accepted; harmlessness and reversed-effect narratives are unsupported.",
+      "required_replacement": "Report H(1)=2.8025, nominal p=0.0941, H/(N-1)=0.0025408, delta=-0.0559012; all nine conditional intervals include zero. Small and inconclusive; not equivalence.",
+      "claim_ids": "D01-D05"
+    },
+    {
+      "location": "P105",
+      "source_text_sha256": "0c42a7915532b4f082fcb0218c8883476ac865bab8335d9e267d4057b48cb97a",
+      "excerpt": "5.6 Tertiary Real-Data Corroboration (Indonesia, Georgia)",
+      "action": "REMOVE_REPLACE_SCOPE",
+      "reason": "The older Indonesia n=103 and Georgia surveys are not accepted A-D evidence.",
+      "required_replacement": "Replace with the accepted USA-Indonesia compatibility audit, n=116/111 active users; do not pool, substitute Vietnam or claim corroboration.",
+      "claim_ids": "D06-D12"
+    },
+    {
+      "location": "P106",
+      "source_text_sha256": "7853a4afa407eaa4434243f3b8de6ac1259403583c6de28152b36715a613d61e",
+      "excerpt": "As in the prior version, we retain two more distant, differently-instrumented real surveys as directional corroboration, now positioned relative to th",
+      "action": "REMOVE_REPLACE_SCOPE",
+      "reason": "The older Indonesia n=103 and Georgia surveys are not accepted A-D evidence.",
+      "required_replacement": "Replace with the accepted USA-Indonesia compatibility audit, n=116/111 active users; do not pool, substitute Vietnam or claim corroboration.",
+      "claim_ids": "D06-D12"
+    },
+    {
+      "location": "P107",
+      "source_text_sha256": "8d7663c2c844a6afd66bab524929671294f5f50d6c57b103940e0121269ee987",
+      "excerpt": "5.6.1 Indonesian UTAUT2 Student Survey (n = 103)",
+      "action": "REMOVE_REPLACE_SCOPE",
+      "reason": "The older Indonesia n=103 and Georgia surveys are not accepted A-D evidence.",
+      "required_replacement": "Replace with the accepted USA-Indonesia compatibility audit, n=116/111 active users; do not pool, substitute Vietnam or claim corroboration.",
+      "claim_ids": "D06-D12"
+    },
+    {
+      "location": "P108",
+      "source_text_sha256": "dff4b266b0b0578325e7ccd62a10f34c4d597de910f52da9635dd074c8cc07c7",
+      "excerpt": "This survey (Jodhi et al., 2025) showed strong inter-scale coherence between AI Dependency, Actual-Use/overreliance, and Habit composites (Spearman rh",
+      "action": "REMOVE_REPLACE_SCOPE",
+      "reason": "The older Indonesia n=103 and Georgia surveys are not accepted A-D evidence.",
+      "required_replacement": "Replace with the accepted USA-Indonesia compatibility audit, n=116/111 active users; do not pool, substitute Vietnam or claim corroboration.",
+      "claim_ids": "D06-D12"
+    },
+    {
+      "location": "P109",
+      "source_text_sha256": "ac5e84da2dcdaa9ceeb97b5241ede9340e2fddcab3758fb2c044fb7c0a36fc3f",
+      "excerpt": "5.6.2 Georgian AI-in-Higher-Education Survey (n = 949; students n = 444)",
+      "action": "REMOVE_REPLACE_SCOPE",
+      "reason": "The older Indonesia n=103 and Georgia surveys are not accepted A-D evidence.",
+      "required_replacement": "Replace with the accepted USA-Indonesia compatibility audit, n=116/111 active users; do not pool, substitute Vietnam or claim corroboration.",
+      "claim_ids": "D06-D12"
+    },
+    {
+      "location": "P110",
+      "source_text_sha256": "ca8a4b9904fb94a214a6999a5e90dbecf37160e9c6c15b087bc19bd2bcf422cd",
+      "excerpt": "As previously reported, 62.4% of all respondents (64.3% of students) in this survey (Kancheli & Kancheli, 2026) selected over-reliance among their top",
+      "action": "REMOVE_REPLACE_SCOPE",
+      "reason": "The older Indonesia n=103 and Georgia surveys are not accepted A-D evidence.",
+      "required_replacement": "Replace with the accepted USA-Indonesia compatibility audit, n=116/111 active users; do not pool, substitute Vietnam or claim corroboration.",
+      "claim_ids": "D06-D12"
+    },
+    {
+      "location": "P111",
+      "source_text_sha256": "408cb9470d2dcc15f4fd9c34d15425da09bbdeec4aec419a600f4f89e5122fb0",
+      "excerpt": "6. Discussion",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P112",
+      "source_text_sha256": "9e217de91783543988a390003e950d7b9af8eadfc890e69051a0c67e7c646b14",
+      "excerpt": "6.1 Interpretation of Findings",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P113",
+      "source_text_sha256": "cfa1e8cf2b14bcfcc8b83bdb630bc404d96958efc71a032ecbca4627dc443813",
+      "excerpt": "RQ1 asked whether Trust in AI, Critical Thinking erosion, and Academic Decision-Making -- deliberately excluding the usage/dependence items used to bu",
+      "action": "REPLACE",
+      "reason": "The claimed psychological correlates and explanation rankings are not identified.",
+      "required_replacement": "Report the accepted predictive-feasibility boundary and the limits of source-defined measurement.",
+      "claim_ids": "B02-B06; C02-C04"
+    },
+    {
+      "location": "P114",
+      "source_text_sha256": "5a5882bc07765ada6eb66b6abd57a48a60e9c4feca8542cf8fcfe1521f9081da",
+      "excerpt": "RQ2 asked which construct most strongly distinguishes Over-reliant classification. Critical Thinking erosion dominates, consistent with H2 and with a ",
+      "action": "REPLACE",
+      "reason": "The claimed psychological correlates and explanation rankings are not identified.",
+      "required_replacement": "Report the accepted predictive-feasibility boundary and the limits of source-defined measurement.",
+      "claim_ids": "B02-B06; C02-C04"
+    },
+    {
+      "location": "P115",
+      "source_text_sha256": "9ea8ed50052c07cf8326d28a1bc68a32c20c82881f585c9fec0e91a77311ed1d",
+      "excerpt": "RQ3, new to this version, asked whether the reliance tier predicts real academic performance. It essentially does not: a statistically significant but",
+      "action": "REPLACE",
+      "reason": "V3 significance, tier correlation and exact-grade means are not accepted; harmlessness and reversed-effect narratives are unsupported.",
+      "required_replacement": "Report H(1)=2.8025, nominal p=0.0941, H/(N-1)=0.0025408, delta=-0.0559012; all nine conditional intervals include zero. Small and inconclusive; not equivalence.",
+      "claim_ids": "D01-D05"
+    },
+    {
+      "location": "P116",
+      "source_text_sha256": "80f21479b2715eeefb39b6d99ea4b64824959c5232fcb34133e8a0c6c54c1071",
+      "excerpt": "6.2 Alignment with and Divergence from Prior Work",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P117",
+      "source_text_sha256": "fcc851d2012e88c6598b8d27f387d42f439b856b309cdaa932083d0791187786",
+      "excerpt": "Our finding that Critical Thinking erosion is the strongest correlate of Over-reliant status aligns closely with Gerlich (2025) and Lee et al. (2025),",
+      "action": "REPLACE",
+      "reason": "The claimed psychological correlates and explanation rankings are not identified.",
+      "required_replacement": "Report the accepted predictive-feasibility boundary and the limits of source-defined measurement.",
+      "claim_ids": "B02-B06; C02-C04"
+    },
+    {
+      "location": "P118",
+      "source_text_sha256": "6c14ab26ca32259c5edcf553449f26b8ea5e041405203f6b3636c7d866dfdec8",
+      "excerpt": "Our RQ3 null-to-reversed CGPA finding diverges from a simple deficit-model reading of the burnout/dependence-to-performance-decline literature (Wang e",
+      "action": "REPLACE",
+      "reason": "V3 significance, tier correlation and exact-grade means are not accepted; harmlessness and reversed-effect narratives are unsupported.",
+      "required_replacement": "Report H(1)=2.8025, nominal p=0.0941, H/(N-1)=0.0025408, delta=-0.0559012; all nine conditional intervals include zero. Small and inconclusive; not equivalence.",
+      "claim_ids": "D01-D05"
+    },
+    {
+      "location": "P119",
+      "source_text_sha256": "c1abdc956410d58cfd568459343bd8607b4a3a4c2ee8abf4d1dd83e82a03b312",
+      "excerpt": "Methodologically, this version extends the prior synthetic-data version's leakage-free design, k-selection transparency, bootstrapped CIs, SHAP-intera",
+      "action": "REPLACE",
+      "reason": "Contribution and novelty rely on an unperformed predictive/explanation pipeline.",
+      "required_replacement": "Use the exact contribution statement; cite Arifen et al. (2026), DOI 10.5281/zenodo.21459044, and distinguish this audit from its composite regression.",
+      "claim_ids": "A01-A04; B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P120",
+      "source_text_sha256": "7fd63e3fb0519ae50b5dec7be7ea6a361491bbc3e1892836e9d00e751b9f0116",
+      "excerpt": "6.3 Implications for Practice",
+      "action": "REMOVE",
+      "reason": "No fitted early-warning tool, demographic significance/equity result, intervention or agentic dashboard is justified.",
+      "required_replacement": "Practical implication is caution about inference from these releases; no deployable model or causal intervention claim.",
+      "claim_ids": "C04-C05; D02-D12"
+    },
+    {
+      "location": "P121",
+      "source_text_sha256": "15990204aa01a299c764f1bc9ee0e34b6ebb7169fa5499f0632dd10471bc827e",
+      "excerpt": "An early-warning system built on this pipeline should present predicted reliance-tier probability alongside its SHAP-based explanation (e.g., \"flagged",
+      "action": "REMOVE",
+      "reason": "No fitted early-warning tool, demographic significance/equity result, intervention or agentic dashboard is justified.",
+      "required_replacement": "Practical implication is caution about inference from these releases; no deployable model or causal intervention claim.",
+      "claim_ids": "C04-C05; D02-D12"
+    },
+    {
+      "location": "P122",
+      "source_text_sha256": "99c1fe63f29192730d897b92fc9c03a59e764e496859ca348f65ed754281af69",
+      "excerpt": "The significant associations between tier membership and Field_Group (Cramer's V = 0.302) and University_Type (V = 0.170) raise an equity question: if",
+      "action": "REMOVE",
+      "reason": "No fitted early-warning tool, demographic significance/equity result, intervention or agentic dashboard is justified.",
+      "required_replacement": "Practical implication is caution about inference from these releases; no deployable model or causal intervention claim.",
+      "claim_ids": "C04-C05; D02-D12"
+    },
+    {
+      "location": "P123",
+      "source_text_sha256": "5ecaf6c41ec8fca22d8184a3073d053041a66e3494eb7ddc46d678920dee86bf",
+      "excerpt": "6.4 Limitations",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P124",
+      "source_text_sha256": "9216aff980a8ed995e78a3af1002cd0db6425ab752f80002ec604a5ca0cecaf8",
+      "excerpt": "No formal burnout instrument: neither real dataset used in this version includes a validated burnout scale. Burnout/self-efficacy literature is retain",
+      "action": "RETAIN_WITH_SCOPE",
+      "reason": "Absence of a formal burnout measure is consistent with accepted scope.",
+      "required_replacement": "Keep as a concise absence-of-measurement limitation; do not make burnout a finding.",
+      "claim_ids": "scope"
+    },
+    {
+      "location": "P125",
+      "source_text_sha256": "abba1a11902289c9975345b0fd2acd2e8114bc8893da6a4a997aafe159b5b0b0",
+      "excerpt": "Self-report, cross-sectional design: all measures (Trust, Critical Thinking, Decision-Making, Usage, Dependence, CGPA) are self-reported at a single t",
+      "action": "REWRITE",
+      "reason": "Cross-sectional self-report limitations remain, but the listed composite associations were not estimated in accepted C.",
+      "required_replacement": "Use the exact limitations text and distinguish reported thinking reduction from objective cognitive change.",
+      "claim_ids": "B06; C04; D01"
+    },
+    {
+      "location": "P126",
+      "source_text_sha256": "ffa2024f4a325eeb0338d592cf06df2c9ae77455074016534258e890e36cdd4c",
+      "excerpt": "Single-country primary sample: both the primary (D5) and validation (D3) datasets are drawn from Bangladeshi university students. The qualitative patt",
+      "action": "REPLACE",
+      "reason": "Validation, scale, conceptual-only leakage and model-comparison-power statements conflict with accepted evidence.",
+      "required_replacement": "Use the exact limitations: no validated five-subscale model, inadmissible CFA, repeated patterns, all 25 items as target inputs, no predictive comparison and no international latent equivalence.",
+      "claim_ids": "B02-B10; C02-C04; D07-D11"
+    },
+    {
+      "location": "P127",
+      "source_text_sha256": "9c9a49ab8cb14589771197be7c37174872a03f4e1656f671ec0db68f29431411",
+      "excerpt": "Weak internal consistency in some D5 subscales: AI_Usage (alpha = 0.479), Critical_Thinking (0.556), and Academic_Decision-Making (0.553) subscale alp",
+      "action": "REPLACE",
+      "reason": "Validation, scale, conceptual-only leakage and model-comparison-power statements conflict with accepted evidence.",
+      "required_replacement": "Use the exact limitations: no validated five-subscale model, inadmissible CFA, repeated patterns, all 25 items as target inputs, no predictive comparison and no international latent equivalence.",
+      "claim_ids": "B02-B10; C02-C04; D07-D11"
+    },
+    {
+      "location": "P128",
+      "source_text_sha256": "56cfbda07ff294875c96d6a4458f2501d60ce2313506bab51c6809887f676471",
+      "excerpt": "CGPA ceiling effect in D3: 80.7% of respondents report a CGPA above 2.50, a plausible self-report/social-desirability skew that compresses the range a",
+      "action": "REPLACE",
+      "reason": "Thirty labels are not 30 verified sampled universities; 80.7% above 2.50 is numerically incorrect.",
+      "required_replacement": "Report bands as 8 Below 2.50, 204 at 2.51-3.00, 649 at 3.01-3.50, 243 Above 3.50. These counts imply 892/1104=80.8% in bands above 3.00; do not infer a ceiling mechanism.",
+      "claim_ids": "A02; A04; D01"
+    },
+    {
+      "location": "P129",
+      "source_text_sha256": "13d7b53484c974860d3e2dba7d30c5e1197edea757c9c435772128b1f44b3224",
+      "excerpt": "Conceptual (not just variable) proximity between predictors and target: as discussed in Section 6.1, Trust, Critical Thinking, and Decision-Making are",
+      "action": "REPLACE",
+      "reason": "Validation, scale, conceptual-only leakage and model-comparison-power statements conflict with accepted evidence.",
+      "required_replacement": "Use the exact limitations: no validated five-subscale model, inadmissible CFA, repeated patterns, all 25 items as target inputs, no predictive comparison and no international latent equivalence.",
+      "claim_ids": "B02-B10; C02-C04; D07-D11"
+    },
+    {
+      "location": "P130",
+      "source_text_sha256": "c0414de3da5603e8ab822e85816a454329cb56c4920b5ebbb4331638bf69dc3d",
+      "excerpt": "Statistical power for model comparison: five CV folds limit the power of the paired comparison between XGBoost and Random Forest; the real-data findin",
+      "action": "REPLACE",
+      "reason": "Validation, scale, conceptual-only leakage and model-comparison-power statements conflict with accepted evidence.",
+      "required_replacement": "Use the exact limitations: no validated five-subscale model, inadmissible CFA, repeated patterns, all 25 items as target inputs, no predictive comparison and no international latent equivalence.",
+      "claim_ids": "B02-B10; C02-C04; D07-D11"
+    },
+    {
+      "location": "P131",
+      "source_text_sha256": "1ae12031d1a315a0a17b02a9c21de8cc3187ffa5f3cfad5eabdf442b07672a1d",
+      "excerpt": "7. Conclusion and Future Work",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P132",
+      "source_text_sha256": "af837d9f23b7240f628a8158b25f000df5985b594158f6b9a485d2bc81e1bcaa",
+      "excerpt": "This version's central contribution is demonstrating that the leakage-free, explainability-audited pipeline developed in prior synthetic-data versions",
+      "action": "REPLACE",
+      "reason": "Contribution and novelty rely on an unperformed predictive/explanation pipeline.",
+      "required_replacement": "Use the exact contribution statement; cite Arifen et al. (2026), DOI 10.5281/zenodo.21459044, and distinguish this audit from its composite regression.",
+      "claim_ids": "A01-A04; B02-B10; C02-C04; D01-D12"
+    },
+    {
+      "location": "P133",
+      "source_text_sha256": "ff6c604997c854b7499d702d1c859d1f024f61a435d971ce87c9323c52e2c2f3",
+      "excerpt": "The clearest next step is a study designed from the outset to test the performance link this version could only probe secondhand: a real sample with b",
+      "action": "REWRITE_SCOPE",
+      "reason": "Future measures or data cannot be introduced to rescue the current narrative.",
+      "required_replacement": "A matched independently measured future design would require separate approval. No new study begins under E.",
+      "claim_ids": "scope"
+    },
+    {
+      "location": "P134",
+      "source_text_sha256": "4eac3501a27dbdd7eac38dbc56f2fb15409a7a6efd6bb837a15424ec5c28621f",
+      "excerpt": "Finally, we retain the forward-looking agentic-AI extension proposed in prior versions: an educator-facing dashboard pairing a predicted reliance tier",
+      "action": "REMOVE",
+      "reason": "No fitted early-warning tool, demographic significance/equity result, intervention or agentic dashboard is justified.",
+      "required_replacement": "Practical implication is caution about inference from these releases; no deployable model or causal intervention claim.",
+      "claim_ids": "C04-C05; D02-D12"
+    },
+    {
+      "location": "P135",
+      "source_text_sha256": "69824d3b0e70ca6aaa0da1613b65fd914c442bf1f7ad1bb22bcdfbdfe1a05e39",
+      "excerpt": "References",
+      "action": "RETAIN_STRUCTURE",
+      "reason": "Section heading carries no retained empirical finding.",
+      "required_replacement": "Renumber to match the accepted evidence sequence; no journal-specific structure imposed.",
+      "claim_ids": "structure"
+    },
+    {
+      "location": "P136",
+      "source_text_sha256": "5693a59e8a156855b435bc6b94adc6825fdf51feda575bb01c52c1375d645a53",
+      "excerpt": "Al Amin, M., Noh, M., Haque, A., Rupa, R. A., & Kim, Y. S. (2026). Unveiling student adoption of generative AI in higher education: The roles of perce",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P137",
+      "source_text_sha256": "7c955b798f69763a7a78c982f35a0d5d6915e05343257e673aba218ee977356b",
+      "excerpt": "Arifen, R. (2026). Dataset on cognitive dependence on generative AI tools among Bangladeshi university students [Data set]. Mendeley Data. https://doi",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P138",
+      "source_text_sha256": "1cbf593a1977c19b06b5d3f61156da13ce60251737194975dac76664354fab91",
+      "excerpt": "Cabrera, C., & Neville, R. (2025). Widely used but barely trusted: Understanding student perceptions on the use of generative AI in higher education. ",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P139",
+      "source_text_sha256": "2e4e149bcd5576f7626b27d81a10115cac345256b4acbfcabd87859f2880a4db",
+      "excerpt": "Dong, X., Wang, Z., & Han, S. (2025). Mitigating learning burnout caused by generative artificial intelligence misuse in higher education: A case stud",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P140",
+      "source_text_sha256": "ce82dcb7fffa0f83e121bae8577068c4917e56105a9c9c006062b5d75b7d2873",
+      "excerpt": "Gaftandzhieva, S. (2025). Predicting student academic performance using Bi-LSTM: A deep learning framework with SHAP-based interpretability and statis",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P141",
+      "source_text_sha256": "43c0e49c46615f414e9a99938861edc340641c2d8726b026957c018935aab824",
+      "excerpt": "Gerlich, M. (2025). AI tools in society: Impacts on cognitive offloading and the future of critical thinking. Societies, 15(1), Article 6. https://doi",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P142",
+      "source_text_sha256": "f5dee472aec76cecb23c9ff6267d164040860c7a75e64c6e4b5ab7a605daeee8",
+      "excerpt": "HEPI & Kortext. (2025). Student generative AI survey 2025. Higher Education Policy Institute. https://www.hepi.ac.uk/reports/student-generative-ai-sur",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P143",
+      "source_text_sha256": "5173bbd862258706228284629e573b26a124864191cb444401cf0d1325420e63",
+      "excerpt": "Islam, M. J. (2026). AI dependency and academic vulnerability in higher education: A survey dataset from Bangladesh [Data set]. Mendeley Data. https:/",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P144",
+      "source_text_sha256": "7f1b33fe2c15223bbb458d4aa0e7c2db2199151d5091fbffc5a9e79f6bda5314",
+      "excerpt": "Islam, M., Sojib, F. H., Mihad, M. F. H., Hasan, M., & Rahman, M. (2025). The integration of explainable AI in educational data mining for student aca",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P145",
+      "source_text_sha256": "fd7e2998c42e4143c434d979c9a14b3f5ba90c319e48ab32514e1b27a6f31c8f",
+      "excerpt": "Jisc. (2025, May 21). Student perceptions of AI 2025. National Centre for AI. https://nationalcentreforai.jiscinvolve.org/wp/2025/05/21/student-percep",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P146",
+      "source_text_sha256": "fb7a1ec546bc45bc605bdc1aa9c427d252b454ed74e4a2306fae5e9f69657ad2",
+      "excerpt": "Jodhi, R., Pangalila, O., Vincent, R., & Gates, J. (2025). Artificial intelligence in education: Enhancing or hindering student development? [Data set",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P147",
+      "source_text_sha256": "7c4d1d86a23de0dccd31a2ca59c553fd6f96b431e87d32dd8dcb9a7cd049a745",
+      "excerpt": "Kancheli, T., & Kancheli, I. (2026). AI in higher education: Empirical evidence of adoption, attitudes, and ethical concerns from Georgia [Data set]. ",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P148",
+      "source_text_sha256": "6696ecd6445651ab0333870685caa628498039be859feeac124739171c3d6feb",
+      "excerpt": "Kibria, M. G., Khanom, K., Sultana, J., & Chowdhury, F. P. (2026). Determinants of ChatGPT adoption in higher education: An empirical study on public ",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P149",
+      "source_text_sha256": "5181cebcbafe5307f4e30d11b94037f4537f1e2e4a9411733042308e2c7fa962",
+      "excerpt": "Lee, H.-P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). The impact of generative AI on critical thinking: Se",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P150",
+      "source_text_sha256": "bda3ac559046028b9e64f6152ee288137cf1cc9fe1846e4883e427cf48c7fa8a",
+      "excerpt": "Pitts, G., Rani, N., Mildort, W., & Cook, E.-M. (2025). Students' reliance on AI in higher education: Identifying contributing factors. arXiv:2506.138",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P151",
+      "source_text_sha256": "c9128e3ffaefe120f768074516b64f6c71ad66c0d0d1666585d6ad92d8b3f5bd",
+      "excerpt": "Ribeiro, M. T., Singh, S., & Guestrin, C. (2016). \"Why should I trust you?\": Explaining the predictions of any classifier. In Proceedings of the 22nd ",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P152",
+      "source_text_sha256": "cfb3b9f9cfa2698638581bc749f59d5324aa0e3358bfc06d9f6403fd23014831",
+      "excerpt": "Swamy, V., Radmehr, B., Krco, N., Marras, M., & Käser, T. (2022). Evaluating the explainers: Black-box explainable machine learning for student succes",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P153",
+      "source_text_sha256": "80a8adea424c0b520c443f123da4901de3075675d81e19986787ab58a3f6e354",
+      "excerpt": "UPCEA & Search Influence. (2025). 2025 AI search in higher education research study. https://upcea.edu/ai-tools-are-driving-prospective-student-decisi",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P154",
+      "source_text_sha256": "f3055499667f14bf8edbfe92aa3c8d339a6e2e29ae909f89866ee8d9bb50c893",
+      "excerpt": "Wang, W., Wu, Y., Fang, J., Yang, C., & Wen, L. (2026). When cognitive offloading becomes dependence: How AI dependence mediates the pathway from acad",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P155",
+      "source_text_sha256": "fd8d61771a3a3f6d500765df3beb6abf8c8592f03afe06c5dbf35daa020f12bd",
+      "excerpt": "Zhang, R. (2026). Explainable AI in education: Integrating educational domain knowledge into the deep learning model for improved student performance ",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "P156",
+      "source_text_sha256": "e017b63fcf460303aaf40d25cfdb80721430b756145cd53d0ff6cd8a05922d84",
+      "excerpt": "Zhang, S., Zhao, X., Zhou, T., & Kim, J. H. (2024). Do you have AI dependency? The roles of academic self-efficacy, academic stress, and performance e",
+      "action": "REFERENCE_REVIEW",
+      "reason": "Citation list audited for relevance, not a new literature review.",
+      "required_replacement": "Remove if cited only for unsupported XAI/old external studies. Verify retained bibliographic details before submission; add the D5 companion paper and accepted external release.",
+      "claim_ids": "bibliography"
+    },
+    {
+      "location": "Table 1",
+      "source_text_sha256": "e3671b5c07aa831b44ae3aea29e5aa37c378493c7c4e9c131759ee7df7acc495",
+      "excerpt": "Subscale",
+      "action": "REMOVE_REPLACE",
+      "reason": "V3 table is not part of accepted A-D evidence.",
+      "required_replacement": "Use T02/T03 for measurement and descriptive structure.",
+      "claim_ids": "B02-B10"
+    },
+    {
+      "location": "Table 2",
+      "source_text_sha256": "04d795ce08077f6bc4a0db978f94402da02699ee70dcea3f7ad747a0f551b5b1",
+      "excerpt": "Model",
+      "action": "REMOVE",
+      "reason": "V3 table is not part of accepted A-D evidence.",
+      "required_replacement": "Remove classifier/XAI/counterfactual results; no supported numeric replacement exists.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Table 3",
+      "source_text_sha256": "432a4c8655d4d4559ede0ec943a4cb2ec2770c2d40feeb48fefd482cc59ea7b1",
+      "excerpt": "Tier",
+      "action": "REMOVE",
+      "reason": "V3 table is not part of accepted A-D evidence.",
+      "required_replacement": "Remove classifier/XAI/counterfactual results; no supported numeric replacement exists.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Table 4",
+      "source_text_sha256": "d05bdd51f0ebc29fb3e698451610ebd6d202edfd2900fec454b099410eff5984",
+      "excerpt": "Rank",
+      "action": "REMOVE",
+      "reason": "V3 table is not part of accepted A-D evidence.",
+      "required_replacement": "Remove classifier/XAI/counterfactual results; no supported numeric replacement exists.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Table 5",
+      "source_text_sha256": "f903b1aec8b7d1e49714932a08d8065e5311b5555e9ce30951dd5dda504f5b0e",
+      "excerpt": "Feature pair",
+      "action": "REMOVE",
+      "reason": "V3 table is not part of accepted A-D evidence.",
+      "required_replacement": "Remove classifier/XAI/counterfactual results; no supported numeric replacement exists.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Table 6",
+      "source_text_sha256": "7528025c70af3ddc88c95bcf425775acce963db5b4f032977468e47da22671e8",
+      "excerpt": "[Individual-case excerpt withheld; exact source location and SHA-256 retained.]",
+      "action": "REMOVE",
+      "reason": "V3 table is not part of accepted A-D evidence.",
+      "required_replacement": "Remove classifier/XAI/counterfactual results; no supported numeric replacement exists.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Table 7",
+      "source_text_sha256": "f8d5eca749d38493b3c8a0f5d74dec7c212883d6c607e0bcafd8327efdf48bb5",
+      "excerpt": "Feature",
+      "action": "REMOVE",
+      "reason": "V3 table is not part of accepted A-D evidence.",
+      "required_replacement": "Remove classifier/XAI/counterfactual results; no supported numeric replacement exists.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Figure 1",
+      "source_text_sha256": "d274a7adc5fb8798ad2e9182991c77b1ae4ea19732d236f3a9d271885df714ce",
+      "excerpt": "23487229b0362b38095792fb4afda8566ed91cc4.png",
+      "action": "REPLACE",
+      "reason": "Old composite/tier k-selection",
+      "required_replacement": "F02 accepted item-based candidate comparison; no four-tier interpretation.",
+      "claim_ids": "B07-B10"
+    },
+    {
+      "location": "Figure 2",
+      "source_text_sha256": "08e1b54240ad274a2d657774b2ef62a8b1766b5c8ba1be22c460f4d4046f990a",
+      "excerpt": "91eb3054108ebbd9a9b656d78889c8504426739b.png",
+      "action": "REMOVE",
+      "reason": "Unaccepted predictive or explanation plot; local case figures also contain individual-level content.",
+      "required_replacement": "Remove completely. Do not distribute the original image in the E package.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Figure 3",
+      "source_text_sha256": "6c5da77d7612010d81958bc2bb80240585e00951dec5e2d94d4e4929f043eb23",
+      "excerpt": "41a628656ceba621820fe78680ef2aceef54fd40.png",
+      "action": "REMOVE",
+      "reason": "Unaccepted predictive or explanation plot; local case figures also contain individual-level content.",
+      "required_replacement": "Remove completely. Do not distribute the original image in the E package.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Figure 4",
+      "source_text_sha256": "98cd4506747379993e09e6c7d90e0f755e7c1af3754da4ca94f0725d9edae05d",
+      "excerpt": "7c1bd08198350ea7964c0389fab423710f28b22f.png",
+      "action": "REMOVE",
+      "reason": "Unaccepted predictive or explanation plot; local case figures also contain individual-level content.",
+      "required_replacement": "Remove completely. Do not distribute the original image in the E package.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Figure 5",
+      "source_text_sha256": "eb70d46d37504d07cf10410035628dccc8aacc100f7877b4689fddbefcf04950",
+      "excerpt": "c6ee15408abfcdf757152d532a6e949a3b989306.png",
+      "action": "REMOVE",
+      "reason": "Unaccepted predictive or explanation plot; local case figures also contain individual-level content.",
+      "required_replacement": "Remove completely. Do not distribute the original image in the E package.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Figure 6",
+      "source_text_sha256": "4be86b553407335a3a5de8721b31de6f4a1c99add057d077fa2e75ec43200717",
+      "excerpt": "d921be1a24eb19daf9c04ce6b537aa8276bbe786.png",
+      "action": "REMOVE",
+      "reason": "Unaccepted predictive or explanation plot; local case figures also contain individual-level content.",
+      "required_replacement": "Remove completely. Do not distribute the original image in the E package.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Figure 7",
+      "source_text_sha256": "6e3f326d79b61150509f49c43562c38616bb7889344d7b7499758262f4cc556c",
+      "excerpt": "3bb48f15b1b2b74be87583ae4cf5b659eeac75c5.png",
+      "action": "REMOVE",
+      "reason": "Unaccepted predictive or explanation plot; local case figures also contain individual-level content.",
+      "required_replacement": "Remove completely. Do not distribute the original image in the E package.",
+      "claim_ids": "C04"
+    },
+    {
+      "location": "Figure 8",
+      "source_text_sha256": "002d7584bd4b82e6129d7be7e0485c45efa608500dad8093c0d1b5c8a3deb9f6",
+      "excerpt": "92ebf3a05ccc2c424f013ea67aa92756b27b2d97.png",
+      "action": "REPLACE",
+      "reason": "Old composite/tier k-selection",
+      "required_replacement": "F02 accepted item-based candidate comparison; no four-tier interpretation.",
+      "claim_ids": "B07-B10"
+    }
+  ]
+}

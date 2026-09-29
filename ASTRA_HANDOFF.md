@@ -45,37 +45,45 @@ For every code delivery:
 - Do not add models, datasets, or analyses outside the approved scope without first documenting a methodological reason in Research Control.
 
 ## Current starting point
-The active work is Work Package D: outcome and cross-cultural validation.
-Research Control accepted A and B on 2026-09-26. C is frozen under the current pre-specified design as a predictive-feasibility result. The accepted D5 target was reconstructed exactly, all 25 target-defining survey items were excluded as direct leakage, and predictive fitting was withheld because the released repeated-record structure makes the planned held-out comparison non-defensible. No classifier, SHAP, LIME, calibration, or predictive-performance claim was produced. Do not bypass that gate, remove repeated records, redefine the target, or search for a favorable split. C may be reopened only with explicit approval for a justified revised design or additional data.
-Before editing or accepting the D implementation, read:
-- the canonical Research Control document in full
-- docs/data_integrity.md
-- docs/measurement_cluster_structure.md
-- docs/predictive_feasibility.md
-- the accepted aggregate outputs for A, B, and C
-- the D3 raw source and its accepted quality flags
-- the U.S.-Indonesia source workbook and codebook in Google Drive
-D has two bounded analytical questions.
-1. D3 academic outcome validation: evaluate profile-level Current CGPA differences without assuming an ordinal trend. Use Kruskal-Wallis, an appropriate effect size, justified multiplicity-corrected pairwise post hoc comparisons, and profile-level distributions. The accepted two-profile solution has only one contrast, so no separate post hoc family is required. Preserve accepted D3 clustering logic and do not invent institution mappings or respondent independence.
-2. Cross-cultural compatibility: audit whether the U.S.-Indonesia measures are meaningfully comparable to the accepted constructs before writing pooled or harmonized analysis. Do not force raw-score equivalence. If construct compatibility is insufficient, use separate country-specific analyses or an explicitly justified standardized comparison. The Vietnam dataset remains fallback only unless Research Control is amended.
-Do not begin publication-lock work from E. Any D method that changes accepted A/B/C preprocessing, profile definitions, or source interpretation requires a recorded methodological decision first.
 
-## D implementation awaiting review
+Active work package: E. Publication lock and reproducibility only.
+Canonical Research Control was reread completely on 2026-09-28 during controlled E recovery.
+Accepted baseline: `56b335c705ef15d5a261865382dd79991d2a93a2` on main.
+A, B and D are accepted. C is frozen as the accepted predictive-feasibility blocker
+under the pre-specified design. Historical pending-review instructions in A-D
+records are superseded by the canonical acceptance record, not new analyses.
 
-The bounded D analysis is implemented from baseline
-`dad222a9a0143887e7e25a72e656ec21d0ebc253`; scientific acceptance is pending.
-Read `docs/outcome_cross_cultural_validation.md`, `docs/work_package_d_colab.md`,
-`docs/work_package_d_outputs.md`, `docs/work_package_d_validation.md` and
-`docs/work_package_d_review.md` before changing this work.
+Before E work, read all relevant accepted documentation, code, aggregate outputs,
+provenance manifests, tests and CI. Audit Manuscript V3 against that evidence.
+Freeze the retained results; map each finding to exact accepted evidence; prepare
+publication tables, figures, limitations, contribution and reproducibility text.
+Verify a clean checkout with synthetic tests and no private research data.
 
-D reproduces the accepted D3 partitions and finds a very small, inconclusive CGPA rank
-association. Quality sensitivity and conditional repeated-record uncertainty retain that
-conclusion. The external audit finds no identical Bangladesh anchors. GAID configural fit and
-CT/TP category-support limits prevent a defensible latent country comparison. Country-specific
-observed-item analyses remain exploratory. These limitations do not authorize revised A/B/C
-methods, category merging, item removal, Vietnam use, predictive fitting or E work.
+Preserve these boundaries:
 
-R/lavaan/semTools provide only the ordinal measurement engine under Python orchestration;
-all other D analysis and source safeguards are Python. CI runs the same synthetic checks.
-The proposed Research Control append is a local review document, not a remote edit. No commit
-or push has been performed as part of this delivery.
+- A source-documentation discrepancies remain external limitations.
+- B does not validate five subscales or natural psychological types. k=2 partitions
+  are descriptive and D5 repeated-record concentration must remain explicit.
+- C produced no classifier comparison, SHAP, LIME, calibration or defensible
+  generalizable predictive-performance claim. Do not fit those models.
+- D3 CGPA is a coarse self-reported ordinal outcome with a very small, inconclusive
+  association. Conditional uncertainty does not establish respondent independence.
+- U.S.-Indonesia diagnostics do not establish Bangladesh latent equivalence,
+  replicated profiles, cultural effects or objective performance effects.
+- Do not add Vietnam, models, constructs, research questions or exploratory analyses.
+
+E may regenerate presentations of accepted aggregates and verify provenance.
+Do not change accepted scientific files unless an actual reproducibility defect
+is demonstrated and explicitly documented. Produce one complete safely applicable
+Colab delivery. Astra must not commit or push. The user reviews, applies, accepts,
+updates Research Control and commits manually. Journal shortlisting remains
+closed until the E evidence package is accepted.
+
+## Recovery assessment
+
+The retained-result lock is ready for manual acceptance with the documented nonselected B
+replay limitation. Read docs/publication_recovery_inventory.md and
+docs/publication_discrepancy_register.md. Preserve recovered source_replay.json as FAIL for
+the complete grid; the separate recovery check verifies its 247-cell boundary and unchanged
+selection ranks/screens/choices. Do not rerun A-D merely to repeat surviving verification.
+No accepted k=2 defect is demonstrated. Canonical E remains active until manual acceptance.

@@ -1,0 +1,7 @@
+variant,class_id,training_records,validation_records,validation_records_with_pattern_in_training,validation_records_without_pattern_in_training,validation_overlap_fraction
+full,D5_P1,1924,482,65,417,0.1348547717842323
+full,D5_P2,166,41,40,1,0.975609756097561
+sensitivity_fixed_target,D5_P1,1845,460,58,402,0.1260869565217391
+sensitivity_fixed_target,D5_P2,166,41,40,1,0.975609756097561
+sensitivity_refit_target,D5_P1,1847,460,58,402,0.1260869565217391
+sensitivity_refit_target,D5_P2,164,41,40,1,0.975609756097561

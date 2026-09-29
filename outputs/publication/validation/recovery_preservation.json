@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "check_date": "2026-09-28",
+  "baseline_commit": "56b335c705ef15d5a261865382dd79991d2a93a2",
+  "remote_HEAD_and_main": "56b335c705ef15d5a261865382dd79991d2a93a2",
+  "canonical_control_id": "19i3A-Vy6GnIYNsgZB8exYQJRn2JdCUhFCliUaJmze_o",
+  "canonical_modified_time_before": "2026-09-27T06:07:38.678Z",
+  "canonical_modified_time_after": "2026-09-27T06:07:38.678Z",
+  "canonical_written": false,
+  "accepted_repo_clean": true,
+  "frozen_files_unchanged": 123,
+  "accepted_outputs_unchanged": 60,
+  "private_sources_hash_checked_without_analysis": {
+    "D5_cognitive_dependence_raw.csv": {
+      "sha256": "3f8cf8f041a09b8d1bf1c89eb8e85abc439ff0d1a4c26f26d3c0b7be217e64e2",
+      "bytes": 803900
+    },
+    "MP1_Manuscript_v3.docx": {
+      "sha256": "042639bbd2ad6fe49b4ac87e47d5e401cb267945a422d58d15452021554df497",
+      "bytes": 541863
+    },
+    "When Culture Meets AI - Survey Dataset.xlsx": {
+      "sha256": "985c39bd5ad4e0f9278a059e6eaa8aa0ddacac51913b1996421880ad8062ff4a",
+      "bytes": 58446
+    },
+    "DATA_DICTIONARY.md": {
+      "sha256": "8f34000bb5c609d112920b72296430b31f7f25c5277550744b67c4b54825f82d",
+      "bytes": 5311
+    },
+    "D3_dependency_vulnerability_raw.csv": {
+      "sha256": "ca92de616712be5ac129ed60040fccc78e6147119ce10c1806349e9c3240213d",
+      "bytes": 181067
+    }
+  },
+  "private_sources_unchanged": true,
+  "source_analysis_runs_in_recovery": 0,
+  "private_sources_in_delivery": false,
+  "commits_or_pushes": false,
+  "journal_shortlisting": false
+}

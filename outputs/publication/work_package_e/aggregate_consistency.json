@@ -1,0 +1,25 @@
+{
+  "baseline_commit": "56b335c705ef15d5a261865382dd79991d2a93a2",
+  "frozen_files": 123,
+  "accepted_outputs": 60,
+  "checks": [
+    "All accepted output bytes, manifest links, CSV schemas and finite values",
+    "Every B item denominator, every k size, all 5440 centroid probabilities and concentration",
+    "Reliability screens and retained exploratory factor counts",
+    "All C overlap/allocation rows and no-model gate",
+    "D count-based independent rank/effect reconciliation, Holm family and hash chains",
+    "Every retained-claim selector resolves exclusively to accepted baseline outputs"
+  ],
+  "D_checks": {
+    "frozen_abc_files_verified": 81,
+    "aggregate_artifacts_verified": 24,
+    "supplied_private_inputs_verified": 0,
+    "rank_calculations_reconciled": 3,
+    "holm_family_reconciled": 4,
+    "warnings_requiring_review": 0,
+    "private_records_in_public_tables": false
+  },
+  "new_scientific_fits": 0,
+  "private_inputs_required": false,
+  "status": "PASS"
+}
