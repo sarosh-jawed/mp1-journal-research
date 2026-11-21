@@ -38,7 +38,7 @@
     {
       "name": "lavaan",
       "version": "0.7-2",
-      "url": "https://cran.r-project.org/src/contrib/lavaan_0.7-2.tar.gz",
+      "url": "https://cran.r-project.org/src/contrib/Archive/lavaan/lavaan_0.7-2.tar.gz",
       "sha256": "5e6497544beca09739a91da4f82e830d6baab367c51e002bbf62c58c3bd866e7"
     },
     {
