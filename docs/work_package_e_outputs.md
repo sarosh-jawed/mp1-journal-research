@@ -31,7 +31,7 @@ checkout, identified by `config/publication_freeze.json`.
 | `docs/work_package_e_validation.md` | Fresh verification and qualified closure assessment |
 | `docs/work_package_e_review.md` | Advisor review and acceptance checklist |
 | `docs/work_package_e_colab.md` | Three exact Colab execution cells, required inputs and generated outputs |
-| `docs/research_control_e_update.md` | Exact proposed canonical update; not applied automatically |
+| Historical Research Control proposal | Preserved in the original E delivery and frozen journal commit. The canonical Research Control records acceptance. |
 
 ## Statistical table files
 
